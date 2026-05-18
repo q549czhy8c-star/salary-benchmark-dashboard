@@ -390,6 +390,18 @@ td {
   text-decoration: underline;
 }
 
+.page-ref {
+  background: #eef4ef;
+  border-radius: 999px;
+  color: #4d5d54;
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 900;
+  margin-left: 8px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+
 .empty-state {
   color: var(--muted);
   display: none;

@@ -66,8 +66,8 @@ const sources = {
     url: "https://www.morganmckinley.com.cn/en/salary-guide/accounting-finance/permanent-salaries"
   },
   adeccoTw: {
-    label: "Adecco Taiwan Salary Guide 2026",
-    url: "https://www.adecco.com/zh-tw/resources/2026-taiwan-salary-guide"
+    label: "Adecco Taiwan Salary Guide 2026 PDF",
+    url: "https://www.adecco.com/-/media/Project/Adecco/AdeccoTW/Adecco%20Taiwan%20Salary%20Guide%202026.pdf"
   },
   dgbas: {
     label: "DGBAS Taiwan Earnings Statistics 2025",
@@ -107,7 +107,7 @@ const sources = {
   }
 };
 
-const salaries = [
+const baseSalaryRows = [
   ["hk", "Accounts Assistant", "Accounting & Finance", "Entry", 20000, 22000, 24000, "monthly", "mmhk"],
   ["hk", "Accounts Payable Specialist", "Accounting & Finance", "Specialist", 22000, 27000, 32000, "monthly", "mmhk"],
   ["hk", "Financial Analyst", "Accounting & Finance", "Analyst", 38000, 46000, 50000, "monthly", "mmhk"],
@@ -164,6 +164,11 @@ const salaries = [
   source
 }));
 
+const salaries = [
+  ...baseSalaryRows,
+  ...(window.adeccoTaiwanRows || [])
+];
+
 const state = {
   query: "",
   selectedCountry: "all"
@@ -175,6 +180,10 @@ const money = (value, currency) => `${currency} ${new Intl.NumberFormat("en-US")
 function sourceLink(key) {
   const source = sources[key];
   return `<a class="source-link" href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`;
+}
+
+function sourceCell(row) {
+  return `${sourceLink(row.source)}${row.page ? `<span class="page-ref">p.${row.page}</span>` : ""}`;
 }
 
 function renderSavings() {
@@ -251,7 +260,7 @@ function renderTable() {
         <td class="range">${isPoint ? money(row.mid, country.currency) : `${money(row.low, country.currency)} - ${money(row.high, country.currency)}`}</td>
         <td class="range">${money(row.mid, country.currency)}</td>
         <td>${row.period === "monthly" ? "Monthly" : "Annual"}</td>
-        <td>${sourceLink(row.source)}</td>
+        <td>${sourceCell(row)}</td>
       </tr>
     `;
   }).join("");
