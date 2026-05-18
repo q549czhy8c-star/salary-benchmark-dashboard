@@ -402,6 +402,19 @@ td {
   white-space: nowrap;
 }
 
+.coverage-ref {
+  background: #fff4df;
+  border-radius: 999px;
+  color: #7c541a;
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 900;
+  margin-left: 8px;
+  margin-top: 6px;
+  padding: 3px 7px;
+  white-space: nowrap;
+}
+
 .empty-state {
   color: var(--muted);
   display: none;

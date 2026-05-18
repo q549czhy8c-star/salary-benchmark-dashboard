@@ -93,6 +93,10 @@ const sources = {
     label: "Glassdoor South Korea HR Manager 2026",
     url: "https://www.glassdoor.com/Salaries/south-korea-hr-manager-salary-SRCH_IL.0%2C11_IN135_KO12%2C22.htm"
   },
+  worldSalariesKr: {
+    label: "World Salaries South Korea 2026",
+    url: "https://worldsalaries.com/average-salary-in-south-korea/"
+  },
   adeccoTh: {
     label: "Adecco Thailand Salary Guide 2026",
     url: "https://www.adecco.com/en-th/insights/download-adecco-thailand-salary-guide-2026"
@@ -165,8 +169,9 @@ const baseSalaryRows = [
 }));
 
 const salaries = [
-  ...baseSalaryRows,
-  ...(window.adeccoTaiwanRows || [])
+  ...baseSalaryRows.filter((row) => row.country === "tw"),
+  ...(window.adeccoTaiwanRows || []),
+  ...(window.externalBenchmarkRows || [])
 ];
 
 const state = {
@@ -183,7 +188,13 @@ function sourceLink(key) {
 }
 
 function sourceCell(row) {
-  return `${sourceLink(row.source)}${row.page ? `<span class="page-ref">p.${row.page}</span>` : ""}`;
+  const source = sources[row.source];
+  const url = row.sourceUrl || source.url;
+  return `
+    <a class="source-link" href="${url}" target="_blank" rel="noreferrer">${source.label}</a>
+    ${row.page ? `<span class="page-ref">p.${row.page}</span>` : ""}
+    ${row.coverage ? `<span class="coverage-ref">${row.coverage}</span>` : ""}
+  `;
 }
 
 function renderSavings() {
@@ -233,7 +244,8 @@ function filterRows() {
       row.role,
       row.function,
       row.seniority,
-      sources[row.source].label
+      sources[row.source].label,
+      row.coverage || ""
     ].join(" ").toLowerCase();
 
     const countryMatch = state.selectedCountry === "all" || row.country === state.selectedCountry;
@@ -267,7 +279,7 @@ function renderTable() {
 }
 
 function renderSources() {
-  const usedSources = ["mmhk", "mmcn", "adeccoTw", "dgbas", "nodeflairTw", "salaryRunTw", "rwKr", "employsomeKr", "glassdoorKr", "adeccoTh", "adeccoThData", "ceic"];
+  const usedSources = ["mmhk", "mmcn", "adeccoTw", "dgbas", "nodeflairTw", "salaryRunTw", "worldSalariesKr", "adeccoTh", "adeccoThData", "ceic"];
   document.getElementById("sourcesList").innerHTML = usedSources.map((key) => `<li>${sourceLink(key)}</li>`).join("");
 }
 
