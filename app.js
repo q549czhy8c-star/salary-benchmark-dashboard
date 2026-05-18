@@ -61,6 +61,10 @@ const sources = {
     label: "Morgan McKinley HK 2026",
     url: "https://www.morganmckinley.com/hk/salary-guide/accounting-finance/permanent-salaries"
   },
+  adeccoHk: {
+    label: "Adecco Hong Kong Salary Guide 2026 PDF",
+    url: "https://image.marketing.info.adecco.com/lib/fe32117175640474731478/m/1/044fa74e-de92-456e-b352-a498fecd27fa.pdf"
+  },
   mmcn: {
     label: "Morgan McKinley China 2026",
     url: "https://www.morganmckinley.com.cn/en/salary-guide/accounting-finance/permanent-salaries"
@@ -171,6 +175,7 @@ const baseSalaryRows = [
 const salaries = [
   ...baseSalaryRows.filter((row) => row.country === "tw"),
   ...(window.adeccoTaiwanRows || []),
+  ...(window.adeccoHongKongRows || []),
   ...(window.externalBenchmarkRows || [])
 ];
 
@@ -279,7 +284,7 @@ function renderTable() {
 }
 
 function renderSources() {
-  const usedSources = ["mmhk", "mmcn", "adeccoTw", "dgbas", "nodeflairTw", "salaryRunTw", "worldSalariesKr", "adeccoTh", "adeccoThData", "ceic"];
+  const usedSources = ["adeccoHk", "mmhk", "mmcn", "adeccoTw", "dgbas", "nodeflairTw", "salaryRunTw", "worldSalariesKr", "adeccoTh", "adeccoThData", "ceic"];
   document.getElementById("sourcesList").innerHTML = usedSources.map((key) => `<li>${sourceLink(key)}</li>`).join("");
 }
 
