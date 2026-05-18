@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APAC Salary & Saving Rate Benchmark</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <nav class="topbar" aria-label="Dashboard">
+        <div>
+          <p class="eyebrow">2026 HR & Finance Planning</p>
+          <h1>APAC Salary & Saving Rate Benchmark</h1>
+        </div>
+        <div class="meta-pill">HK · China · Taiwan · Korea · Thailand</div>
+      </nav>
+
+      <section class="hero-grid" aria-label="Executive summary">
+        <div class="hero-copy">
+          <h2>五個市場的薪酬與儲蓄率，一個搜尋介面完成比較。</h2>
+          <p>
+            整合 Morgan McKinley、Adecco、DGBAS、CEIC 等公開資料，保留原幣別與原始口徑，適合用作年度預算、招聘 offer band、人才保留與跨市場職級討論。
+          </p>
+        </div>
+        <div class="saving-panel">
+          <div class="panel-title">
+            <span>Gross Saving Rate</span>
+            <strong id="savingAverage">--%</strong>
+          </div>
+          <div id="savingBars" class="saving-bars"></div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Search and filters">
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="搜尋職位、國家、產業或來源，例如 Software / Finance / 台灣" />
+        </label>
+        <div class="filter-row" id="countryFilters" aria-label="Country filters"></div>
+      </section>
+
+      <section class="stats-grid" aria-label="Dataset summary">
+        <article>
+          <span id="roleCount">0</span>
+          <p>salary records</p>
+        </article>
+        <article>
+          <span id="countryCount">5</span>
+          <p>markets covered</p>
+        </article>
+        <article>
+          <span id="topSaving">--</span>
+          <p>highest saving rate</p>
+        </article>
+        <article>
+          <span id="updatedAt">May 2026</span>
+          <p>research cut-off</p>
+        </article>
+      </section>
+
+      <section class="content-layout">
+        <aside class="market-list" aria-label="Market notes">
+          <h2>Market Notes</h2>
+          <div id="marketCards"></div>
+        </aside>
+
+        <section class="salary-section" aria-label="Salary results">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Benchmark Table</p>
+              <h2>Salary Benchmarking</h2>
+            </div>
+            <button id="resetButton" type="button">Reset</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>Role / Position</th>
+                  <th>Function</th>
+                  <th>Seniority</th>
+                  <th>Salary Range</th>
+                  <th>Median / Avg</th>
+                  <th>Period</th>
+                  <th>Source</th>
+                </tr>
+              </thead>
+              <tbody id="salaryRows"></tbody>
+            </table>
+          </div>
+          <p id="emptyState" class="empty-state">沒有符合條件的資料，請調整搜尋或篩選。</p>
+        </section>
+      </section>
+
+      <section class="source-section" aria-label="Sources and methodology">
+        <div>
+          <p class="eyebrow">Methodology</p>
+          <h2>資料口徑</h2>
+          <p>
+            薪酬資料保留各來源的原始幣別、月薪或年薪口徑；不同國家的稅制、獎金、強積金/社保、13 薪與福利未直接換算。儲蓄率為 CEIC 公布的 gross saving rate 最新可見期數。
+          </p>
+        </div>
+        <ul id="sourcesList"></ul>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
