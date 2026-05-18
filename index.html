@@ -40,6 +40,21 @@
           <input id="searchInput" type="search" placeholder="搜尋職位、國家、產業或來源，例如 Software / Finance / 台灣" />
         </label>
         <div class="filter-row" id="countryFilters" aria-label="Country filters"></div>
+        <div class="control-grid">
+          <label>
+            <span>Industry</span>
+            <select id="functionFilter"></select>
+          </label>
+          <label>
+            <span>Rows per page</span>
+            <select id="pageSizeSelect">
+              <option value="25">25</option>
+              <option value="50" selected>50</option>
+              <option value="100">100</option>
+              <option value="250">250</option>
+            </select>
+          </label>
+        </div>
       </section>
 
       <section class="stats-grid" aria-label="Dataset summary">
@@ -72,6 +87,7 @@
             <div>
               <p class="eyebrow">Benchmark Table</p>
               <h2>Salary Benchmarking</h2>
+              <p id="resultRange" class="result-range"></p>
             </div>
             <button id="resetButton" type="button">Reset</button>
           </div>
@@ -92,6 +108,7 @@
               <tbody id="salaryRows"></tbody>
             </table>
           </div>
+          <div id="pagination" class="pagination" aria-label="Pagination"></div>
           <p id="emptyState" class="empty-state">沒有符合條件的資料，請調整搜尋或篩選。</p>
         </section>
       </section>
@@ -111,6 +128,7 @@
     <script src="./data/adecco-taiwan-2026.js"></script>
     <script src="./data/adecco-hong-kong-2026.js"></script>
     <script src="./data/external-benchmarks-2026.js"></script>
+    <script src="./data/supplemental-industries-2026.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

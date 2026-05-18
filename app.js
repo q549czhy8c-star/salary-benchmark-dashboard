@@ -101,6 +101,14 @@ const sources = {
     label: "World Salaries South Korea 2026",
     url: "https://worldsalaries.com/average-salary-in-south-korea/"
   },
+  worldSalariesGlobal: {
+    label: "World Salaries 2026",
+    url: "https://worldsalaries.com/"
+  },
+  dgbasHawkerTw: {
+    label: "CENS report citing DGBAS hawker study",
+    url: "https://www.cens.com/cens/html/en/news/news_inner_27615.html"
+  },
   adeccoTh: {
     label: "Adecco Thailand Salary Guide 2026",
     url: "https://www.adecco.com/en-th/insights/download-adecco-thailand-salary-guide-2026"
@@ -176,12 +184,16 @@ const salaries = [
   ...baseSalaryRows.filter((row) => row.country === "tw"),
   ...(window.adeccoTaiwanRows || []),
   ...(window.adeccoHongKongRows || []),
-  ...(window.externalBenchmarkRows || [])
+  ...(window.externalBenchmarkRows || []),
+  ...(window.supplementalIndustryRows || [])
 ];
 
 const state = {
   query: "",
-  selectedCountry: "all"
+  selectedCountry: "all",
+  selectedFunction: "all",
+  page: 1,
+  pageSize: 50
 };
 
 const countryById = Object.fromEntries(countries.map((country) => [country.id, country]));
@@ -227,6 +239,15 @@ function renderFilters() {
       ${country.name}
     </button>
   `).join("");
+
+  const functionSelect = document.getElementById("functionFilter");
+  const currentValue = state.selectedFunction;
+  const functions = [...new Set(salaries.map((row) => row.function))].sort((a, b) => a.localeCompare(b));
+  functionSelect.innerHTML = [
+    `<option value="all">All industries</option>`,
+    ...functions.map((fn) => `<option value="${fn}">${fn}</option>`)
+  ].join("");
+  functionSelect.value = functions.includes(currentValue) ? currentValue : "all";
 }
 
 function renderMarkets() {
@@ -254,18 +275,27 @@ function filterRows() {
     ].join(" ").toLowerCase();
 
     const countryMatch = state.selectedCountry === "all" || row.country === state.selectedCountry;
+    const functionMatch = state.selectedFunction === "all" || row.function === state.selectedFunction;
     const queryMatch = !query || haystack.includes(query);
-    return countryMatch && queryMatch;
+    return countryMatch && functionMatch && queryMatch;
   });
 }
 
 function renderTable() {
   const rows = filterRows();
+  const totalPages = Math.max(1, Math.ceil(rows.length / state.pageSize));
+  state.page = Math.min(state.page, totalPages);
+  const startIndex = (state.page - 1) * state.pageSize;
+  const pageRows = rows.slice(startIndex, startIndex + state.pageSize);
+
   document.getElementById("roleCount").textContent = rows.length;
   document.getElementById("countryCount").textContent = new Set(rows.map((row) => row.country)).size || 0;
   document.getElementById("emptyState").style.display = rows.length ? "none" : "block";
+  document.getElementById("resultRange").textContent = rows.length
+    ? `Showing ${startIndex + 1}-${Math.min(startIndex + state.pageSize, rows.length)} of ${rows.length} records`
+    : "No records";
 
-  document.getElementById("salaryRows").innerHTML = rows.map((row) => {
+  document.getElementById("salaryRows").innerHTML = pageRows.map((row) => {
     const country = countryById[row.country];
     const isPoint = row.low === row.high;
     return `
@@ -281,10 +311,35 @@ function renderTable() {
       </tr>
     `;
   }).join("");
+
+  renderPagination(totalPages);
+}
+
+function renderPagination(totalPages) {
+  const pagination = document.getElementById("pagination");
+  if (totalPages <= 1) {
+    pagination.innerHTML = "";
+    return;
+  }
+
+  const pageButtons = [];
+  const start = Math.max(1, state.page - 2);
+  const end = Math.min(totalPages, state.page + 2);
+  for (let page = start; page <= end; page += 1) {
+    pageButtons.push(`<button type="button" data-page="${page}" class="${page === state.page ? "active" : ""}">${page}</button>`);
+  }
+
+  pagination.innerHTML = `
+    <button type="button" data-page="${Math.max(1, state.page - 1)}" ${state.page === 1 ? "disabled" : ""}>Prev</button>
+    ${start > 1 ? `<button type="button" data-page="1">1</button><span>...</span>` : ""}
+    ${pageButtons.join("")}
+    ${end < totalPages ? `<span>...</span><button type="button" data-page="${totalPages}">${totalPages}</button>` : ""}
+    <button type="button" data-page="${Math.min(totalPages, state.page + 1)}" ${state.page === totalPages ? "disabled" : ""}>Next</button>
+  `;
 }
 
 function renderSources() {
-  const usedSources = ["adeccoHk", "mmhk", "mmcn", "adeccoTw", "dgbas", "nodeflairTw", "salaryRunTw", "worldSalariesKr", "adeccoTh", "adeccoThData", "ceic"];
+  const usedSources = ["adeccoHk", "mmhk", "mmcn", "adeccoTw", "dgbas", "dgbasHawkerTw", "nodeflairTw", "salaryRunTw", "worldSalariesKr", "worldSalariesGlobal", "adeccoTh", "adeccoThData", "ceic"];
   document.getElementById("sourcesList").innerHTML = usedSources.map((key) => `<li>${sourceLink(key)}</li>`).join("");
 }
 
@@ -298,6 +353,7 @@ function render() {
 
 document.getElementById("searchInput").addEventListener("input", (event) => {
   state.query = event.target.value;
+  state.page = 1;
   renderTable();
 });
 
@@ -305,14 +361,39 @@ document.getElementById("countryFilters").addEventListener("click", (event) => {
   const button = event.target.closest("button[data-country]");
   if (!button) return;
   state.selectedCountry = button.dataset.country;
+  state.page = 1;
   renderFilters();
   renderTable();
+});
+
+document.getElementById("functionFilter").addEventListener("change", (event) => {
+  state.selectedFunction = event.target.value;
+  state.page = 1;
+  renderTable();
+});
+
+document.getElementById("pageSizeSelect").addEventListener("change", (event) => {
+  state.pageSize = Number(event.target.value);
+  state.page = 1;
+  renderTable();
+});
+
+document.getElementById("pagination").addEventListener("click", (event) => {
+  const button = event.target.closest("button[data-page]");
+  if (!button || button.disabled) return;
+  state.page = Number(button.dataset.page);
+  renderTable();
+  document.querySelector(".salary-section").scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
 document.getElementById("resetButton").addEventListener("click", () => {
   state.query = "";
   state.selectedCountry = "all";
+  state.selectedFunction = "all";
+  state.page = 1;
+  state.pageSize = 50;
   document.getElementById("searchInput").value = "";
+  document.getElementById("pageSizeSelect").value = "50";
   render();
 });
 
