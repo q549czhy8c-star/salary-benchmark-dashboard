@@ -290,7 +290,7 @@ main {
   align-items: start;
   display: grid;
   gap: 24px;
-  grid-template-columns: 330px minmax(0, 1fr);
+  grid-template-columns: 1fr;
 }
 
 .market-list,
@@ -321,6 +321,7 @@ main {
 #marketCards {
   display: grid;
   gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 16px;
 }
 
@@ -374,28 +375,67 @@ main {
 
 .table-wrap {
   max-height: min(620px, 72vh);
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   overscroll-behavior: contain;
 }
 
 table {
   border-collapse: collapse;
-  min-width: 980px;
+  table-layout: fixed;
   width: 100%;
 }
 
 th,
 td {
   border-bottom: 1px solid var(--line);
-  padding: 14px 16px;
+  overflow-wrap: anywhere;
+  padding: 10px 9px;
   text-align: left;
   vertical-align: top;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  width: 8%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  width: 18%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  width: 15%;
+}
+
+th:nth-child(4),
+td:nth-child(4) {
+  width: 13%;
+}
+
+th:nth-child(5),
+td:nth-child(5),
+th:nth-child(6),
+td:nth-child(6) {
+  width: 13%;
+}
+
+th:nth-child(7),
+td:nth-child(7) {
+  width: 8%;
+}
+
+th:nth-child(8),
+td:nth-child(8) {
+  width: 12%;
 }
 
 th {
   background: #f2f6f3;
   color: #4c5b54;
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -403,7 +443,8 @@ th {
 }
 
 td {
-  font-size: 0.92rem;
+  font-size: 0.82rem;
+  line-height: 1.35;
 }
 
 .country-tag {
@@ -417,11 +458,11 @@ td {
 
 .range {
   font-weight: 900;
-  white-space: nowrap;
 }
 
 .source-link {
   color: var(--teal);
+  display: inline;
   font-weight: 800;
   text-decoration: none;
 }
