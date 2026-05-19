@@ -171,8 +171,7 @@ main {
   gap: 18px;
   margin-top: -72px;
   padding: 18px;
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 2;
 }
 
@@ -374,7 +373,9 @@ main {
 }
 
 .table-wrap {
+  max-height: min(620px, 72vh);
   overflow: auto;
+  overscroll-behavior: contain;
 }
 
 table {
@@ -395,6 +396,9 @@ th {
   background: #f2f6f3;
   color: #4c5b54;
   font-size: 0.78rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   text-transform: uppercase;
 }
 

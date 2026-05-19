@@ -193,7 +193,7 @@ const state = {
   selectedCountry: "all",
   selectedFunction: "all",
   page: 1,
-  pageSize: 50
+  pageSize: 10
 };
 
 const countryById = Object.fromEntries(countries.map((country) => [country.id, country]));
@@ -391,9 +391,9 @@ document.getElementById("resetButton").addEventListener("click", () => {
   state.selectedCountry = "all";
   state.selectedFunction = "all";
   state.page = 1;
-  state.pageSize = 50;
+  state.pageSize = 10;
   document.getElementById("searchInput").value = "";
-  document.getElementById("pageSizeSelect").value = "50";
+  document.getElementById("pageSizeSelect").value = "10";
   render();
 });
 
