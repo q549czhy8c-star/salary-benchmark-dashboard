@@ -151,42 +151,73 @@ def parse_morgan_page(country: str, function: str, source: str, url: str) -> lis
     if rows:
         return rows
 
-    # Mainland China pages render annual salary tables without an explicit
-    # "Annual rate" token. Detect rows by locating Low/Average/High triplets.
-    locations = {"Shanghai", "Beijing", "Shenzhen", "Guangzhou", "Mainland China"}
+    # Mainland China pages render annual salary rows as either:
+    # Job Title
+    # Sub Sector Location ¥Low ¥Average ¥High
+    # or split across individual text nodes:
+    # Job Title / Sub Sector / Location / ¥Low / ¥Average / ¥High
+    # Keep the previous line as the role; do not mistake sub-sector for role.
+    locations = ("Shanghai", "Beijing", "Shenzhen", "Guangzhou", "Mainland China")
+    table_headers = {"Job Title", "Sector", "Sub Sector", "Location", "Low", "Average", "High", "Search job title"}
     for index, line in enumerate(lines):
-        if not re.fullmatch(r"¥[\d,]+", line):
+        amounts = [money_to_int(item) for item in re.findall(r"¥[\d,]+", line)]
+        role = ""
+        sub_sector = ""
+        location = ""
+
+        if len(amounts) >= 3:
+            location = next((place for place in locations if re.search(rf"\b{re.escape(place)}\b", line)), "")
+            if not location:
+                continue
+            role_index = index - 1
+            while role_index > 0 and (not lines[role_index].strip() or lines[role_index] in table_headers):
+                role_index -= 1
+            role = lines[role_index].strip()
+            sub_sector = line.split(location, 1)[0].strip()
+        elif (
+            index >= 3
+            and index + 2 < len(lines)
+            and re.fullmatch(r"¥[\d,]+", line)
+            and re.fullmatch(r"¥[\d,]+", lines[index + 1])
+            and re.fullmatch(r"¥[\d,]+", lines[index + 2])
+            and lines[index - 1] in locations
+        ):
+            amounts = [money_to_int(line), money_to_int(lines[index + 1]), money_to_int(lines[index + 2])]
+            location = lines[index - 1]
+            cursor = index - 2
+            fields = []
+            while cursor >= 0 and lines[cursor] not in table_headers and not re.fullmatch(r"¥[\d,]+", lines[cursor]):
+                fields.append(lines[cursor].strip())
+                cursor -= 1
+            fields = list(reversed(fields))
+            if not fields:
+                continue
+            role = fields[0]
+            middle = []
+            for field in fields[1:]:
+                if field and field != role and field not in middle:
+                    middle.append(field)
+            sub_sector = middle[-1] if middle else function
+        else:
             continue
-        if index + 2 >= len(lines):
-            continue
-        if not (re.fullmatch(r"¥[\d,]+", lines[index + 1]) and re.fullmatch(r"¥[\d,]+", lines[index + 2])):
-            continue
-        low, mid, high = money_to_int(line), money_to_int(lines[index + 1]), money_to_int(lines[index + 2])
+
+        low, mid, high = amounts[:3]
         if not (low <= mid <= high):
             continue
-        location_index = index - 1
-        while location_index > 0 and lines[location_index] not in locations:
-            location_index -= 1
-        if location_index <= 0:
+
+        if (
+            len(role) < 3
+            or role in table_headers
+            or re.search(r"¥[\d,]+", role)
+        ):
             continue
-        role_parts = []
-        cursor = location_index - 1
-        while cursor > 0 and len(role_parts) < 4:
-            candidate = lines[cursor]
-            if candidate in {"Job Title", "Sector", "Sub Sector", "Location", "Low", "Average", "High"}:
-                break
-            if not re.fullmatch(r"[¥$][\d,]+", candidate):
-                role_parts.append(candidate)
-            cursor -= 1
-        if not role_parts:
-            continue
-        role = role_parts[-1].strip()
-        if len(role) < 3:
-            continue
+
+        sub_sector = re.sub(r"\s+", " ", sub_sector)
+
         rows.append({
             "country": country,
             "role": role,
-            "function": function,
+            "function": sub_sector or function,
             "seniority": "Market guide",
             "low": low,
             "mid": mid,
@@ -194,7 +225,7 @@ def parse_morgan_page(country: str, function: str, source: str, url: str) -> lis
             "period": "annual",
             "source": source,
             "sourceUrl": url,
-            "coverage": "Direct salary guide"
+            "coverage": f"Direct salary guide - {location}"
         })
     return rows
 
@@ -287,6 +318,15 @@ def fetch_korea_role(role: str) -> list[dict]:
     }]
 
 
+def existing_external_rows() -> list[dict]:
+    if not OUT.exists():
+        return []
+    match = re.search(r"window\.externalBenchmarkRows\s*=\s*(\[.*\]);\s*$", OUT.read_text(encoding="utf-8"), re.S)
+    if not match:
+        return []
+    return json.loads(match.group(1))
+
+
 def dedupe(rows: list[dict]) -> list[dict]:
     seen = set()
     unique = []
@@ -300,6 +340,7 @@ def dedupe(rows: list[dict]) -> list[dict]:
 
 
 def main() -> None:
+    previous_rows = existing_external_rows()
     rows: list[dict] = []
 
     for country, function, source, url in MORGAN_PAGES:
@@ -332,6 +373,10 @@ def main() -> None:
         futures = [pool.submit(fetch_korea_role, role) for role in KOREA_ROLES]
         for future in as_completed(futures):
             rows.extend(future.result())
+    if previous_rows and not any(row["country"] == "kr" for row in rows):
+        fallback_kr = [row for row in previous_rows if row["country"] == "kr"]
+        rows.extend(fallback_kr)
+        print(f"Korea salary rows restored from existing data: {len(fallback_kr)}")
     print(f"Korea salary rows: {sum(1 for row in rows if row['country'] == 'kr')}")
 
     rows = dedupe(rows)

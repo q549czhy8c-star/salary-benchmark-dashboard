@@ -301,6 +301,7 @@ const roleZhGlossaries = {
 
 roleZhGlossaries.kr = roleZhGlossaries.hk;
 roleZhGlossaries.th = roleZhGlossaries.hk;
+roleZhGlossaries.cn = roleZhGlossaries.hk;
 
 const localeRoleTerms = {
   hk: {
@@ -316,6 +317,10 @@ const localeRoleTerms = {
       "aml": "反洗錢",
       "fcc": "金融犯罪合規",
       "fig": "金融機構組",
+      "cto": "首席技術官",
+      "coo": "首席營運官",
+      "cio": "首席資訊官",
+      "ciso": "首席資訊安全官",
       "qa": "品質保證",
       "qc": "品質控制",
       "ux": "用戶體驗",
@@ -457,7 +462,9 @@ const localeRoleTerms = {
       "controller": "總監",
       "partner": "夥伴",
       "operator": "操作員",
-      "staff": "員工"
+      "staff": "員工",
+      "planner": "規劃師",
+      "allocator": "配貨員"
     },
     seniority: {
       "senior": "資深",
@@ -671,6 +678,27 @@ const traditionalExactRoleTranslations = {
   "professional scientific and technical services": "專業、科學及技術服務業",
   "electronic components manufacturing": "電子零組件製造業",
   "software engineering manager": "軟體工程經理",
+  "vp cfo": "副總裁／財務總監",
+  "analyst fp and a": "財務規劃與分析分析師",
+  "senior analyst supervisor fp and a": "資深財務規劃與分析分析師／主任",
+  "manager fp and a": "財務規劃與分析經理",
+  "senior manager fp and a": "資深財務規劃與分析經理",
+  "director fp and a": "財務規劃與分析總監",
+  "vp svp corporate": "副總裁／高級副總裁－企業銀行",
+  "vp svp fx bond derivatives": "副總裁／高級副總裁－外匯、債券及衍生品",
+  "associates internal audit and control": "內部審計與控制助理",
+  "manager internal audit and control": "內部審計與控制經理",
+  "senior executives internal audit and control": "資深內部審計與控制行政人員",
+  "devops": "開發營運工程師",
+  "tech vp": "技術副總裁",
+  "mid level ip": "中級知識產權專員",
+  "senior manager new retail and o2o": "資深新零售／線上線下經理",
+  "director new retail and o2o": "新零售／線上線下總監",
+  "flagship store gm": "旗艦店總經理",
+  "luxury gm": "奢侈品業務總經理",
+  "merchandising planner": "商品企劃規劃師",
+  "allocator": "配貨員",
+  "demand planner": "需求規劃師",
   "cost accountant": "成本會計師",
   "management accountant": "管理會計師",
   "revenue accountant": "收入會計師",
@@ -872,6 +900,27 @@ delete localeRoleTerms.hk.domains.pr;
 delete localeRoleTerms.cn.domains.pr;
 delete localeRoleTerms.tw.domains.pr;
 
+localeRoleTerms.cn = {
+  ...localeRoleTerms.hk,
+  and: "及",
+  titleFallback: "職位",
+  englishAuthoritative: "以英文職位為準",
+  exact: {
+    ...localeRoleTerms.hk.exact,
+    ...traditionalExactRoleTranslations
+  },
+  domains: {
+    ...localeRoleTerms.hk.domains
+  },
+  titles: {
+    ...localeRoleTerms.hk.titles
+  },
+  seniority: {
+    ...localeRoleTerms.hk.seniority
+  }
+};
+delete localeRoleTerms.cn.domains.pr;
+
 localeRoleTerms.kr = localeRoleTerms.hk;
 localeRoleTerms.th = localeRoleTerms.hk;
 
@@ -916,6 +965,12 @@ function exactTranslation(map, normalized) {
   return match ? match[1] : "";
 }
 
+function containsNormalizedTerm(normalized, term) {
+  const cleanTerm = normalizeRole(term);
+  if (!cleanTerm) return false;
+  return new RegExp(`(^|\\s)${cleanTerm.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(\\s|$)`).test(normalized);
+}
+
 function composeRoleTranslation(role, country) {
   const terms = localizedTerms(country);
   const normalized = normalizeRole(role);
@@ -934,7 +989,7 @@ function composeRoleTranslation(role, country) {
   }
 
   const exactHit = Object.entries(terms.exact)
-    .filter(([english]) => normalized === english || normalized.includes(english))
+    .filter(([english]) => normalized === normalizeRole(english) || containsNormalizedTerm(normalized, english))
     .sort((a, b) => b[0].length - a[0].length)[0];
   if (exactHit && exactHit[0].length > 2) return exactHit[1];
 
