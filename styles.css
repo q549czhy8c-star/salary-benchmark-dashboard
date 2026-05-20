@@ -318,6 +318,14 @@ main {
   margin: 8px 0 0;
 }
 
+.translation-note {
+  color: #7a6650;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.45;
+  margin: 8px 0 0;
+}
+
 #marketCards {
   display: grid;
   gap: 12px;

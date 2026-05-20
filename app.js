@@ -302,6 +302,579 @@ const roleZhGlossaries = {
 roleZhGlossaries.kr = roleZhGlossaries.hk;
 roleZhGlossaries.th = roleZhGlossaries.hk;
 
+const localeRoleTerms = {
+  hk: {
+    and: "及",
+    titleFallback: "職位",
+    englishAuthoritative: "以英文職位為準",
+    exact: {
+      "avp": "助理副總裁",
+      "vp": "副總裁",
+      "chro": "首席人力資源官",
+      "hrvp": "人力資源副總裁",
+      "hrbp": "人力資源業務夥伴",
+      "aml": "反洗錢",
+      "fcc": "金融犯罪合規",
+      "fig": "金融機構組",
+      "qa": "品質保證",
+      "qc": "品質控制",
+      "ux": "用戶體驗",
+      "ui": "用戶介面",
+      "ba": "美容顧問",
+      "cashier": "收銀員",
+      "chef": "廚師",
+      "cook": "廚師",
+      "barista": "咖啡師",
+      "bartender": "調酒師",
+      "waiter waitress": "侍應",
+      "housekeeper": "房務員",
+      "teacher": "教師",
+      "dentist": "牙醫",
+      "doctor": "醫生",
+      "physician": "醫生",
+      "nurse": "護士",
+      "pharmacist": "藥劑師",
+      "paralegal": "法律助理",
+      "general counsel": "總法律顧問",
+      "company secretary": "公司秘書",
+      "trader": "交易員",
+      "dealer": "交易員",
+      "buyer": "採購員",
+      "merchandiser": "採購跟單員",
+      "architect": "建築師",
+      "creative": "創意"
+    },
+    domains: {
+      "information technology": "資訊科技",
+      "it ": "資訊科技",
+      "infrastructure": "基礎架構",
+      "application": "應用程式",
+      "software": "軟件",
+      "front end": "前端",
+      "front-end": "前端",
+      "backend": "後端",
+      "back end": "後端",
+      "data": "數據",
+      "database": "數據庫",
+      "algorithm": "演算法",
+      "ai": "人工智能",
+      "machine learning": "機器學習",
+      "cybersecurity": "網絡安全",
+      "information security": "資訊安全",
+      "security": "安全",
+      "finance": "財務",
+      "financial": "財務",
+      "accounting": "會計",
+      "accounts payable": "應付帳款",
+      "accounts receivable": "應收帳款",
+      "audit": "審計",
+      "tax": "稅務",
+      "treasury": "庫務",
+      "credit": "信貸",
+      "risk": "風險",
+      "compliance": "合規",
+      "legal": "法律",
+      "human resources": "人力資源",
+      "hr": "人力資源",
+      "talent acquisition": "人才招聘",
+      "learning": "學習發展",
+      "compensation": "薪酬福利",
+      "benefit": "福利",
+      "employee": "員工關係",
+      "admin": "行政",
+      "administrative": "行政",
+      "business support": "業務支援",
+      "sales": "銷售",
+      "business development": "業務拓展",
+      "customer service": "客戶服務",
+      "customer success": "客戶成功",
+      "marketing": "市場推廣",
+      "brand": "品牌",
+      "digital marketing": "數碼市場推廣",
+      "public relations": "公關",
+      "pr": "公關",
+      "event": "活動",
+      "media": "媒體",
+      "communications": "傳訊",
+      "product": "產品",
+      "project": "項目",
+      "operation": "營運",
+      "operations": "營運",
+      "supply chain": "供應鏈",
+      "procurement": "採購",
+      "purchasing": "採購",
+      "sourcing": "採購",
+      "logistics": "物流",
+      "shipping": "船務",
+      "warehouse": "倉務",
+      "engineering": "工程",
+      "engineer": "工程",
+      "manufacturing": "製造",
+      "production": "生產",
+      "quality": "品質",
+      "construction": "建築",
+      "facility": "設施",
+      "retail": "零售",
+      "wholesale": "批發",
+      "hotel": "酒店",
+      "restaurant": "餐廳",
+      "food service": "餐飲服務",
+      "medical": "醫療",
+      "healthcare": "醫療保健",
+      "pharmaceutical": "製藥",
+      "clinical": "臨床",
+      "research": "研究",
+      "education": "教育"
+    },
+    titles: {
+      "chief": "首席",
+      "head": "主管",
+      "director": "總監",
+      "manager": "經理",
+      "supervisor": "主任",
+      "team leader": "團隊主管",
+      "lead": "主管",
+      "specialist": "專員",
+      "analyst": "分析師",
+      "accountant": "會計師",
+      "engineer": "工程師",
+      "developer": "開發員",
+      "programmer": "程式員",
+      "architect": "架構師",
+      "consultant": "顧問",
+      "advisor": "顧問",
+      "representative": "代表",
+      "officer": "主任",
+      "executive": "行政人員",
+      "administrator": "行政員",
+      "assistant": "助理",
+      "coordinator": "協調員",
+      "clerk": "文員",
+      "secretary": "秘書",
+      "designer": "設計師",
+      "scientist": "科學家",
+      "technician": "技術員",
+      "controller": "總監",
+      "partner": "夥伴",
+      "operator": "操作員",
+      "staff": "員工"
+    },
+    seniority: {
+      "senior": "資深",
+      "sr.": "資深",
+      "sr ": "資深",
+      "junior": "初級",
+      "assistant": "助理",
+      "associate": "助理",
+      "deputy": "副",
+      "regional": "區域",
+      "country": "國家",
+      "group": "集團",
+      "global": "全球"
+    }
+  }
+};
+
+localeRoleTerms.cn = {
+  ...localeRoleTerms.hk,
+  and: "及",
+  titleFallback: "职位",
+  englishAuthoritative: "以英文职位为准",
+  exact: {
+    ...localeRoleTerms.hk.exact,
+    "chro": "首席人力资源官",
+    "hrvp": "人力资源副总裁",
+    "hrbp": "人力资源业务伙伴",
+    "aml": "反洗钱",
+    "fcc": "金融犯罪合规",
+    "qa": "质量保证",
+    "qc": "质量控制",
+    "ux": "用户体验",
+    "ui": "用户界面",
+    "cashier": "收银员",
+    "housekeeper": "客房服务员",
+    "doctor": "医生",
+    "physician": "医师",
+    "nurse": "护士",
+    "pharmacist": "药剂师",
+    "paralegal": "律师助理",
+    "general counsel": "总法律顾问",
+    "trader": "交易员",
+    "buyer": "采购员",
+    "merchandiser": "商品专员"
+  },
+  domains: {
+    ...localeRoleTerms.hk.domains,
+    "information technology": "信息技术",
+    "it ": "信息技术",
+    "software": "软件",
+    "data": "数据",
+    "database": "数据库",
+    "algorithm": "算法",
+    "ai": "人工智能",
+    "cybersecurity": "网络安全",
+    "information security": "信息安全",
+    "security": "安全",
+    "finance": "财务",
+    "financial": "财务",
+    "accounting": "会计",
+    "accounts payable": "应付账款",
+    "accounts receivable": "应收账款",
+    "audit": "审计",
+    "tax": "税务",
+    "treasury": "资金管理",
+    "credit": "信用",
+    "risk": "风险",
+    "compliance": "合规",
+    "legal": "法律",
+    "human resources": "人力资源",
+    "hr": "人力资源",
+    "talent acquisition": "人才招聘",
+    "learning": "学习发展",
+    "compensation": "薪酬福利",
+    "benefit": "福利",
+    "employee": "员工关系",
+    "admin": "行政",
+    "administrative": "行政",
+    "business support": "业务支持",
+    "sales": "销售",
+    "business development": "业务拓展",
+    "customer service": "客户服务",
+    "customer success": "客户成功",
+    "marketing": "市场营销",
+    "brand": "品牌",
+    "digital marketing": "数字营销",
+    "public relations": "公关",
+    "pr": "公关",
+    "event": "活动",
+    "media": "媒体",
+    "communications": "传播",
+    "project": "项目",
+    "operation": "运营",
+    "operations": "运营",
+    "supply chain": "供应链",
+    "procurement": "采购",
+    "purchasing": "采购",
+    "sourcing": "采购",
+    "logistics": "物流",
+    "shipping": "船务",
+    "warehouse": "仓储",
+    "engineering": "工程",
+    "engineer": "工程",
+    "manufacturing": "制造",
+    "production": "生产",
+    "quality": "质量",
+    "construction": "建筑",
+    "facility": "设施",
+    "retail": "零售",
+    "wholesale": "批发",
+    "hotel": "酒店",
+    "restaurant": "餐厅",
+    "food service": "餐饮服务",
+    "medical": "医疗",
+    "healthcare": "医疗健康",
+    "pharmaceutical": "制药",
+    "clinical": "临床",
+    "research": "研究",
+    "education": "教育"
+  },
+  titles: {
+    ...localeRoleTerms.hk.titles,
+    "director": "总监",
+    "manager": "经理",
+    "supervisor": "主管",
+    "team leader": "团队主管",
+    "lead": "负责人",
+    "specialist": "专员",
+    "developer": "开发工程师",
+    "programmer": "程序员",
+    "advisor": "顾问",
+    "officer": "专员",
+    "executive": "执行专员",
+    "administrator": "管理员",
+    "coordinator": "协调员",
+    "clerk": "文员",
+    "secretary": "秘书",
+    "technician": "技术员",
+    "controller": "总监",
+    "partner": "伙伴"
+  },
+  seniority: {
+    ...localeRoleTerms.hk.seniority,
+    "senior": "高级",
+    "sr.": "高级",
+    "sr ": "高级",
+    "junior": "初级",
+    "regional": "区域",
+    "country": "国家",
+    "group": "集团",
+    "global": "全球"
+  }
+};
+
+localeRoleTerms.tw = {
+  ...localeRoleTerms.hk,
+  titleFallback: "職位",
+  englishAuthoritative: "以英文職位為準",
+  exact: {
+    ...localeRoleTerms.hk.exact,
+    "chro": "人資長",
+    "hrvp": "人資副總裁",
+    "hrbp": "人資事業夥伴",
+    "qa": "品質保證",
+    "qc": "品質管制",
+    "cashier": "收銀員",
+    "housekeeper": "房務員",
+    "doctor": "醫師",
+    "physician": "醫師",
+    "nurse": "護理師",
+    "pharmacist": "藥師",
+    "paralegal": "法務助理",
+    "buyer": "採購人員",
+    "merchandiser": "商品企劃"
+  },
+  domains: {
+    ...localeRoleTerms.hk.domains,
+    "information technology": "資訊科技",
+    "software": "軟體",
+    "data": "資料",
+    "database": "資料庫",
+    "compliance": "法遵",
+    "legal": "法務",
+    "human resources": "人資",
+    "hr": "人資",
+    "business support": "業務支援",
+    "digital marketing": "數位行銷",
+    "public relations": "公關",
+    "communications": "傳播",
+    "project": "專案",
+    "operation": "營運",
+    "operations": "營運",
+    "quality": "品質",
+    "hotel": "飯店",
+    "restaurant": "餐廳",
+    "healthcare": "醫療照護"
+  },
+  titles: {
+    ...localeRoleTerms.hk.titles,
+    "officer": "專員",
+    "executive": "專員",
+    "administrator": "管理員",
+    "controller": "主管"
+  }
+};
+
+const traditionalExactRoleTranslations = {
+  "all employees - regular earnings": "全體受僱員工－經常性薪資",
+  "financial and insurance industry": "金融及保險業",
+  "publishing audio-visual and ict": "出版、影音及資訊通訊業",
+  "professional scientific and technical services": "專業、科學及技術服務業",
+  "electronic components manufacturing": "電子零組件製造業",
+  "software engineering manager": "軟體工程經理",
+  "cost accountant": "成本會計師",
+  "management accountant": "管理會計師",
+  "revenue accountant": "收入會計師",
+  "systems accountant": "系統會計師",
+  "expense accountant": "支出會計師",
+  "fund accountant": "基金會計師",
+  "learning development": "學習與發展",
+  "learning and development": "學習與發展",
+  "merchandising buying": "商品企劃與採購",
+  "merchandising and buying": "商品企劃與採購",
+  "qa qc": "品質保證／品質控制",
+  "internal audit control": "內部審計與控制",
+  "internal audit and control": "內部審計與控制",
+  "compliance testing and reviews": "合規測試與審查",
+  "franchisee account management": "加盟商與客戶管理",
+  "franchisee and account management": "加盟商與客戶管理",
+  "key account": "大客戶",
+  "new retail and o2o": "新零售／線上線下",
+  "interpreter": "傳譯員",
+  "producer": "製作人",
+  "strategic planner": "策略策劃師",
+  "therapist": "治療師",
+  "visual effects artist": "視覺特效師",
+  "customer success - it": "資訊科技客戶成功",
+  "vice president regulatory policy": "監管政策副總裁",
+  "vice president regulatory reporting": "監管申報副總裁",
+  "client onboarding": "客戶開戶／入職流程",
+  "collateral management": "抵押品管理",
+  "settlements": "結算",
+  "trade support": "交易支援",
+  "asset servicing": "資產服務",
+  "cash management": "現金管理",
+  "client services": "客戶服務",
+  "corporate trust": "企業信託",
+  "custody": "託管",
+  "equities": "股票",
+  "fixed income": "固定收益",
+  "fx mm": "外匯／貨幣市場",
+  "loans": "貸款",
+  "otc derivatives": "場外衍生產品",
+  "performance analysis": "績效分析",
+  "reconciliations": "對帳",
+  "shareholder services transfer agency": "股東服務／過戶代理",
+  "relationship management": "客戶關係管理",
+  "investment": "投資",
+  "fund portfolio": "基金／投資組合",
+  "investor relations": "投資者關係",
+  "automation tester": "自動化測試員",
+  "uat tester": "用戶驗收測試員",
+  "devsecops": "開發安全營運",
+  "helpdesk support": "技術支援",
+  "in-house solicitor": "企業內部律師",
+  "documentation negotiator": "文件談判專員",
+  "dmlro": "副洗錢報告主任",
+  "mlro": "洗錢報告主任",
+  "periodic reviews": "定期審查",
+  "agency": "代理業務",
+  "costing": "成本核算",
+  "financial control reporting": "財務控制／報告",
+  "fundamental": "基本面分析",
+  "quantitative": "量化分析",
+  "local institutions": "本地機構",
+  "wfoes": "外商獨資企業",
+  "multinational securities firms": "跨國證券公司",
+  "learning development": "學習與發展",
+  "talent management": "人才管理",
+  "organizational development": "組織發展",
+  "shared service": "共享服務",
+  "front-end": "前端",
+  "front end": "前端",
+  "testing": "測試",
+  "digital": "數碼化",
+  "non us international law firms": "非美國國際律師事務所",
+  "research insight": "研究及洞察",
+  "e-commerce": "電子商務",
+  "e commerce": "電子商務",
+  "crm": "客戶關係管理",
+  "new retail o2o": "新零售／線上線下",
+  "store management": "店舖管理",
+  "sales operation rtm": "銷售營運／通路策略",
+  "merchandising buying": "商品企劃與採購",
+  "ehs": "環境健康安全",
+  "call center": "呼叫中心",
+  "driver": "司機",
+  "editor": "編輯",
+  "lawyer": "律師",
+  "attorney": "律師",
+  "motion graphic": "動態圖像設計",
+  "messenger dispatch bill collector": "外勤派送／收款員",
+  "neurologist": "腦神經科醫生",
+  "photographer videographer": "攝影／錄影師",
+  "pretty mc": "活動主持／司儀",
+  "receptionist": "接待員",
+  "service engineer technical support": "服務工程師／技術支援",
+  "server": "服務員",
+  "medical product specialist expert": "醫療產品專員／專家"
+};
+
+const simplifiedExactRoleTranslations = {
+  ...traditionalExactRoleTranslations,
+  "all employees - regular earnings": "全体受雇员工－经常性工资",
+  "financial and insurance industry": "金融及保险业",
+  "publishing audio-visual and ict": "出版、影音及信息通信业",
+  "professional scientific and technical services": "专业、科学及技术服务业",
+  "electronic components manufacturing": "电子零组件制造业",
+  "software engineering manager": "软件工程经理",
+  "cost accountant": "成本会计",
+  "management accountant": "管理会计",
+  "revenue accountant": "收入会计",
+  "systems accountant": "系统会计",
+  "expense accountant": "费用会计",
+  "fund accountant": "基金会计",
+  "learning development": "学习与发展",
+  "learning and development": "学习与发展",
+  "merchandising buying": "商品企划与采购",
+  "merchandising and buying": "商品企划与采购",
+  "qa qc": "质量保证／质量控制",
+  "internal audit control": "内部审计与控制",
+  "internal audit and control": "内部审计与控制",
+  "compliance testing and reviews": "合规测试与审查",
+  "franchisee account management": "加盟商与客户管理",
+  "franchisee and account management": "加盟商与客户管理",
+  "key account": "大客户",
+  "new retail and o2o": "新零售／线上线下",
+  "interpreter": "口译员",
+  "producer": "制作人",
+  "strategic planner": "策略策划师",
+  "therapist": "治疗师",
+  "visual effects artist": "视觉特效师",
+  "customer success - it": "信息技术客户成功",
+  "vice president regulatory policy": "监管政策副总裁",
+  "vice president regulatory reporting": "监管申报副总裁",
+  "client onboarding": "客户开户／入职流程",
+  "trade support": "交易支持",
+  "asset servicing": "资产服务",
+  "corporate trust": "企业信托",
+  "custody": "托管",
+  "equities": "股票",
+  "fixed income": "固定收益",
+  "fx mm": "外汇／货币市场",
+  "loans": "贷款",
+  "otc derivatives": "场外衍生品",
+  "performance analysis": "绩效分析",
+  "reconciliations": "对账",
+  "shareholder services transfer agency": "股东服务／过户代理",
+  "relationship management": "客户关系管理",
+  "fund portfolio": "基金／投资组合",
+  "investor relations": "投资者关系",
+  "automation tester": "自动化测试员",
+  "uat tester": "用户验收测试员",
+  "devsecops": "开发安全运营",
+  "helpdesk support": "技术支持",
+  "in-house solicitor": "企业内部律师",
+  "documentation negotiator": "文件谈判专员",
+  "dmlro": "副洗钱报告主任",
+  "mlro": "洗钱报告主任",
+  "costing": "成本核算",
+  "financial control reporting": "财务控制／报告",
+  "quantitative": "量化分析",
+  "local institutions": "本土机构",
+  "wfoes": "外商独资企业",
+  "multinational securities firms": "跨国证券公司",
+  "learning development": "学习与发展",
+  "organizational development": "组织发展",
+  "shared service": "共享服务",
+  "testing": "测试",
+  "digital": "数字化",
+  "non us international law firms": "非美国国际律师事务所",
+  "research insight": "研究及洞察",
+  "e-commerce": "电子商务",
+  "e commerce": "电子商务",
+  "new retail o2o": "新零售／线上线下",
+  "store management": "门店管理",
+  "sales operation rtm": "销售运营／通路策略",
+  "merchandising buying": "商品企划与采购",
+  "ehs": "环境健康安全",
+  "driver": "司机",
+  "motion graphic": "动态图像设计",
+  "messenger dispatch bill collector": "外勤派送／收款员",
+  "neurologist": "神经科医生",
+  "photographer videographer": "摄影／摄像师",
+  "pretty mc": "活动主持／司仪",
+  "service engineer technical support": "服务工程师／技术支持"
+};
+
+Object.assign(localeRoleTerms.hk.exact, traditionalExactRoleTranslations);
+Object.assign(localeRoleTerms.tw.exact, traditionalExactRoleTranslations, {
+  "financial and insurance industry": "金融及保險業",
+  "publishing audio-visual and ict": "出版、影音及資通訊業",
+  "professional scientific and technical services": "專業、科學及技術服務業",
+  "electronic components manufacturing": "電子零組件製造業",
+  "customer success - it": "資訊科技客戶成功",
+  "digital": "數位化",
+  "store management": "門市管理"
+});
+Object.assign(localeRoleTerms.cn.exact, simplifiedExactRoleTranslations);
+
+delete localeRoleTerms.hk.domains.pr;
+delete localeRoleTerms.cn.domains.pr;
+delete localeRoleTerms.tw.domains.pr;
+
+localeRoleTerms.kr = localeRoleTerms.hk;
+localeRoleTerms.th = localeRoleTerms.hk;
+
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -312,18 +885,93 @@ function escapeHtml(value) {
   })[char]);
 }
 
-function translatedRole(row) {
-  if (row.roleZh) return row.roleZh;
-  const glossary = roleZhGlossaries[row.country] || roleZhGlossaries.hk;
-  const normalized = row.role.toLowerCase().replace(/\s+/g, " ").trim();
-  if (glossary[normalized]) return glossary[normalized];
+function normalizeRole(value) {
+  return String(value || "")
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/[–—-]/g, " ")
+    .replace(/&/g, " and ")
+    .replace(/[\\/]/g, " ")
+    .replace(/[^a-zA-Z0-9+#.\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
 
-  const matches = Object.entries(glossary)
+function extractChineseRole(value) {
+  const matches = String(value || "").match(/[\u3400-\u9fff][\u3400-\u9fff\s／/（）：:、&-]*/g);
+  if (!matches) return "";
+  return matches
+    .map((match) => match.replace(/\s+/g, "").replace(/[/:：-]+$/, ""))
+    .filter(Boolean)
+    .join("／");
+}
+
+function localizedTerms(country) {
+  return localeRoleTerms[country] || localeRoleTerms.hk;
+}
+
+function exactTranslation(map, normalized) {
+  if (map[normalized]) return map[normalized];
+  const match = Object.entries(map).find(([english]) => normalizeRole(english) === normalized);
+  return match ? match[1] : "";
+}
+
+function composeRoleTranslation(role, country) {
+  const terms = localizedTerms(country);
+  const normalized = normalizeRole(role);
+  if (!normalized) return "";
+  const exact = exactTranslation(terms.exact, normalized);
+  if (exact) return exact;
+
+  const segments = normalized
+    .split(/\s+(?:and|or)\s+|\/| - |-/)
+    .map((segment) => segment.trim())
+    .filter(Boolean);
+
+  if (segments.length > 1 && segments.length <= 4) {
+    const translatedSegments = segments.map((segment) => composeRoleTranslation(segment, country)).filter(Boolean);
+    if (translatedSegments.length) return [...new Set(translatedSegments)].join("／");
+  }
+
+  const exactHit = Object.entries(terms.exact)
+    .filter(([english]) => normalized === english || normalized.includes(english))
+    .sort((a, b) => b[0].length - a[0].length)[0];
+  if (exactHit && exactHit[0].length > 2) return exactHit[1];
+
+  const seniority = Object.entries(terms.seniority)
+    .filter(([english]) => normalized.includes(english))
+    .sort((a, b) => b[0].length - a[0].length)
+    .map(([, chinese]) => chinese)[0] || "";
+
+  const domains = Object.entries(terms.domains)
     .filter(([english]) => normalized.includes(english))
     .sort((a, b) => b[0].length - a[0].length)
     .map(([, chinese]) => chinese);
 
-  return [...new Set(matches)].slice(0, 2).join("／");
+  const titles = Object.entries(terms.titles)
+    .filter(([english]) => normalized.includes(english))
+    .sort((a, b) => b[0].length - a[0].length)
+    .map(([, chinese]) => chinese);
+
+  const domain = [...new Set(domains)].slice(0, 2).join(terms.and);
+  const title = [...new Set(titles)][0] || "";
+  const translated = `${seniority}${domain}${title}`.trim();
+
+  if (translated) return translated;
+  if (domain) return domain;
+  if (title) return title;
+  return terms.titleFallback;
+}
+
+function translatedRole(row) {
+  if (row.roleZh) return row.roleZh;
+  const embeddedChinese = extractChineseRole(row.role);
+  if (embeddedChinese) return embeddedChinese;
+  const glossary = roleZhGlossaries[row.country] || roleZhGlossaries.hk;
+  const normalized = normalizeRole(row.role);
+  const exactGlossary = exactTranslation(glossary, normalized);
+  if (exactGlossary) return exactGlossary;
+  return composeRoleTranslation(row.role, row.country);
 }
 
 function roleCell(row) {
