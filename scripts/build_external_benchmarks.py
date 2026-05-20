@@ -260,6 +260,8 @@ def fetch_thai_result(position: str, category: str) -> list[dict]:
     rows = []
     for band in bands:
         low, high = band["min"], band["max"]
+        if low <= 0 or high <= 0:
+            continue
         rows.append({
             "country": "th",
             "role": position,
@@ -273,6 +275,14 @@ def fetch_thai_result(position: str, category: str) -> list[dict]:
             "sourceUrl": url,
             "coverage": "Direct salary guide"
         })
+    if not rows and bands:
+        rows.extend(fetch_world_salary(
+            "th",
+            "thailand",
+            position,
+            category,
+            "Fallback market average - Adecco Thailand listed role without salary band",
+        ))
     return rows
 
 
@@ -284,9 +294,9 @@ def slugify_role(role: str) -> str:
     return text.strip("-")
 
 
-def fetch_korea_role(role: str) -> list[dict]:
+def fetch_world_salary(country_id: str, country_slug: str, role: str, function: str, coverage: str) -> list[dict]:
     slug = slugify_role(role)
-    url = f"https://worldsalaries.com/average-{slug}-salary-in-south-korea/"
+    url = f"https://worldsalaries.com/average-{slug}-salary-in-{country_slug}/"
     try:
         html = fetch(url)
     except Exception:
@@ -295,27 +305,31 @@ def fetch_korea_role(role: str) -> list[dict]:
         return []
     soup = BeautifulSoup(html, "lxml")
     text = soup.get_text(" ")
-    low_match = re.search(r"Average Lowest Salary\s*([\d,]+)\s*KRW", text)
-    avg_match = re.search(r"Average Annual Salary\s*([\d,]+)\s*KRW", text)
-    high_match = re.search(r"Average Highest Salary\s*([\d,]+)\s*KRW", text)
+    low_match = re.search(r"Average Lowest Salary\s*([\d,]+)\s*[A-Z]+", text)
+    avg_match = re.search(r"Average Annual Salary\s*([\d,]+)\s*[A-Z]+", text)
+    high_match = re.search(r"Average Highest Salary\s*([\d,]+)\s*[A-Z]+", text)
     if not (low_match and avg_match and high_match):
         return []
     low = money_to_int(low_match.group(1))
     mid = money_to_int(avg_match.group(1))
     high = money_to_int(high_match.group(1))
     return [{
-        "country": "kr",
+        "country": country_id,
         "role": role,
-        "function": "Taiwan taxonomy match",
+        "function": function,
         "seniority": "Average market range",
         "low": low,
         "mid": mid,
         "high": high,
         "period": "annual",
-        "source": "worldSalariesKr",
+        "source": "worldSalariesGlobal" if country_id != "kr" else "worldSalariesKr",
         "sourceUrl": url,
-        "coverage": "Fallback market average"
+        "coverage": coverage
     }]
+
+
+def fetch_korea_role(role: str) -> list[dict]:
+    return fetch_world_salary("kr", "south-korea", role, "Taiwan taxonomy match", "Fallback market average")
 
 
 def existing_external_rows() -> list[dict]:

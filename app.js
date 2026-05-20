@@ -146,11 +146,6 @@ const baseSalaryRows = [
   ["cn", "Director - FP&A", "Financial Planning Analysis", "Director", 900000, 1200000, 1600000, "annual", "mmcn"],
   ["cn", "Director - Tax", "Tax", "Director", 700000, 1500000, 2000000, "annual", "mmcn"],
 
-  ["tw", "All Employees - Regular Earnings", "All Industries", "Market Average", 47884, 47884, 47884, "monthly", "dgbas"],
-  ["tw", "Financial & Insurance Industry", "Industry Benchmark", "Industry Average", 70997, 70997, 70997, "monthly", "dgbas"],
-  ["tw", "Publishing, Audio-Visual & ICT", "Industry Benchmark", "Industry Average", 69595, 69595, 69595, "monthly", "dgbas"],
-  ["tw", "Professional, Scientific & Technical Services", "Industry Benchmark", "Industry Average", 58377, 58377, 58377, "monthly", "dgbas"],
-  ["tw", "Electronic Components Manufacturing", "Industry Benchmark", "Industry Average", 57096, 57096, 57096, "monthly", "dgbas"],
   ["tw", "Software Engineer", "Technology", "Mixed", 40000, 73125, 160000, "monthly", "nodeflairTw"],
   ["tw", "Software Engineering Manager", "Technology", "Manager", 65000, 109000, 161000, "monthly", "salaryRunTw"],
 
