@@ -73,6 +73,7 @@ SECTION_LABELS = {
 
 NUM_RE = re.compile(r"\d{2,3},\d{3}\+?")
 EXP_RE = re.compile(r"(<\s*\d+|\d+\s*\+|\d+\s*-\s*\d+\+?|\d+)\s*$")
+CJK_RE = re.compile(r"[\u3400-\u9fff]")
 
 
 def section_for(page_no: int) -> str | None:
@@ -135,9 +136,14 @@ def extract_page(reader: PdfReader, page_no: int) -> list[dict]:
         ]
 
         role_parts = []
+        zh_parts = []
         for candidate in sorted(band, key=lambda row: (-row["y"], row["x"])):
             text = candidate["text"].strip()
             if text in SECTION_LABELS:
+                continue
+            if CJK_RE.search(text) and not re.search(r"[A-Za-z]", text) and not NUM_RE.search(text):
+                if text not in zh_parts:
+                    zh_parts.append(text)
                 continue
             if not re.search(r"[A-Za-z]", text):
                 continue
@@ -157,6 +163,7 @@ def extract_page(reader: PdfReader, page_no: int) -> list[dict]:
         rows.append({
             "country": "hk",
             "role": role,
+            "roleZh": clean_role(" ".join(zh_parts)),
             "function": section,
             "seniority": seniority,
             "low": low,

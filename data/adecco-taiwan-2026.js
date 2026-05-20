@@ -2,6 +2,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Accounting Manager",
+    "roleZh": "會計經理",
     "function": "Accounting & Finance",
     "seniority": "6-15+",
     "low": 80000,
@@ -14,6 +15,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Accountant",
+    "roleZh": "資深會計",
     "function": "Accounting & Finance",
     "seniority": "5+",
     "low": 60000,
@@ -26,6 +28,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Cost Accountant",
+    "roleZh": "成本會計",
     "function": "Accounting & Finance",
     "seniority": "3-5",
     "low": 65000,
@@ -38,6 +41,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Accountant",
+    "roleZh": "會計人員",
     "function": "Accounting & Finance",
     "seniority": "3-5",
     "low": 45000,
@@ -50,6 +54,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant Accountant",
+    "roleZh": "會計助理",
     "function": "Accounting & Finance",
     "seniority": "2-4",
     "low": 40000,
@@ -62,6 +67,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Account Clerk",
+    "roleZh": "資深帳務員",
     "function": "Accounting & Finance",
     "seniority": "1-2",
     "low": 38000,
@@ -74,8 +80,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Account Clerk Assistant",
+    "roleZh": "帳務員／帳務助理",
     "function": "Accounting & Finance",
-    "seniority": "< 1",
+    "seniority": "<1",
     "low": 35000,
     "mid": 38500,
     "high": 42000,
@@ -86,6 +93,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Audit",
+    "roleZh": "審計長",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 130000,
@@ -98,6 +106,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Internal Audit Manager",
+    "roleZh": "內部稽核經理",
     "function": "Accounting & Finance",
     "seniority": "8+",
     "low": 100000,
@@ -110,6 +119,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Internal Auditor",
+    "roleZh": "內部稽核師",
     "function": "Accounting & Finance",
     "seniority": "5-7",
     "low": 70000,
@@ -122,6 +132,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant Audit Manager",
+    "roleZh": "審計副理",
     "function": "Accounting & Finance",
     "seniority": "5+",
     "low": 70000,
@@ -134,6 +145,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Audit Supervisor",
+    "roleZh": "審計主任",
     "function": "Accounting & Finance",
     "seniority": "4-5",
     "low": 55000,
@@ -146,6 +158,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Auditor",
+    "roleZh": "資深審計師",
     "function": "Accounting & Finance",
     "seniority": "3-5",
     "low": 50000,
@@ -158,6 +171,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Junior Auditor",
+    "roleZh": "初級審計員",
     "function": "Accounting & Finance",
     "seniority": "1-2",
     "low": 42000,
@@ -170,8 +184,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Audit Clerk",
+    "roleZh": "查帳員",
     "function": "Accounting & Finance",
-    "seniority": "< 1",
+    "seniority": "<1",
     "low": 38000,
     "mid": 40000,
     "high": 42000,
@@ -182,6 +197,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Financial Controller",
+    "roleZh": "財務長",
     "function": "Accounting & Finance",
     "seniority": "10-20",
     "low": 150000,
@@ -193,55 +209,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Head of Tax",
-    "function": "Accounting & Finance",
-    "seniority": "10+",
-    "low": 120000,
-    "mid": 185000,
-    "high": 250000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 21
-  },
-  {
-    "country": "tw",
-    "role": "Tax Manager",
-    "function": "Accounting & Finance",
-    "seniority": "5+",
-    "low": 85000,
-    "mid": 117500,
-    "high": 150000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 21
-  },
-  {
-    "country": "tw",
-    "role": "Senior Tax Accountant",
-    "function": "Accounting & Finance",
-    "seniority": "3-5",
-    "low": 50000,
-    "mid": 62500,
-    "high": 75000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 21
-  },
-  {
-    "country": "tw",
-    "role": "Tax Accountant",
-    "function": "Accounting & Finance",
-    "seniority": "2-4",
-    "low": 35000,
-    "mid": 42500,
-    "high": 50000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 21
-  },
-  {
-    "country": "tw",
     "role": "Finance & Admin Manager",
+    "roleZh": "財務暨行政經理",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 85000,
@@ -254,6 +223,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Finance Manager",
+    "roleZh": "財務經理",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 85000,
@@ -266,6 +236,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Financial Analyst",
+    "roleZh": "財務分析師",
     "function": "Accounting & Finance",
     "seniority": "3-6",
     "low": 60000,
@@ -278,6 +249,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Finance Assistant",
+    "roleZh": "財務助理",
     "function": "Accounting & Finance",
     "seniority": "2-3",
     "low": 38000,
@@ -290,6 +262,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Finance & Admin Clerk",
+    "roleZh": "財務暨行政辦事員",
     "function": "Accounting & Finance",
     "seniority": "1-5",
     "low": 36000,
@@ -302,8 +275,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Financial Management Trainee",
+    "roleZh": "財務儲備幹部",
     "function": "Accounting & Finance",
-    "seniority": "< 1",
+    "seniority": "<1",
     "low": 50000,
     "mid": 62500,
     "high": 75000,
@@ -313,7 +287,60 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Head of Tax",
+    "roleZh": "稅務長",
+    "function": "Accounting & Finance",
+    "seniority": "10+",
+    "low": 120000,
+    "mid": 185000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 21
+  },
+  {
+    "country": "tw",
+    "role": "Tax Manager",
+    "roleZh": "稅務經理",
+    "function": "Accounting & Finance",
+    "seniority": "5+",
+    "low": 85000,
+    "mid": 117500,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 21
+  },
+  {
+    "country": "tw",
+    "role": "Senior Tax Accountant",
+    "roleZh": "資深稅務會計",
+    "function": "Accounting & Finance",
+    "seniority": "3-5",
+    "low": 50000,
+    "mid": 62500,
+    "high": 75000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 21
+  },
+  {
+    "country": "tw",
+    "role": "Tax Accountant",
+    "roleZh": "稅務會計",
+    "function": "Accounting & Finance",
+    "seniority": "2-4",
+    "low": 35000,
+    "mid": 42500,
+    "high": 50000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 21
+  },
+  {
+    "country": "tw",
     "role": "Head of Treasury",
+    "roleZh": "財務長",
     "function": "Accounting & Finance",
     "seniority": "15+",
     "low": 130000,
@@ -326,6 +353,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Treasury Manager",
+    "roleZh": "財務經理",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 110000,
@@ -338,6 +366,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Treasury",
+    "roleZh": "資深財務專員",
     "function": "Accounting & Finance",
     "seniority": "3-5",
     "low": 60000,
@@ -350,6 +379,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Treasury Accountant",
+    "roleZh": "財務會計",
     "function": "Accounting & Finance",
     "seniority": "2-4",
     "low": 45000,
@@ -362,6 +392,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Treasury Officer",
+    "roleZh": "財務專員",
     "function": "Accounting & Finance",
     "seniority": "2-4",
     "low": 40000,
@@ -374,8 +405,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Treasury Clerk",
+    "roleZh": "財務辦事員",
     "function": "Accounting & Finance",
-    "seniority": "< 1",
+    "seniority": "<1",
     "low": 35000,
     "mid": 40000,
     "high": 45000,
@@ -385,31 +417,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Data Analyst",
-    "function": "Accounting & Finance",
-    "seniority": "5+",
-    "low": 70000,
-    "mid": 85000,
-    "high": 100000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 22
-  },
-  {
-    "country": "tw",
-    "role": "Pricing Analyst",
-    "function": "Accounting & Finance",
-    "seniority": "5+",
-    "low": 70000,
-    "mid": 85000,
-    "high": 100000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 22
-  },
-  {
-    "country": "tw",
     "role": "Data Analytics Manager",
+    "roleZh": "數據資料分析經理",
     "function": "Accounting & Finance",
     "seniority": "8-10+",
     "low": 100000,
@@ -421,7 +430,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Data Analyst",
+    "roleZh": "資料分析師",
+    "function": "Accounting & Finance",
+    "seniority": "5+",
+    "low": 70000,
+    "mid": 85000,
+    "high": 100000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 22
+  },
+  {
+    "country": "tw",
     "role": "Pricing Manager",
+    "roleZh": "定價分析經理",
     "function": "Accounting & Finance",
     "seniority": "8+",
     "low": 85000,
@@ -433,9 +456,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Pricing Analyst",
+    "roleZh": "定價分析師",
+    "function": "Accounting & Finance",
+    "seniority": "5+",
+    "low": 70000,
+    "mid": 85000,
+    "high": 100000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 22
+  },
+  {
+    "country": "tw",
     "role": "Branch Manager",
+    "roleZh": "分行經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 90000,
     "mid": 120000,
     "high": 150000,
@@ -445,9 +482,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Assistant Operations Manager",
+    "role": "Operations Manager",
+    "roleZh": "營運經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "6+",
+    "low": 80000,
+    "mid": 105000,
+    "high": 130000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 24
+  },
+  {
+    "country": "tw",
+    "role": "Assistant Operations Manager",
+    "roleZh": "營運副理",
+    "function": "Banking & Financial Services",
+    "seniority": "4+",
     "low": 50000,
     "mid": 65000,
     "high": 80000,
@@ -458,8 +509,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Customer Relationship Manager",
+    "roleZh": "客戶關係經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 60000,
     "mid": 100000,
     "high": 140000,
@@ -469,9 +521,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Personal Banking Officer",
+    "role": "Operation Supervisor",
+    "roleZh": "營運主管",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "3+",
+    "low": 50000,
+    "mid": 65000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 24
+  },
+  {
+    "country": "tw",
+    "role": "Personal Banking Officer",
+    "roleZh": "個人金融服務專員",
+    "function": "Banking & Financial Services",
+    "seniority": "3+",
     "low": 30000,
     "mid": 50000,
     "high": 70000,
@@ -482,8 +548,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Bank Officer",
+    "roleZh": "銀行專員",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "6+",
     "low": 30000,
     "mid": 40000,
     "high": 50000,
@@ -493,9 +560,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Bank Officer Bank Teller",
+    "role": "Bank Teller",
+    "roleZh": "銀行櫃檯出納",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "1-2",
     "low": 30000,
     "mid": 37500,
     "high": 45000,
@@ -506,8 +574,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Middle Office Officer",
+    "roleZh": "中檯專員",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "3+",
     "low": 50000,
     "mid": 90000,
     "high": 130000,
@@ -518,8 +587,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Customer Service Representative",
+    "roleZh": "客服專員",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "1-2",
     "low": 30000,
     "mid": 42500,
     "high": 55000,
@@ -530,8 +600,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Bank Assistant",
+    "roleZh": "銀行助理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "1-2",
     "low": 30000,
     "mid": 35000,
     "high": 40000,
@@ -542,8 +613,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Banking Clerk",
+    "roleZh": "金融辦事員",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "<1",
     "low": 30000,
     "mid": 35000,
     "high": 40000,
@@ -553,9 +625,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "TMU",
+    "role": "Sr. Relationship Manager",
+    "roleZh": "資深客戶關係經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "7+",
     "low": 60000,
     "mid": 105000,
     "high": 150000,
@@ -565,9 +638,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Market Risk",
+    "role": "Relationship Manager",
+    "roleZh": "客戶關係經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "3+",
+    "low": 40000,
+    "mid": 60000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 24
+  },
+  {
+    "country": "tw",
+    "role": "Market Risk",
+    "roleZh": "市場風險經理",
+    "function": "Banking & Financial Services",
+    "seniority": "5+",
     "low": 80000,
     "mid": 120000,
     "high": 160000,
@@ -578,8 +665,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "FI Sales",
+    "roleZh": "金融同業業務經理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 80000,
     "mid": 115000,
     "high": 150000,
@@ -589,33 +677,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "TMU Dealing Trade Support Assistant",
+    "role": "TMU",
+    "roleZh": "金融交易業務人員",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
-    "low": 35000,
-    "mid": 42500,
-    "high": 50000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 24
-  },
-  {
-    "country": "tw",
-    "role": "Relationship Manager",
-    "function": "Banking & Financial Services",
-    "seniority": "Not specified",
-    "low": 40000,
-    "mid": 60000,
-    "high": 80000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 24
-  },
-  {
-    "country": "tw",
-    "role": "Sr. Relationship Manager",
-    "function": "Banking & Financial Services",
-    "seniority": "Not specified",
+    "seniority": "3+",
     "low": 60000,
     "mid": 105000,
     "high": 150000,
@@ -625,24 +690,13 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Operations Manager",
+    "role": "Dealing Trade Support Assistant",
+    "roleZh": "交易支援助理",
     "function": "Banking & Financial Services",
-    "seniority": "Not specified",
-    "low": 80000,
-    "mid": 105000,
-    "high": 130000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 24
-  },
-  {
-    "country": "tw",
-    "role": "Operation Supervisor",
-    "function": "Banking & Financial Services",
-    "seniority": "Not specified",
-    "low": 50000,
-    "mid": 65000,
-    "high": 80000,
+    "seniority": "1-2",
+    "low": 35000,
+    "mid": 42500,
+    "high": 50000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 24
@@ -650,6 +704,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Compliance Manager",
+    "roleZh": "金融業法遵／法規經理",
     "function": "Banking & Financial Services",
     "seniority": "5+",
     "low": 60000,
@@ -662,6 +717,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Compliance/AML Officer",
+    "roleZh": "法遵／法規／反洗錢事務專員",
     "function": "Banking & Financial Services",
     "seniority": "2-4",
     "low": 45000,
@@ -674,6 +730,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Credit Manager",
+    "roleZh": "授信經理",
     "function": "Banking & Financial Services",
     "seniority": "6+",
     "low": 50000,
@@ -686,6 +743,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Credit Approval Manager",
+    "roleZh": "信用審核／核准經理",
     "function": "Banking & Financial Services",
     "seniority": "10+",
     "low": 80000,
@@ -698,6 +756,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Credit Approval Officer",
+    "roleZh": "信用核證專員",
     "function": "Banking & Financial Services",
     "seniority": "8+",
     "low": 60000,
@@ -710,6 +769,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Credit Analyst/Officer",
+    "roleZh": "信貸分析師／專員",
     "function": "Banking & Financial Services",
     "seniority": "6+",
     "low": 50000,
@@ -722,6 +782,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Credit/Loans Clerk",
+    "roleZh": "資深信貸／信用辦事員",
     "function": "Banking & Financial Services",
     "seniority": "4+",
     "low": 45000,
@@ -733,12 +794,26 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Research Assistant",
+    "role": "Settlement Manager",
+    "roleZh": "結算部經理",
     "function": "Banking & Financial Services",
-    "seniority": "1-2",
-    "low": 35000,
-    "mid": 42500,
-    "high": 50000,
+    "seniority": "8+",
+    "low": 80000,
+    "mid": 140000,
+    "high": 200000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 25
+  },
+  {
+    "country": "tw",
+    "role": "Settlement Officer",
+    "roleZh": "結算部專員",
+    "function": "Banking & Financial Services",
+    "seniority": "6+",
+    "low": 50000,
+    "mid": 65000,
+    "high": 80000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 25
@@ -746,6 +821,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Settlement Clerk",
+    "roleZh": "結算部辦事員",
     "function": "Banking & Financial Services",
     "seniority": "1-2",
     "low": 30000,
@@ -758,6 +834,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Research/Equity Analyst",
+    "roleZh": "股票研究員",
     "function": "Banking & Financial Services",
     "seniority": "3+",
     "low": 50000,
@@ -769,24 +846,13 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Settlement Officer",
+    "role": "Research Assistant",
+    "roleZh": "股票研究助理",
     "function": "Banking & Financial Services",
-    "seniority": "6+",
-    "low": 50000,
-    "mid": 65000,
-    "high": 80000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 25
-  },
-  {
-    "country": "tw",
-    "role": "Settlement Manager",
-    "function": "Banking & Financial Services",
-    "seniority": "8+",
-    "low": 80000,
-    "mid": 140000,
-    "high": 200000,
+    "seniority": "1-2",
+    "low": 35000,
+    "mid": 42500,
+    "high": 50000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 25
@@ -794,6 +860,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Head/CHO/HR Director/VP",
+    "roleZh": "人資長／人資副總／協理",
     "function": "Human Resources",
     "seniority": "15-20+",
     "low": 140000,
@@ -806,6 +873,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regional HR Manager/Director",
+    "roleZh": "區域人資經理／協理",
     "function": "Human Resources",
     "seniority": "8-15",
     "low": 120000,
@@ -818,6 +886,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Lead of HR Business Partner",
+    "roleZh": "人力資源策略發展夥伴主管",
     "function": "Human Resources",
     "seniority": "5-8+",
     "low": 80000,
@@ -830,6 +899,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Business Partner",
+    "roleZh": "人力資源策略發展夥伴專員",
     "function": "Human Resources",
     "seniority": "5-8",
     "low": 55000,
@@ -842,6 +912,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Assistant Manager/Supervisor",
+    "roleZh": "人資副理",
     "function": "Human Resources",
     "seniority": "2-4",
     "low": 40000,
@@ -854,6 +925,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Officer/Specialist/Executive",
+    "roleZh": "人資專員",
     "function": "Human Resources",
     "seniority": "1-2",
     "low": 35000,
@@ -866,8 +938,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Administrator",
+    "roleZh": "人資專員／助理",
     "function": "Human Resources",
-    "seniority": "< 1",
+    "seniority": "<1",
     "low": 32000,
     "mid": 36000,
     "high": 40000,
@@ -878,6 +951,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HR Trainee",
+    "roleZh": "人資培訓／人資儲備幹部",
     "function": "Human Resources",
     "seniority": "8+",
     "low": 40000,
@@ -890,6 +964,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "C&B Manager",
+    "roleZh": "薪酬福利經理",
     "function": "Human Resources",
     "seniority": "8-10+",
     "low": 80000,
@@ -901,7 +976,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "C&B Specialist",
+    "roleZh": "薪酬福利專員",
+    "function": "Human Resources",
+    "seniority": "3-5+",
+    "low": 35000,
+    "mid": 47500,
+    "high": 60000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 27
+  },
+  {
+    "country": "tw",
     "role": "Talent Acquisition Manager",
+    "roleZh": "招募經理",
     "function": "Human Resources",
     "seniority": "5-8+",
     "low": 100000,
@@ -913,7 +1002,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Talent Acquisition Manager Recruiter",
+    "role": "Recruiter",
+    "roleZh": "招募專員",
     "function": "Human Resources",
     "seniority": "2+",
     "low": 40000,
@@ -925,43 +1015,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Organization & Development Manager",
-    "function": "Human Resources",
-    "seniority": "8+",
-    "low": 70000,
-    "mid": 110000,
-    "high": 150000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 27
-  },
-  {
-    "country": "tw",
-    "role": "Training & Talent Development Specialist",
-    "function": "Human Resources",
-    "seniority": "5+",
-    "low": 65000,
-    "mid": 82500,
-    "high": 100000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 27
-  },
-  {
-    "country": "tw",
-    "role": "Trainer",
-    "function": "Human Resources",
-    "seniority": "8+",
-    "low": 65000,
-    "mid": 92500,
-    "high": 120000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 27
-  },
-  {
-    "country": "tw",
     "role": "Chief Diversity Officer",
+    "roleZh": "人才永續長",
     "function": "Human Resources",
     "seniority": "10+",
     "low": 120000,
@@ -974,6 +1029,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Cultural Compendency Officer",
+    "roleZh": "組織文化長",
     "function": "Human Resources",
     "seniority": "8-10+",
     "low": 70000,
@@ -986,6 +1042,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "DEI Recruitment Strategist",
+    "roleZh": "多元人才發展策略員",
     "function": "Human Resources",
     "seniority": "5-8+",
     "low": 80000,
@@ -997,7 +1054,47 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Organization & Development Manager",
+    "roleZh": "組織訓練發展經理",
+    "function": "Human Resources",
+    "seniority": "8+",
+    "low": 70000,
+    "mid": 110000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 27
+  },
+  {
+    "country": "tw",
+    "role": "Training & Talent Development Specialist",
+    "roleZh": "訓練發展專員",
+    "function": "Human Resources",
+    "seniority": "5+",
+    "low": 65000,
+    "mid": 82500,
+    "high": 100000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 27
+  },
+  {
+    "country": "tw",
+    "role": "Trainer",
+    "roleZh": "講師",
+    "function": "Human Resources",
+    "seniority": "8+",
+    "low": 65000,
+    "mid": 92500,
+    "high": 120000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 27
+  },
+  {
+    "country": "tw",
     "role": "HRIS Manager",
+    "roleZh": "人資系統主管",
     "function": "Human Resources",
     "seniority": "8-15+",
     "low": 80000,
@@ -1010,6 +1107,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Employee Relationship Manager",
+    "roleZh": "員工關係主管",
     "function": "Human Resources",
     "seniority": "8+",
     "low": 65000,
@@ -1021,19 +1119,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "General Affair Manager",
-    "function": "Administrative Professionals",
-    "seniority": "8-10",
-    "low": 65000,
-    "mid": 122500,
-    "high": 180000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 29
-  },
-  {
-    "country": "tw",
     "role": "Executive Assistant/Secretary",
+    "roleZh": "特助／執行助理／秘書",
     "function": "Administrative Professionals",
     "seniority": "5-8",
     "low": 50000,
@@ -1046,6 +1133,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Administrative Officer/Assistant",
+    "roleZh": "行政專員／行政助理",
     "function": "Administrative Professionals",
     "seniority": "3-6",
     "low": 30000,
@@ -1058,6 +1146,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Receptionist",
+    "roleZh": "櫃臺接待人員",
     "function": "Administrative Professionals",
     "seniority": "1-2",
     "low": 30000,
@@ -1070,6 +1159,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Documentation controller/Interpreter",
+    "roleZh": "文件控管人員／翻譯專員",
     "function": "Administrative Professionals",
     "seniority": "5-7",
     "low": 60000,
@@ -1082,6 +1172,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Project Coordinator",
+    "roleZh": "專案管理師",
     "function": "Administrative Professionals",
     "seniority": "5-8",
     "low": 60000,
@@ -1094,6 +1185,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "General Counsel/CLO/VP/ Legal Director",
+    "roleZh": "法務長／副總／協理",
     "function": "Legal",
     "seniority": "10-15+",
     "low": 150000,
@@ -1106,6 +1198,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior/Legal Manager",
+    "roleZh": "資深法務經理／法務經理",
     "function": "Legal",
     "seniority": "8+/5+",
     "low": 150000,
@@ -1118,6 +1211,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior/Legal Counsel",
+    "roleZh": "資深／法律顧問",
     "function": "Legal",
     "seniority": "5-7+",
     "low": 100000,
@@ -1130,6 +1224,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Legal Officer",
+    "roleZh": "法務專員",
     "function": "Legal",
     "seniority": "3-5+",
     "low": 55000,
@@ -1141,7 +1236,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Legal & Compliance Paralegal",
+    "role": "Paralegal",
+    "roleZh": "法務助理",
     "function": "Legal",
     "seniority": "1-3+",
     "low": 35000,
@@ -1153,7 +1249,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Intellectual Property",
+    "roleZh": "智財專員",
+    "function": "Legal",
+    "seniority": "2-5+",
+    "low": 50000,
+    "mid": 65000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 31
+  },
+  {
+    "country": "tw",
     "role": "Governmental & Regulatory Affairs",
+    "roleZh": "政府關係／法規經理",
     "function": "Legal",
     "seniority": "5-7+",
     "low": 80000,
@@ -1166,6 +1276,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Compliance Head/VP",
+    "roleZh": "法遵長／副總",
     "function": "Legal",
     "seniority": "10-15+",
     "low": 150000,
@@ -1178,6 +1289,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Compliance Manager",
+    "roleZh": "法遵經理",
     "function": "Legal",
     "seniority": "5+",
     "low": 80000,
@@ -1190,6 +1302,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Compliance/AML Officer",
+    "roleZh": "法遵／反洗錢專員",
     "function": "Legal",
     "seniority": "3+",
     "low": 50000,
@@ -1202,6 +1315,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior/ESG Manager",
+    "roleZh": "資深永續經理／永續經理",
     "function": "Legal",
     "seniority": "8+",
     "low": 100000,
@@ -1214,6 +1328,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "ESG Consultant",
+    "roleZh": "永續顧問",
     "function": "Legal",
     "seniority": "5-7",
     "low": 70000,
@@ -1225,7 +1340,34 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "ESG Specialist",
+    "roleZh": "永續專員",
+    "function": "Legal",
+    "seniority": "3-5",
+    "low": 50000,
+    "mid": 50000,
+    "high": 50000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 31
+  },
+  {
+    "country": "tw",
+    "role": "ESG Specialist",
+    "roleZh": "永續專員",
+    "function": "Legal",
+    "seniority": "3-5",
+    "low": 80000,
+    "mid": 80000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 31
+  },
+  {
+    "country": "tw",
     "role": "Regional Procurement Manager/Director Procurement",
+    "roleZh": "區域採購主管 採購",
     "function": "Procurement & Supply Chain",
     "seniority": "12+",
     "low": 150000,
@@ -1237,7 +1379,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Procurement Procurement Manager/Sr. Buyer",
+    "role": "Procurement Manager/Sr. Buyer",
+    "roleZh": "採購經理／資深採購",
     "function": "Procurement & Supply Chain",
     "seniority": "8-12",
     "low": 100000,
@@ -1250,6 +1393,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Procurement Supervisor",
+    "roleZh": "採購主任",
     "function": "Procurement & Supply Chain",
     "seniority": "5-8",
     "low": 80000,
@@ -1262,6 +1406,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Buyer/Sourcer/Commodity buyer",
+    "roleZh": "採購專員",
     "function": "Procurement & Supply Chain",
     "seniority": "2-5",
     "low": 50000,
@@ -1274,6 +1419,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Procurement Assistant",
+    "roleZh": "採購助理",
     "function": "Procurement & Supply Chain",
     "seniority": "1-2",
     "low": 30000,
@@ -1286,6 +1432,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Merchandising Manager",
+    "roleZh": "採購經理",
     "function": "Procurement & Supply Chain",
     "seniority": "8-10+",
     "low": 70000,
@@ -1298,6 +1445,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant Merchandising Manager",
+    "roleZh": "採購副理",
     "function": "Procurement & Supply Chain",
     "seniority": "8-10+",
     "low": 60000,
@@ -1310,6 +1458,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sr. Merchandiser/Sr.Sourcer",
+    "roleZh": "資深採購",
     "function": "Procurement & Supply Chain",
     "seniority": "5-8",
     "low": 45000,
@@ -1322,6 +1471,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Jr. Merchandiser/Procurement Officer",
+    "roleZh": "採購人員",
     "function": "Procurement & Supply Chain",
     "seniority": "3-5",
     "low": 30000,
@@ -1333,7 +1483,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Shipping/Logistics Logistics Manager/Project Account manager",
+    "role": "Logistics Manager/Project Account manager",
+    "roleZh": "物流經理",
     "function": "Procurement & Supply Chain",
     "seniority": "8-12",
     "low": 80000,
@@ -1346,6 +1497,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant Logistics Manager",
+    "roleZh": "物流副理",
     "function": "Procurement & Supply Chain",
     "seniority": "5-8",
     "low": 60000,
@@ -1358,6 +1510,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Logistics Specialist",
+    "roleZh": "物流專員",
     "function": "Procurement & Supply Chain",
     "seniority": "2-5",
     "low": 30000,
@@ -1370,6 +1523,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Shipping Supervisor",
+    "roleZh": "船務主任",
     "function": "Procurement & Supply Chain",
     "seniority": "3-5",
     "low": 45000,
@@ -1382,6 +1536,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Shipping Specialist",
+    "roleZh": "船務人員",
     "function": "Procurement & Supply Chain",
     "seniority": "2-4",
     "low": 30000,
@@ -1394,8 +1549,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Quality Control Manager",
+    "roleZh": "品管經理",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 100000,
     "mid": 150000,
     "high": 200000,
@@ -1406,6 +1562,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant QC Manager",
+    "roleZh": "品管副理",
     "function": "Procurement & Supply Chain",
     "seniority": "8-10",
     "low": 80000,
@@ -1418,8 +1575,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Quality Control Specialist",
+    "roleZh": "品管專員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "3-8",
     "low": 50000,
     "mid": 65000,
     "high": 80000,
@@ -1430,6 +1588,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "After Sales Manager/Customer Service Manager/Call Center Manager",
+    "roleZh": "售後服務／客服經理",
     "function": "Procurement & Supply Chain",
     "seniority": "Not specified",
     "low": 70000,
@@ -1442,6 +1601,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CS Assistant Manager",
+    "roleZh": "售後服務／客服副理",
     "function": "Procurement & Supply Chain",
     "seniority": "5-8",
     "low": 55000,
@@ -1453,7 +1613,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "After Service Supervisor/Team Leader",
+    "role": "Supervisor/Team Leader",
+    "roleZh": "客服主任／組長",
     "function": "Procurement & Supply Chain",
     "seniority": "3-5",
     "low": 45000,
@@ -1466,8 +1627,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior CS Representative",
+    "roleZh": "資深客服人員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "2-3",
     "low": 35000,
     "mid": 40000,
     "high": 45000,
@@ -1478,8 +1640,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Helpdesk/Hotline Officer",
+    "roleZh": "客服專員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "1-3",
     "low": 30000,
     "mid": 32500,
     "high": 35000,
@@ -1490,8 +1653,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supply Chain Supply Chain Manager",
+    "roleZh": "供應鏈經理 供應鏈",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "10-15+",
     "low": 120000,
     "mid": 160000,
     "high": 200000,
@@ -1502,6 +1666,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supply Chain Assistant Manager",
+    "roleZh": "供應鏈副理",
     "function": "Procurement & Supply Chain",
     "seniority": "5-10+",
     "low": 100000,
@@ -1514,8 +1679,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supply Chain Planner/Demand Planner",
+    "roleZh": "供應鏈規劃／需求規劃人員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "3-5",
     "low": 60000,
     "mid": 80000,
     "high": 100000,
@@ -1526,8 +1692,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supply Chain Executive",
+    "roleZh": "供應鏈專員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "1-3",
     "low": 40000,
     "mid": 57500,
     "high": 75000,
@@ -1538,8 +1705,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Warehouse Warehouse Manager",
+    "roleZh": "倉儲經理 倉儲",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 80000,
     "mid": 115000,
     "high": 150000,
@@ -1550,6 +1718,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Warehouse Assistant Manager",
+    "roleZh": "倉儲副理",
     "function": "Procurement & Supply Chain",
     "seniority": "5-8",
     "low": 70000,
@@ -1562,6 +1731,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Warehouse Supervisor",
+    "roleZh": "倉儲主任",
     "function": "Procurement & Supply Chain",
     "seniority": "3-5",
     "low": 45000,
@@ -1574,8 +1744,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Warehouse Officer",
+    "roleZh": "倉儲專員",
     "function": "Procurement & Supply Chain",
-    "seniority": "Not specified",
+    "seniority": "1-2",
     "low": 30000,
     "mid": 37500,
     "high": 45000,
@@ -1586,6 +1757,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Director",
+    "roleZh": "行銷協理",
     "function": "Biotechnology & Healthcare",
     "seniority": "12+",
     "low": 180000,
@@ -1598,6 +1770,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Manager",
+    "roleZh": "行銷經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 160000,
@@ -1610,6 +1783,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Manager",
+    "roleZh": "產品經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 100000,
@@ -1621,7 +1795,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Commercial Product Registration Specialist",
+    "role": "Product Registration Specialist",
+    "roleZh": "產品登記專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 50000,
@@ -1634,6 +1809,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Product Specialist",
+    "roleZh": "資深產品專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3+",
     "low": 65000,
@@ -1646,6 +1822,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Specialist",
+    "roleZh": "產品專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "2-3",
     "low": 60000,
@@ -1658,6 +1835,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "BD Manager",
+    "roleZh": "開發經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8-10",
     "low": 100000,
@@ -1670,6 +1848,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Area Sales Manager",
+    "roleZh": "地區業務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "5-8",
     "low": 120000,
@@ -1682,6 +1861,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "OTC/Drugstore Sales Manager/ KA Manager",
+    "roleZh": "藥房通路業務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "5-8",
     "low": 80000,
@@ -1694,6 +1874,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Sales Representative",
+    "roleZh": "醫藥銷售代表",
     "function": "Biotechnology & Healthcare",
     "seniority": "2-4",
     "low": 60000,
@@ -1706,6 +1887,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Affairs Director",
+    "roleZh": "醫藥學術處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 200000,
@@ -1718,6 +1900,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Science Liaison",
+    "roleZh": "醫藥學術專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "5+",
     "low": 80000,
@@ -1730,6 +1913,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Advisor/ Medical Affairs Manager",
+    "roleZh": "醫藥顧問",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 150000,
@@ -1742,6 +1926,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Clinical Research Manager",
+    "roleZh": "臨床研究經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 140000,
@@ -1754,6 +1939,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Clinical Research Assistant",
+    "roleZh": "臨床研究助理",
     "function": "Biotechnology & Healthcare",
     "seniority": "1-2",
     "low": 40000,
@@ -1766,6 +1952,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Registered Nurse",
+    "roleZh": "護理師",
     "function": "Biotechnology & Healthcare",
     "seniority": "2+",
     "low": 40000,
@@ -1778,6 +1965,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Physician",
+    "roleZh": "醫師",
     "function": "Biotechnology & Healthcare",
     "seniority": "5+",
     "low": 120000,
@@ -1790,6 +1978,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Clinical Application Specialist",
+    "roleZh": "臨床應用專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3+",
     "low": 60000,
@@ -1802,6 +1991,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regulatory Affairs/QA/QC Director",
+    "roleZh": "法規／品管事務處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 150000,
@@ -1814,6 +2004,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regulatory Affairs/QA/QC Manager",
+    "roleZh": "法規／品管事務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 125000,
@@ -1826,6 +2017,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regulatory Affairs/QA/QC Executive",
+    "roleZh": "法規／品管事務專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 50000,
@@ -1838,8 +2030,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Director",
+    "roleZh": "行銷協理",
     "function": "Biotechnology & Healthcare",
-    "seniority": "12+ 180,000 280,000",
+    "seniority": "12+180,000280,000",
     "low": 180000,
     "mid": 230000,
     "high": 280000,
@@ -1850,8 +2043,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Manager",
+    "roleZh": "行銷經理",
     "function": "Biotechnology & Healthcare",
-    "seniority": "8+ 150,000 240,000",
+    "seniority": "8+150,000240,000",
     "low": 150000,
     "mid": 195000,
     "high": 240000,
@@ -1862,6 +2056,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Manager Medical Device",
+    "roleZh": "產品經理 醫療器材",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 80000,
@@ -1874,8 +2069,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Registration Specialist",
+    "roleZh": "產品登記專員",
     "function": "Biotechnology & Healthcare",
-    "seniority": "3-5 50,000 75,000",
+    "seniority": "3-550,00075,000",
     "low": 50000,
     "mid": 62500,
     "high": 75000,
@@ -1886,6 +2082,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Product Specialist",
+    "roleZh": "資深產品專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 65000,
@@ -1898,6 +2095,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Specialist",
+    "roleZh": "產品專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 50000,
@@ -1910,6 +2108,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regional Sales Manager/BD Manager",
+    "roleZh": "區域業務／開發經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 65000,
@@ -1922,6 +2121,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Area Sales Manager",
+    "roleZh": "地區業務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 65000,
@@ -1934,6 +2134,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Channels Sales Manager/KA Manager",
+    "roleZh": "通路業務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 80000,
@@ -1946,6 +2147,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Executive",
+    "roleZh": "銷售專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 45000,
@@ -1958,6 +2160,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Affairs Manager/Director",
+    "roleZh": "醫療事務經理／協理",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 150000,
@@ -1970,6 +2173,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Medical Science Liaison",
+    "roleZh": "醫療學術專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "5+",
     "low": 100000,
@@ -1982,6 +2186,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Clinical Research Manager",
+    "roleZh": "臨床研究經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 120000,
@@ -1993,7 +2198,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Medical Related Clinical Research Assistant",
+    "role": "Clinical Research Assistant",
+    "roleZh": "醫療器材 臨床研究助理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 50000,
@@ -2005,7 +2211,73 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Registered Nurse",
+    "roleZh": "護理師",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "1-2",
+    "low": 35000,
+    "mid": 35000,
+    "high": 35000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 40
+  },
+  {
+    "country": "tw",
+    "role": "Clinical Application Specialist",
+    "roleZh": "臨床應用專員",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "2+",
+    "low": 40000,
+    "mid": 40000,
+    "high": 40000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 40
+  },
+  {
+    "country": "tw",
+    "role": "Field Service Engineer",
+    "roleZh": "技術服務工程師",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "5+",
+    "low": 70000,
+    "mid": 70000,
+    "high": 70000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 40
+  },
+  {
+    "country": "tw",
+    "role": "Regulatory Affairs/QA/QC Director",
+    "roleZh": "法規／品管事務處長",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "10+",
+    "low": 150000,
+    "mid": 150000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 40
+  },
+  {
+    "country": "tw",
+    "role": "Regulatory Affairs/QA/QC Manager",
+    "roleZh": "法規／品管事務經理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "8+",
+    "low": 120000,
+    "mid": 120000,
+    "high": 120000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 40
+  },
+  {
+    "country": "tw",
     "role": "Regulatory Affairs/QA/QC Executive",
+    "roleZh": "法規／品管事務專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-8",
     "low": 45000,
@@ -2018,6 +2290,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Director",
+    "roleZh": "行銷協理",
     "function": "Biotechnology & Healthcare",
     "seniority": "12+",
     "low": 150000,
@@ -2030,6 +2303,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Marketing Manager",
+    "roleZh": "行銷經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 100000,
@@ -2042,6 +2316,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Manager",
+    "roleZh": "產品經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 65000,
@@ -2053,7 +2328,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Biotech Product Registration Specialist",
+    "role": "Product Registration Specialist",
+    "roleZh": "產品登記專員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 45000,
@@ -2065,9 +2341,88 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Medical Affairs Manager/Director",
+    "role": "Senior Product Specialist",
+    "roleZh": "資深產品專員",
     "function": "Biotechnology & Healthcare",
-    "seniority": "10+ 150,000 250,000",
+    "seniority": "3+",
+    "low": 90000,
+    "mid": 90000,
+    "high": 90000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Product Specialist",
+    "roleZh": "產品專員",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "2-3",
+    "low": 70000,
+    "mid": 70000,
+    "high": 70000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Regional Sales Manager/BD Manager",
+    "roleZh": "區域業務／開發經理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "8-10",
+    "low": 180000,
+    "mid": 180000,
+    "high": 180000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Area Sales Manager",
+    "roleZh": "地區業務經理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "5-8",
+    "low": 150000,
+    "mid": 150000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Channels Sales Manager/KA Manager",
+    "roleZh": "通路業務經理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "5-8",
+    "low": 150000,
+    "mid": 150000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Sales Executive",
+    "roleZh": "銷售專員",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "2-4",
+    "low": 60000,
+    "mid": 60000,
+    "high": 60000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 41
+  },
+  {
+    "country": "tw",
+    "role": "Medical Affairs Manager/Director",
+    "roleZh": "醫療事務經理／協理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "10+150,000250,000",
     "low": 150000,
     "mid": 200000,
     "high": 250000,
@@ -2077,9 +2432,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Clinical Research Manager",
+    "role": "Medical Science Liaison",
+    "roleZh": "醫療學術專員",
     "function": "Biotechnology & Healthcare",
-    "seniority": "10+ 120,000 150,000",
+    "seniority": "5+100,000150,000",
+    "low": 100000,
+    "mid": 125000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 42
+  },
+  {
+    "country": "tw",
+    "role": "Clinical Research Manager",
+    "roleZh": "臨床研究經理",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "10+120,000150,000",
     "low": 120000,
     "mid": 135000,
     "high": 150000,
@@ -2090,8 +2459,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Clinical Research Assistant",
+    "roleZh": "臨床研究助理",
     "function": "Biotechnology & Healthcare",
-    "seniority": "2-4 50,000 70,000",
+    "seniority": "2-450,00070,000",
     "low": 50000,
     "mid": 60000,
     "high": 70000,
@@ -2101,9 +2471,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Clinical Application Specialist",
+    "role": "Field Service Engineer",
+    "roleZh": "技術服務工程師",
     "function": "Biotechnology & Healthcare",
-    "seniority": "8+ 65,000 100,000",
+    "seniority": "5+65,000100,000",
     "low": 65000,
     "mid": 82500,
     "high": 100000,
@@ -2113,9 +2484,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Field Service Engineer",
+    "role": "Clinical Application Specialist",
+    "roleZh": "臨床應用專員",
     "function": "Biotechnology & Healthcare",
-    "seniority": "5+ 65,000 100,000",
+    "seniority": "8+65,000100,000",
     "low": 65000,
     "mid": 82500,
     "high": 100000,
@@ -2126,6 +2498,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regulatory Affairs/QA/QC Director",
+    "roleZh": "法規／品管事務處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 150000,
@@ -2138,6 +2511,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regulatory Affairs/QA/QC Manager",
+    "roleZh": "法規／品管事務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "Not specified",
     "low": 120000,
@@ -2149,7 +2523,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Regulatory Affairs/QA/QC Executive",
+    "roleZh": "法規／品管事務專員",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "3-545,000100,000",
+    "low": 45000,
+    "mid": 72500,
+    "high": 100000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 43
+  },
+  {
+    "country": "tw",
     "role": "Plant/Production Director",
+    "roleZh": "廠長/生產處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "10+",
     "low": 200000,
@@ -2162,6 +2550,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production Manager",
+    "roleZh": "生產經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8+",
     "low": 120000,
@@ -2173,7 +2562,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Production Supervisor Biotech",
+    "role": "Production Supervisor",
+    "roleZh": "生產課長 生物技術",
     "function": "Biotechnology & Healthcare",
     "seniority": "5-8",
     "low": 75000,
@@ -2186,6 +2576,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production Executive",
+    "roleZh": "生產技術員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-5",
     "low": 45000,
@@ -2198,6 +2589,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Facility/Engineering Director",
+    "roleZh": "工務處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "15+",
     "low": 100000,
@@ -2210,6 +2602,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Facility/Engineering Manager",
+    "roleZh": "工務經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "10-15",
     "low": 75000,
@@ -2222,6 +2615,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Facility/Engineering Supervisor",
+    "roleZh": "工務課長",
     "function": "Biotechnology & Healthcare",
     "seniority": "8-10",
     "low": 55000,
@@ -2234,6 +2628,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Facility/Engineering Executive",
+    "roleZh": "工務技術員",
     "function": "Biotechnology & Healthcare",
     "seniority": "3-8",
     "low": 35000,
@@ -2246,6 +2641,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "R&D VP",
+    "roleZh": "研發長",
     "function": "Biotechnology & Healthcare",
     "seniority": "15+",
     "low": 180000,
@@ -2257,7 +2653,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Biotech R&D Director",
+    "role": "R&D Director",
+    "roleZh": "研發處長",
     "function": "Biotechnology & Healthcare",
     "seniority": "10-15",
     "low": 120000,
@@ -2269,19 +2666,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Researcher",
-    "function": "Biotechnology & Healthcare",
-    "seniority": "3-8",
-    "low": 50000,
-    "mid": 70000,
-    "high": 90000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 45
-  },
-  {
-    "country": "tw",
     "role": "R&D Manager",
+    "roleZh": "研發經理",
     "function": "Biotechnology & Healthcare",
     "seniority": "8-10",
     "low": 70000,
@@ -2293,7 +2679,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Researcher",
+    "roleZh": "研究員",
+    "function": "Biotechnology & Healthcare",
+    "seniority": "3-8",
+    "low": 50000,
+    "mid": 70000,
+    "high": 90000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 45
+  },
+  {
+    "country": "tw",
     "role": "CRM Senior Manager (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "資深經理（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "10+",
     "low": 130000,
@@ -2306,6 +2706,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Manager (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "經理（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "8+",
     "low": 85000,
@@ -2318,6 +2719,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Senior Associate Manager (Brand/Trade/CRM/ Social & Digital/EC)",
+    "roleZh": "資深副理（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "6-8",
     "low": 80000,
@@ -2330,6 +2732,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Associate Manager (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "副理（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "5-7",
     "low": 70000,
@@ -2342,6 +2745,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Senior Supervisor (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "資深主任（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "4-6",
     "low": 60000,
@@ -2354,6 +2758,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Supervisor (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "主任（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "3-5",
     "low": 50000,
@@ -2366,6 +2771,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Specialist (Brand/Trade/CRM/Social & Digital/EC)",
+    "roleZh": "專員（品牌／通路／ ／數位／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "<2",
     "low": 35000,
@@ -2377,7 +2783,34 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Marketing Director",
+    "roleZh": "行銷總監",
+    "function": "Marketing & Digitalization",
+    "seniority": "10+",
+    "low": 250000,
+    "mid": 250000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 48
+  },
+  {
+    "country": "tw",
+    "role": "Marketing Manager",
+    "roleZh": "行銷經理",
+    "function": "Marketing & Digitalization",
+    "seniority": "8+",
+    "low": 100000,
+    "mid": 140000,
+    "high": 180000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 48
+  },
+  {
+    "country": "tw",
     "role": "Logistic Manager",
+    "roleZh": "物流經理",
     "function": "Marketing & Digitalization",
     "seniority": "8+",
     "low": 80000,
@@ -2389,12 +2822,26 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Brand Manager",
+    "role": "PR & Communication Manager",
+    "roleZh": "公關暨溝通經理 零售",
     "function": "Marketing & Digitalization",
-    "seniority": "12+",
-    "low": 100000,
-    "mid": 140000,
-    "high": 180000,
+    "seniority": "8+",
+    "low": 70000,
+    "mid": 105000,
+    "high": 140000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 48
+  },
+  {
+    "country": "tw",
+    "role": "CRM/Digital Manager",
+    "roleZh": "各戶關係／數位經理 批發",
+    "function": "Marketing & Digitalization",
+    "seniority": "8+",
+    "low": 160000,
+    "mid": 160000,
+    "high": 160000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 48
@@ -2402,6 +2849,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Brand General Manager",
+    "roleZh": "品牌總經理",
     "function": "Marketing & Digitalization",
     "seniority": "15+",
     "low": 200000,
@@ -2413,7 +2861,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Brand Manager",
+    "roleZh": "品牌經理",
+    "function": "Marketing & Digitalization",
+    "seniority": "12+",
+    "low": 100000,
+    "mid": 140000,
+    "high": 180000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 48
+  },
+  {
+    "country": "tw",
     "role": "Marketing Manager",
+    "roleZh": "行銷經理",
     "function": "Marketing & Digitalization",
     "seniority": "9+",
     "low": 100000,
@@ -2426,6 +2888,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Manager (Product/Digital/PR/Trade/CRM/EC)",
+    "roleZh": "經理（產品／數位／公關／通路／ ／電商）",
     "function": "Marketing & Digitalization",
     "seniority": "7+",
     "low": 95000,
@@ -2437,31 +2900,60 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Marketing Manager",
+    "role": "CRM",
+    "roleZh": "副理（產品／數位／公關／通路／ ／電商）",
     "function": "Marketing & Digitalization",
-    "seniority": "8+",
-    "low": 100000,
-    "mid": 140000,
-    "high": 180000,
+    "seniority": "5-7",
+    "low": 90000,
+    "mid": 90000,
+    "high": 90000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 48
   },
   {
     "country": "tw",
-    "role": "Retail & Wholesale PR & Communication Manager",
+    "role": "CRM",
+    "roleZh": "主任（產品／數位／公關／通路／ ／電商）",
     "function": "Marketing & Digitalization",
-    "seniority": "8+",
-    "low": 70000,
-    "mid": 105000,
-    "high": 140000,
+    "seniority": "3-5",
+    "low": 75000,
+    "mid": 75000,
+    "high": 75000,
     "period": "monthly",
     "source": "adeccoTw",
     "page": 48
   },
   {
     "country": "tw",
+    "role": "CRM Specialist (Product/Digital/PR/Trade/CRM/EC)",
+    "roleZh": "專員（產品／數位／公關／通路／ ／電商）",
+    "function": "Marketing & Digitalization",
+    "seniority": "<3",
+    "low": 60000,
+    "mid": 60000,
+    "high": 60000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 48
+  },
+  {
+    "country": "tw",
+    "role": "Marketing Director",
+    "roleZh": "行銷總監/部長",
+    "function": "Marketing & Digitalization",
+    "seniority": "10+",
+    "low": 300000,
+    "mid": 300000,
+    "high": 300000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 49
+  },
+  {
+    "country": "tw",
     "role": "Marketing Manager",
+    "roleZh": "行銷經理/部經理",
     "function": "Marketing & Digitalization",
     "seniority": "8+",
     "low": 80000,
@@ -2473,7 +2965,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "CRM Manager (Wholesale/CRM/Digital/PR)",
+    "roleZh": "經理（批發／ ／數位商務／物流／公關）",
+    "function": "Marketing & Digitalization",
+    "seniority": "8+",
+    "low": 150000,
+    "mid": 150000,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 49
+  },
+  {
+    "country": "tw",
     "role": "Senior Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "批發 資深經理（品牌／數位／社群／公關／產品）",
     "function": "Marketing & Digitalization",
     "seniority": "8+",
     "low": 135000,
@@ -2486,6 +2992,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "經理（品牌／數位／社群／公關／產品）",
     "function": "Marketing & Digitalization",
     "seniority": "5-6+",
     "low": 100000,
@@ -2498,6 +3005,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Associate Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "副理（品牌／數位／社群／公關／產品）",
     "function": "Marketing & Digitalization",
     "seniority": "3+",
     "low": 70000,
@@ -2510,6 +3018,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Manager (Key Account/Regional/Distributor)",
+    "roleZh": "資深經理（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "10+",
     "low": 120000,
@@ -2521,7 +3030,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Manager (Key Account/Regional/Distributor)",
+    "role": "FMCG Manager (Key Account/Regional/Distributor)",
+    "roleZh": "民生快銷品 經理（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "7+",
     "low": 80000,
@@ -2534,6 +3044,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Assistant/Associate Manager (Key Account/Regional/Distributor)",
+    "roleZh": "副理（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "5+",
     "low": 60000,
@@ -2546,6 +3057,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Supervisor (Key Account/Regional/Distributor)",
+    "roleZh": "資深主任（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "4-6",
     "low": 55000,
@@ -2558,6 +3070,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supervisor (Key Account/Regional/Distributor)",
+    "roleZh": "主任（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "2-5",
     "low": 50000,
@@ -2570,6 +3083,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Specialist (Key Account/Regional/Distributor)",
+    "roleZh": "專員（主要客戶／區域／經銷商）",
     "function": "Sales",
     "seniority": "<2",
     "low": 35000,
@@ -2582,6 +3096,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "General Manager/Commercial Head",
+    "roleZh": "總經理/商務總監",
     "function": "Sales",
     "seniority": "15+",
     "low": 180000,
@@ -2594,6 +3109,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Brand Manager/BU Head",
+    "roleZh": "品牌經理/部長",
     "function": "Sales",
     "seniority": "10+",
     "low": 130000,
@@ -2606,6 +3122,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Operations Manager",
+    "roleZh": "營運經理",
     "function": "Sales",
     "seniority": "8+",
     "low": 75000,
@@ -2618,6 +3135,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "CRM Manager (Wholesale/CRM/Digital/PR)",
+    "roleZh": "經理 （批發 / / 數位商務/ 物流 / 公關）",
     "function": "Sales",
     "seniority": "8+",
     "low": 75000,
@@ -2630,6 +3148,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "General Manager/Commercial Director",
+    "roleZh": "總經理／商務總監",
     "function": "Sales",
     "seniority": "15+",
     "low": 180000,
@@ -2642,6 +3161,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Brand Manager/Retail Manager",
+    "roleZh": "品牌經理／零售經理",
     "function": "Sales",
     "seniority": "10+",
     "low": 120000,
@@ -2654,6 +3174,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Operations Manager",
+    "roleZh": "營運經理",
     "function": "Sales",
     "seniority": "8+",
     "low": 80000,
@@ -2666,6 +3187,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regional Manager",
+    "roleZh": "區域經理",
     "function": "Sales",
     "seniority": "5+",
     "low": 70000,
@@ -2678,6 +3200,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Retail operations/After Sales/CRM",
+    "roleZh": "零售營運專員",
     "function": "Sales",
     "seniority": "2+",
     "low": 45000,
@@ -2690,6 +3213,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Wholeslae Director",
+    "roleZh": "批發總監",
     "function": "Sales",
     "seniority": "10+",
     "low": 100000,
@@ -2701,103 +3225,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Sales Manager",
-    "function": "Sales",
-    "seniority": "10+",
-    "low": 80000,
-    "mid": 100000,
-    "high": 120000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Sales Director",
-    "function": "Sales",
-    "seniority": "10+",
-    "low": 130000,
-    "mid": 165000,
-    "high": 200000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Assistance Sales Manager",
-    "function": "Sales",
-    "seniority": "5-8+",
-    "low": 65000,
-    "mid": 77500,
-    "high": 90000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Sales Supervisor",
-    "function": "Sales",
-    "seniority": "5-7",
-    "low": 50000,
-    "mid": 60000,
-    "high": 70000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Counter Manager/Store Manager",
-    "function": "Sales",
-    "seniority": "5-7",
-    "low": 55000,
-    "mid": 62500,
-    "high": 70000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Education Manager",
-    "function": "Sales",
-    "seniority": "8+",
-    "low": 70000,
-    "mid": 90000,
-    "high": 110000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Beauty Trainer",
-    "function": "Sales",
-    "seniority": "3-5+",
-    "low": 50000,
-    "mid": 65000,
-    "high": 80000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
-    "role": "Beauty Advisor",
-    "function": "Sales",
-    "seniority": "1-2",
-    "low": 30000,
-    "mid": 40000,
-    "high": 50000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 52
-  },
-  {
-    "country": "tw",
     "role": "Wholesale Manager",
+    "roleZh": "批發經理",
     "function": "Sales",
     "seniority": "8+",
     "low": 80000,
@@ -2809,7 +3238,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Shop/Store Manager Retail & Wholesale",
+    "role": "Shop/Store Manager",
+    "roleZh": "店經理 零售",
     "function": "Sales",
     "seniority": "8+",
     "low": 80000,
@@ -2821,7 +3251,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Retail & Wholesale Assistant Store Manager",
+    "role": "Assistant Store Manager",
+    "roleZh": "店副理",
     "function": "Sales",
     "seniority": "6+",
     "low": 65000,
@@ -2834,6 +3265,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supervisor/Department Manager",
+    "roleZh": "店主任／部門經理 批發",
     "function": "Sales",
     "seniority": "4+",
     "low": 50000,
@@ -2846,6 +3278,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Associate/Client Advisor",
+    "roleZh": "銷售專員",
     "function": "Sales",
     "seniority": "2+",
     "low": 30000,
@@ -2857,7 +3290,112 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Sales Director",
+    "roleZh": "業務總監",
+    "function": "Sales",
+    "seniority": "10+",
+    "low": 130000,
+    "mid": 165000,
+    "high": 200000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Sales Manager",
+    "roleZh": "業務經理",
+    "function": "Sales",
+    "seniority": "10+",
+    "low": 80000,
+    "mid": 100000,
+    "high": 120000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Assistance Sales Manager",
+    "roleZh": "業務副理",
+    "function": "Sales",
+    "seniority": "5-8+",
+    "low": 65000,
+    "mid": 77500,
+    "high": 90000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Sales Supervisor",
+    "roleZh": "業務主任",
+    "function": "Sales",
+    "seniority": "5-7",
+    "low": 50000,
+    "mid": 60000,
+    "high": 70000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Counter Manager/Store Manager",
+    "roleZh": "櫃長／店長",
+    "function": "Sales",
+    "seniority": "5-7",
+    "low": 55000,
+    "mid": 62500,
+    "high": 70000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Education Manager",
+    "roleZh": "教育訓練經理",
+    "function": "Sales",
+    "seniority": "8+",
+    "low": 70000,
+    "mid": 90000,
+    "high": 110000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Beauty Trainer",
+    "roleZh": "美容講師",
+    "function": "Sales",
+    "seniority": "3-5+",
+    "low": 50000,
+    "mid": 65000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
+    "role": "Beauty Advisor",
+    "roleZh": "美容顧問",
+    "function": "Sales",
+    "seniority": "1-2",
+    "low": 30000,
+    "mid": 40000,
+    "high": 50000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 52
+  },
+  {
+    "country": "tw",
     "role": "Account Director",
+    "roleZh": "總監",
     "function": "Sales",
     "seniority": "8+",
     "low": 120000,
@@ -2870,6 +3408,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Public Relations Assistance Account Director",
+    "roleZh": "副總監 公關產業",
     "function": "Sales",
     "seniority": "7+",
     "low": 90000,
@@ -2882,6 +3421,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Account Manager",
+    "roleZh": "資深客戶經理",
     "function": "Sales",
     "seniority": "5+",
     "low": 70000,
@@ -2894,6 +3434,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Account Mananger",
+    "roleZh": "客戶經理",
     "function": "Sales",
     "seniority": "3-5+",
     "low": 50000,
@@ -2906,6 +3447,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Supervisor",
+    "roleZh": "主任",
     "function": "Sales",
     "seniority": "2-5+",
     "low": 42000,
@@ -2918,6 +3460,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Senior) Account Executive",
+    "roleZh": "（資深）專案執行",
     "function": "Sales",
     "seniority": "1-3+",
     "low": 32000,
@@ -2930,6 +3473,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Partner",
+    "roleZh": "聯合投資人 教育產業",
     "function": "Sales",
     "seniority": "10+",
     "low": 200000,
@@ -2942,6 +3486,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Education Consultant",
+    "roleZh": "總監",
     "function": "Sales",
     "seniority": "8+",
     "low": 150000,
@@ -2954,6 +3499,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Consulting Manager",
+    "roleZh": "經理",
     "function": "Sales",
     "seniority": "5+",
     "low": 70000,
@@ -2966,6 +3512,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Consultant",
+    "roleZh": "顧問",
     "function": "Sales",
     "seniority": "2-3",
     "low": 40000,
@@ -2978,6 +3525,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "資深經理（品牌 數位 社群 公關 產品） ︵電商",
     "function": "Sales",
     "seniority": "8+",
     "low": 150000,
@@ -2989,7 +3537,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Manager (Brand/Digital/Community/PR/Product) SaaS",
+    "role": "Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "經理（品牌 數位 社群 公關 產品）） 遊戲",
     "function": "Sales",
     "seniority": "5-6+",
     "low": 90000,
@@ -3001,7 +3550,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "SaaS Associate Manager (Brand/Digital/Community/PR/Product) Blockchain)",
+    "role": "SaaS Associate Manager (Brand/Digital/Community/PR/Product)",
+    "roleZh": "副理（品牌 數位 社群 公關 產品） 軟體",
     "function": "Sales",
     "seniority": "3+",
     "low": 60000,
@@ -3013,7 +3563,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Blockchain) Supervisor (Brand/Digital/Community/PR/Product)",
+    "role": "Supervisor (Brand/Digital/Community/PR/Product)",
+    "roleZh": "區塊鏈︶ 主任（品牌 數位 社群 公關 產品）",
     "function": "Sales",
     "seniority": "2+",
     "low": 50000,
@@ -3026,6 +3577,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Specialist (Brand/Digital/Community/PR/Product)",
+    "roleZh": "專員（品牌 數位 社群 公關 產品）",
     "function": "Sales",
     "seniority": "1+",
     "low": 30000,
@@ -3038,6 +3590,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Business Unit Head/Taiwan General Manager",
+    "roleZh": "事業部負責人／總經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 200000,
@@ -3050,6 +3603,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Plant Manager/Operation VP or Director",
+    "roleZh": "廠長／營運總監／協理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 200000,
@@ -3062,6 +3616,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Manager/Director/VP",
+    "roleZh": "業務經理／協理／總監",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3074,6 +3629,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sales Engineer",
+    "roleZh": "業務（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 70000,
@@ -3085,7 +3641,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software) Manufacturing (System Device/Module)",
+    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software)",
+    "roleZh": "（資深）研發經理（機構／硬體／韌體／軟體） 科技製造︵系統裝置／模組︶",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3097,7 +3654,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Manufacturing (System Device/Module) (Sr.) R&D Engineer (Mechanical/Hardware/Firmware/Software)",
+    "role": "(Sr.) R&D Engineer (Mechanical/Hardware/Firmware/Software)",
+    "roleZh": "（資深）研發工程師（機構／硬體／韌體／軟體）",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 70000,
@@ -3110,6 +3668,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Program/Project Manager",
+    "roleZh": "專案經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 70000,
@@ -3122,6 +3681,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Production/Manufacturing",
+    "roleZh": "生產製造主管",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 150000,
@@ -3134,6 +3694,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Manager",
+    "roleZh": "生產製造（資深）經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3146,6 +3707,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Engineer",
+    "roleZh": "生產製造（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3158,6 +3720,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Equipment Manager",
+    "roleZh": "（資深）設備經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 107000,
@@ -3170,6 +3733,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Equipment Engineer",
+    "roleZh": "設備工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3182,6 +3746,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Sourcing/Procurement/SCM",
+    "roleZh": "採購／資材主管",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 150000,
@@ -3194,6 +3759,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sourcing/Procurement/SCM Manager",
+    "roleZh": "（資深）採購／資材經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3206,6 +3772,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
+    "roleZh": "（資深）採購／資材工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3218,6 +3785,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Quality",
+    "roleZh": "品保主管",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 200000,
@@ -3230,6 +3798,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Manager",
+    "roleZh": "品保（資深）經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3242,6 +3811,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Engineer",
+    "roleZh": "品保（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 50000,
@@ -3254,6 +3824,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) EHS Manager",
+    "roleZh": "（資深）環安衛經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 150000,
@@ -3266,6 +3837,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "EHS Engineer",
+    "roleZh": "環安衛工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3278,8 +3850,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Business Unit Head/Taiwan General Manager",
+    "roleZh": "事業部負責人／總經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 200000,
     "mid": 350000,
     "high": 500000,
@@ -3290,8 +3863,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Plant Maneger/Operation VP or Director",
+    "roleZh": "廠長／營運總監／協理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 150000,
     "mid": 200000,
     "high": 250000,
@@ -3302,8 +3876,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Manger/Director/VP",
+    "roleZh": "業務經理／協理／總監",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 120000,
     "mid": 160000,
     "high": 200000,
@@ -3314,8 +3889,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sales Engineer",
+    "roleZh": "業務（資深）工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 55000,
     "mid": 87500,
     "high": 120000,
@@ -3325,9 +3901,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software) General Manufacturing",
+    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software)",
+    "roleZh": "（資深）研發經理（機構／硬體／韌體／軟體）",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 100000,
     "mid": 140000,
     "high": 180000,
@@ -3337,9 +3914,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "General Manufacturing (Sr.) R&D Engineer (Mechanical/Hardware/Firmware/Software)",
+    "role": "(Sr.) R&D Engineer (Mechanical/Hardware/Firmware/Software)",
+    "roleZh": "（資深）研發工程師（機構／硬體／韌體／軟體）",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 55000,
     "mid": 77500,
     "high": 100000,
@@ -3350,8 +3928,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Program/Project Manager",
+    "roleZh": "專案經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 60000,
     "mid": 105000,
     "high": 150000,
@@ -3362,8 +3941,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Production/Manufacturing",
+    "roleZh": "生產製造主管",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 120000,
     "mid": 210000,
     "high": 300000,
@@ -3374,8 +3954,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Manager",
+    "roleZh": "生產製造（資深）經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 85000,
     "mid": 142500,
     "high": 200000,
@@ -3386,8 +3967,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Engineer",
+    "roleZh": "生產製造（資深）工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 60000,
     "mid": 105000,
     "high": 150000,
@@ -3398,8 +3980,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Equipment Manager",
+    "roleZh": "（資深）設備經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 100000,
     "mid": 150000,
     "high": 200000,
@@ -3410,8 +3993,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Equipment Engineer",
+    "roleZh": "（資深）設備工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 150000,
     "mid": 375000,
     "high": 600000,
@@ -3422,8 +4006,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Sourcing/Procurement/SCM",
+    "roleZh": "採購／資材主管",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 120000,
     "mid": 210000,
     "high": 300000,
@@ -3433,21 +4018,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
-    "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
-    "low": 75000,
-    "mid": 112500,
-    "high": 150000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 56
-  },
-  {
-    "country": "tw",
     "role": "(Sr.) Sourcing/Procurement/SCM Manager",
+    "roleZh": "（資深）採購／資材經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 100000,
     "mid": 140000,
     "high": 180000,
@@ -3457,9 +4031,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Head of Quality",
+    "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
+    "roleZh": "（資深）採購／資材工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
+    "low": 75000,
+    "mid": 112500,
+    "high": 150000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 56
+  },
+  {
+    "country": "tw",
+    "role": "Head of Quality",
+    "roleZh": "品保主管",
+    "function": "Engineering & Manufacturing",
+    "seniority": "15+",
     "low": 120000,
     "mid": 185000,
     "high": 250000,
@@ -3470,8 +4058,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Manager",
+    "roleZh": "品保（資深）經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 107000,
     "mid": 153500,
     "high": 200000,
@@ -3482,8 +4071,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Engineer",
+    "roleZh": "品保（資深）工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 75000,
     "mid": 112500,
     "high": 150000,
@@ -3494,8 +4084,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) EHS Manager",
+    "roleZh": "（資深）環安衛經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 107000,
     "mid": 153500,
     "high": 200000,
@@ -3506,8 +4097,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) EHS Engineer",
+    "roleZh": "（資深）環安衛工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 60000,
     "mid": 75000,
     "high": 90000,
@@ -3518,6 +4110,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Business Unit Head/Taiwan General Manager",
+    "roleZh": "事業部負責人／總經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 250000,
@@ -3530,6 +4123,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Plant Manager/Operation VP/Director",
+    "roleZh": "廠長／營運總監／協理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 200000,
@@ -3541,7 +4135,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Sales Manager/Director/VP",
+    "roleZh": "業務經理／協理／總監",
+    "function": "Engineering & Manufacturing",
+    "seniority": "Not specified",
+    "low": 120000,
+    "mid": 185000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 57
+  },
+  {
+    "country": "tw",
     "role": "(Sr.) Sales Engineer",
+    "roleZh": "業務（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3553,7 +4161,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software) Automation, Machinery & Tool, Equipment",
+    "role": "(Sr.) R&D Manager (Mechanical/Hardware/Firmware/Software)",
+    "roleZh": "（資深）研發經理（機構／硬體／韌體／軟體）",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 80000,
@@ -3565,7 +4174,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Automation, Machinery & Tool, Equipment (Sr.) R&D Engineer (Mechanical/HardwarecFirmware/Software)",
+    "role": "(Sr.) R&D Engineer (Mechanical/HardwarecFirmware/Software)",
+    "roleZh": "（資深）研發工程師（機構／硬體／韌體／軟體）",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 75000,
@@ -3578,6 +4188,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Program/Project Manager",
+    "roleZh": "專案經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 80000,
@@ -3590,6 +4201,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Production/Manufacturing",
+    "roleZh": "生產製造主管",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3602,6 +4214,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Manager",
+    "roleZh": "生產製造（資深）經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3614,6 +4227,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Production/Manufacturing (Sr.) Engineer",
+    "roleZh": "生產製造（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 75000,
@@ -3626,6 +4240,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Equipment Manager",
+    "roleZh": "（資深）設備經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 100000,
@@ -3638,6 +4253,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Equipment Engineer",
+    "roleZh": "（資深）設備工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 60000,
@@ -3650,6 +4266,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Sourcing/Procurement/SCM",
+    "roleZh": "採購／資材主管",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 150000,
@@ -3662,6 +4279,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sourcing/Procurement/SCM Manager",
+    "roleZh": "（資深）採購／資材經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3674,6 +4292,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
+    "roleZh": "（資深）採購／資材工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 70000,
@@ -3685,7 +4304,21 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "Head of Quality",
+    "roleZh": "品保主管",
+    "function": "Engineering & Manufacturing",
+    "seniority": "Not specified",
+    "low": 200000,
+    "mid": 250000,
+    "high": 300000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 57
+  },
+  {
+    "country": "tw",
     "role": "(Sr.) Quality Manager",
+    "roleZh": "品保（資深）經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 107000,
@@ -3698,6 +4331,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Engineer",
+    "roleZh": "品保（資深）工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 120000,
@@ -3710,6 +4344,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) EHS Manager",
+    "roleZh": "（資深）環安衛經理",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 107000,
@@ -3722,6 +4357,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "EHS Engineer",
+    "roleZh": "環安衛工程師",
     "function": "Engineering & Manufacturing",
     "seniority": "Not specified",
     "low": 75000,
@@ -3734,8 +4370,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Business Unit Head/Taiwan General Manager",
+    "roleZh": "事業部負責人／總經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "20+",
     "low": 300000,
     "mid": 450000,
     "high": 600000,
@@ -3746,8 +4383,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Plant Maneger/Operation VP/Director",
+    "roleZh": "廠長／營運總監／協理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 250000,
     "mid": 375000,
     "high": 500000,
@@ -3758,8 +4396,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Manger/Director/VP",
+    "roleZh": "業務經理／協理／總監",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 150000,
     "mid": 275000,
     "high": 400000,
@@ -3770,8 +4409,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Sales Engineer",
+    "roleZh": "業務（資深）工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 80000,
     "mid": 115000,
     "high": 150000,
@@ -3781,9 +4421,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) Research Manager Chemical & Raw Material",
+    "role": "(Sr.) Research Manager",
+    "roleZh": "（資深）研發經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 120000,
     "mid": 160000,
     "high": 200000,
@@ -3793,9 +4434,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Chemical & Raw Material (Sr.) Researcher",
+    "role": "(Sr.) Researcher",
+    "roleZh": "（資深）研發工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 65000,
     "mid": 107500,
     "high": 150000,
@@ -3806,8 +4448,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Program/Project Manager",
+    "roleZh": "專案經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "7+",
     "low": 75000,
     "mid": 162500,
     "high": 250000,
@@ -3817,9 +4460,36 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Production/Manufacturing Engineer",
+    "role": "Head of Production/Manufacturing",
+    "roleZh": "生產製造主管",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "15+",
+    "low": 120000,
+    "mid": 185000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 58
+  },
+  {
+    "country": "tw",
+    "role": "Production/Manufacturing (Sr.) Manager",
+    "roleZh": "生產製造（資深）經理",
+    "function": "Engineering & Manufacturing",
+    "seniority": "10+",
+    "low": 120000,
+    "mid": 185000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 58
+  },
+  {
+    "country": "tw",
+    "role": "Production/Manufacturing Engineer",
+    "roleZh": "生產製造工程師",
+    "function": "Engineering & Manufacturing",
+    "seniority": "5+",
     "low": 65000,
     "mid": 107500,
     "high": 150000,
@@ -3830,8 +4500,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Mechanical/Electrical & Instrument Manager",
+    "roleZh": "（資深）設備經理（機械／電力）",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 250000,
     "mid": 600000,
     "high": 950000,
@@ -3842,8 +4513,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Mechanical/Electrical & Instrument Engineer",
+    "roleZh": "（資深）設備工程師（機械／電力）",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 65000,
     "mid": 107500,
     "high": 150000,
@@ -3853,9 +4525,36 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
+    "role": "Head of Sourcing/Procurement/SCM",
+    "roleZh": "採購／資材主管",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
+    "low": 150000,
+    "mid": 225000,
+    "high": 300000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 58
+  },
+  {
+    "country": "tw",
+    "role": "(Sr.) Sourcing/Procurement/SCM Manager",
+    "roleZh": "（資深）採購／資材經理",
+    "function": "Engineering & Manufacturing",
+    "seniority": "8+",
+    "low": 120000,
+    "mid": 210000,
+    "high": 300000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 58
+  },
+  {
+    "country": "tw",
+    "role": "(Sr.) Sourcing/Procurement/SCM Engineer",
+    "roleZh": "（資深）採購／資材工程師",
+    "function": "Engineering & Manufacturing",
+    "seniority": "5+",
     "low": 80000,
     "mid": 140000,
     "high": 200000,
@@ -3866,8 +4565,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Head of Quality",
+    "roleZh": "品保主管",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 150000,
     "mid": 225000,
     "high": 300000,
@@ -3878,8 +4578,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Manager",
+    "roleZh": "品保（資深）經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 150000,
     "mid": 225000,
     "high": 300000,
@@ -3890,8 +4591,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) Quality Engineer",
+    "roleZh": "品保（資深）工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 80000,
     "mid": 140000,
     "high": 200000,
@@ -3902,8 +4604,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "(Sr.) EHS Manager",
+    "roleZh": "（資深）環安衛經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 100000,
     "mid": 175000,
     "high": 250000,
@@ -3914,8 +4617,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "EHS Engineer",
+    "roleZh": "環安衛工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 65000,
     "mid": 107500,
     "high": 150000,
@@ -3925,9 +4629,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "(Sr.) Sales Engineer Construction",
+    "role": "Sales Manager/Director/VP",
+    "roleZh": "業務經理／協理／總監",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
+    "low": 120000,
+    "mid": 185000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 59
+  },
+  {
+    "country": "tw",
+    "role": "(Sr.) Sales Engineer",
+    "roleZh": "業務（資深）工程師",
+    "function": "Engineering & Manufacturing",
+    "seniority": "8+",
     "low": 100000,
     "mid": 150000,
     "high": 200000,
@@ -3938,8 +4656,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Project Manager",
+    "roleZh": "專案經理",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 80000,
     "mid": 115000,
     "high": 150000,
@@ -3950,8 +4669,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Project Engineer",
+    "roleZh": "專案工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "3-6+",
     "low": 70000,
     "mid": 85000,
     "high": 100000,
@@ -3962,8 +4682,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Construction Manager Green Energy",
+    "roleZh": "工程經理 新興能源",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 150000,
     "mid": 200000,
     "high": 250000,
@@ -3974,8 +4695,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Civil Supervisor",
+    "roleZh": "土木工程主任",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 120000,
     "mid": 185000,
     "high": 250000,
@@ -3986,8 +4708,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Civil Engineer",
+    "roleZh": "土木工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 70000,
     "mid": 110000,
     "high": 150000,
@@ -3998,8 +4721,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Mechanical Supervisor",
+    "roleZh": "機械工程主任",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 90000,
     "mid": 105000,
     "high": 120000,
@@ -4010,8 +4734,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Mechanical Engineer",
+    "roleZh": "機械工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 70000,
     "mid": 85000,
     "high": 100000,
@@ -4022,8 +4747,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Electrical Supervisor",
+    "roleZh": "電子電機工程主任",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 100000,
     "mid": 175000,
     "high": 250000,
@@ -4034,8 +4760,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Electrical Engineer",
+    "roleZh": "電子電機工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 80000,
     "mid": 90000,
     "high": 100000,
@@ -4045,9 +4772,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Green Energy HSE Supervisor",
+    "role": "HSE Supervisor",
+    "roleZh": "環境安全衛生主任",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 100000,
     "mid": 125000,
     "high": 150000,
@@ -4058,8 +4786,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "HSE Engineer",
+    "roleZh": "環境安全衛生工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 75000,
     "mid": 97500,
     "high": 120000,
@@ -4070,8 +4799,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Quality Assurance Supervisor",
+    "roleZh": "測試工程主任",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 70000,
     "mid": 90000,
     "high": 110000,
@@ -4082,8 +4812,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Quality Assurance Engineer",
+    "roleZh": "測試工程師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 70000,
     "mid": 90000,
     "high": 110000,
@@ -4094,8 +4825,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Project Controller",
+    "roleZh": "專案管理師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 80000,
     "mid": 100000,
     "high": 120000,
@@ -4106,8 +4838,9 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Project Planner",
+    "roleZh": "專案規劃師",
     "function": "Engineering & Manufacturing",
-    "seniority": "Not specified",
+    "seniority": "5+",
     "low": 75000,
     "mid": 87500,
     "high": 100000,
@@ -4117,9 +4850,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Business Unit Head/Taiwan General Manager",
+    "role": "IC Business Unit Head/Taiwan General Manager",
+    "roleZh": "事業部負責人／總經理",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "18+",
     "low": 250000,
     "mid": 425000,
     "high": 600000,
@@ -4129,9 +4863,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC/Components Operation VP/Director",
+    "role": "IC IC/Components Operation VP/Director",
+    "roleZh": "營運總監／協理",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 250000,
     "mid": 350000,
     "high": 450000,
@@ -4141,9 +4876,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC/Components Sales Manager/Director/VP",
+    "role": "IC IC/Components Sales Manager/Director/VP",
+    "roleZh": "業務經理／協理／總監",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 120000,
     "mid": 260000,
     "high": 400000,
@@ -4153,9 +4889,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "role": "IC IC (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "roleZh": "（資深）設計經理（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "10+",
     "low": 150000,
     "mid": 325000,
     "high": 500000,
@@ -4165,9 +4902,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Semiconductor IC (Sr.) Designer (Analog/Digital/Mixed Signal IC)",
+    "role": "IC IC (Sr.) Designer (Analog/Digital/Mixed Signal IC)",
+    "roleZh": "半導體產業 （資深）設計工程師（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "1+",
     "low": 75000,
     "mid": 137500,
     "high": 200000,
@@ -4177,9 +4915,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Head of IC Manufacturing Process (Analog/Digital/Mixed Signal IC)",
+    "role": "IC Head of IC Manufacturing Process (Analog/Digital/Mixed Signal IC)",
+    "roleZh": "生產製造主管（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "15+",
     "low": 200000,
     "mid": 300000,
     "high": 400000,
@@ -4189,9 +4928,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC Manufacturing Process (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "role": "IC IC Manufacturing Process (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "roleZh": "生產製造（資深）經理（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "8+",
     "low": 150000,
     "mid": 225000,
     "high": 300000,
@@ -4201,21 +4941,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Head of IC Foundry Process/Quality (Analog/ Digital/Mixed Signal IC)",
+    "role": "IC IC Manufacturing Process (Sr.) Engineer (Analog/ Digital/Mixed Signal IC)",
+    "roleZh": "生產製造（資深）工程師（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
-    "low": 200000,
-    "mid": 300000,
-    "high": 400000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 62
-  },
-  {
-    "country": "tw",
-    "role": "IC Manufacturing Process (Sr.) Engineer (Analog/ Digital/Mixed Signal IC)",
-    "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "1+",
     "low": 50000,
     "mid": 100000,
     "high": 150000,
@@ -4225,9 +4954,23 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC Foundry Process/Quality (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "role": "IC Head of IC Foundry Process/Quality (Analog/ Digital/Mixed Signal IC)",
+    "roleZh": "製程／品管主管（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "15+",
+    "low": 200000,
+    "mid": 300000,
+    "high": 400000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 62
+  },
+  {
+    "country": "tw",
+    "role": "IC IC Foundry Process/Quality (Sr.) Manager (Analog/Digital/Mixed Signal IC)",
+    "roleZh": "製程／品管（資深）經理（類比／數位／混合訊號）",
+    "function": "Semiconductors",
+    "seniority": "10+",
     "low": 150000,
     "mid": 175000,
     "high": 200000,
@@ -4237,9 +4980,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC Foundry Process/Quality (Sr.) Engineer (Analog/ Digital/Mixed Signal IC)",
+    "role": "IC IC Foundry Process/Quality (Sr.) Engineer (Analog/ Digital/Mixed Signal IC)",
+    "roleZh": "製程／品管（資深）工程師（類比／數位／混合訊號）",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "1+",
     "low": 65000,
     "mid": 82500,
     "high": 100000,
@@ -4249,9 +4993,10 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "IC/Components Application (Sr.) Engineer",
+    "role": "IC IC/Components Application (Sr.) Engineer",
+    "roleZh": "（資深）應用工程師",
     "function": "Semiconductors",
-    "seniority": "Not specified",
+    "seniority": "1+",
     "low": 65000,
     "mid": 107500,
     "high": 150000,
@@ -4262,6 +5007,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Chief Information Officer (CIO)",
+    "roleZh": "資訊長",
     "function": "Information Technology",
     "seniority": "20+",
     "low": 200000,
@@ -4274,6 +5020,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "IT Director/VP",
+    "roleZh": "資訊技術協理",
     "function": "Information Technology",
     "seniority": "15+",
     "low": 150000,
@@ -4285,43 +5032,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "Software Architect",
-    "function": "Information Technology",
-    "seniority": "8+",
-    "low": 90000,
-    "mid": 110000,
-    "high": 130000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 65
-  },
-  {
-    "country": "tw",
-    "role": "Chief Technology Officer",
-    "function": "Information Technology",
-    "seniority": "8+",
-    "low": 100000,
-    "mid": 175000,
-    "high": 250000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 65
-  },
-  {
-    "country": "tw",
-    "role": "System Analyst",
-    "function": "Information Technology",
-    "seniority": "5-7",
-    "low": 55000,
-    "mid": 87500,
-    "high": 120000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 65
-  },
-  {
-    "country": "tw",
     "role": "IT/MIS Manager",
+    "roleZh": "資訊技術經理／資訊管理經理",
     "function": "Information Technology",
     "seniority": "10+",
     "low": 80000,
@@ -4334,6 +5046,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Regional Sales Manager/Director",
+    "roleZh": "亞太區域業務經理／協理",
     "function": "Information Technology",
     "seniority": "15+",
     "low": 150000,
@@ -4346,6 +5059,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Business Development Manager/Director",
+    "roleZh": "業務開發經理／協理",
     "function": "Information Technology",
     "seniority": "10+",
     "low": 110000,
@@ -4358,6 +5072,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Sales Manager/Director",
+    "roleZh": "業務經理／協理",
     "function": "Information Technology",
     "seniority": "10+",
     "low": 80000,
@@ -4370,6 +5085,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Account/Client Manager",
+    "roleZh": "客戶關係經理",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 80000,
@@ -4382,6 +5098,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Manager Head",
+    "roleZh": "產品經理長",
     "function": "Information Technology",
     "seniority": "8+",
     "low": 100000,
@@ -4394,6 +5111,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Product Manager",
+    "roleZh": "產品經理",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 60000,
@@ -4406,6 +5124,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Technical Product Manager",
+    "roleZh": "技術產品經理",
     "function": "Information Technology",
     "seniority": "6+",
     "low": 80000,
@@ -4418,6 +5137,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Solution Program/Project Manager",
+    "roleZh": "解決方案專案經理",
     "function": "Information Technology",
     "seniority": "10+",
     "low": 70000,
@@ -4430,6 +5150,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Solution Implementation Manager",
+    "roleZh": "解決方案經理",
     "function": "Information Technology",
     "seniority": "10+",
     "low": 80000,
@@ -4442,6 +5163,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Solution Architect",
+    "roleZh": "解決方案架構師",
     "function": "Information Technology",
     "seniority": "8+",
     "low": 80000,
@@ -4453,7 +5175,47 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "System Analyst",
+    "roleZh": "系統分析師",
+    "function": "Information Technology",
+    "seniority": "5-7",
+    "low": 55000,
+    "mid": 87500,
+    "high": 120000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 65
+  },
+  {
+    "country": "tw",
+    "role": "Chief Technology Officer",
+    "roleZh": "技術長",
+    "function": "Information Technology",
+    "seniority": "8+",
+    "low": 100000,
+    "mid": 175000,
+    "high": 250000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 65
+  },
+  {
+    "country": "tw",
+    "role": "Software Architect",
+    "roleZh": "軟體／平台架構師",
+    "function": "Information Technology",
+    "seniority": "8+",
+    "low": 90000,
+    "mid": 110000,
+    "high": 130000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 65
+  },
+  {
+    "country": "tw",
     "role": "Full-stack Engineer",
+    "roleZh": "全端工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 65000,
@@ -4466,6 +5228,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Architect/Infrastructure Manager",
+    "roleZh": "網路管理部經理",
     "function": "Information Technology",
     "seniority": "8+",
     "low": 80000,
@@ -4478,6 +5241,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Network Engineer",
+    "roleZh": "網絡工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 45000,
@@ -4490,6 +5254,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "System Engineer",
+    "roleZh": "系統工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 45000,
@@ -4502,6 +5267,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Network/System Administrator",
+    "roleZh": "網絡／系統管理人員",
     "function": "Information Technology",
     "seniority": "2+",
     "low": 42000,
@@ -4514,6 +5280,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Operations Engineer",
+    "roleZh": "網管 運維工程師",
     "function": "Information Technology",
     "seniority": "1-3",
     "low": 50000,
@@ -4526,6 +5293,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "SRE Site Reliability Engineer",
+    "roleZh": "網站可靠性工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 70000,
@@ -4538,6 +5306,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Helpdesk Support Engineer",
+    "roleZh": "客服工程師",
     "function": "Information Technology",
     "seniority": "2+",
     "low": 40000,
@@ -4550,6 +5319,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Technical Consultant",
+    "roleZh": "技術諮詢人員／顧問",
     "function": "Information Technology",
     "seniority": "2+",
     "low": 50000,
@@ -4562,6 +5332,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Technical Support Engineer",
+    "roleZh": "技術支援人員",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 45000,
@@ -4574,6 +5345,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Database Administrator",
+    "roleZh": "資料庫管理師",
     "function": "Information Technology",
     "seniority": "4+",
     "low": 60000,
@@ -4586,6 +5358,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Web Master",
+    "roleZh": "網站管理員",
     "function": "Information Technology",
     "seniority": "2+",
     "low": 40000,
@@ -4597,43 +5370,8 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
-    "role": "UI UX UI/UX Lead",
-    "function": "Information Technology",
-    "seniority": "6+",
-    "low": 90000,
-    "mid": 145000,
-    "high": 200000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 66
-  },
-  {
-    "country": "tw",
-    "role": "Web Designer",
-    "function": "Information Technology",
-    "seniority": "2+",
-    "low": 40000,
-    "mid": 60000,
-    "high": 80000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 66
-  },
-  {
-    "country": "tw",
-    "role": "UI UX UI/UX Designer",
-    "function": "Information Technology",
-    "seniority": "3+",
-    "low": 45000,
-    "mid": 87500,
-    "high": 130000,
-    "period": "monthly",
-    "source": "adeccoTw",
-    "page": 66
-  },
-  {
-    "country": "tw",
     "role": "Security Manager",
+    "roleZh": "資安工程經理",
     "function": "Information Technology",
     "seniority": "8+",
     "low": 90000,
@@ -4646,6 +5384,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Security Engineer",
+    "roleZh": "資安工程師",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 70000,
@@ -4657,7 +5396,47 @@ window.adeccoTaiwanRows = [
   },
   {
     "country": "tw",
+    "role": "UI UX UI/UX Lead",
+    "roleZh": "設計主管",
+    "function": "Information Technology",
+    "seniority": "6+",
+    "low": 90000,
+    "mid": 145000,
+    "high": 200000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 66
+  },
+  {
+    "country": "tw",
+    "role": "UI UX UI/UX Designer",
+    "roleZh": "設計師",
+    "function": "Information Technology",
+    "seniority": "3+",
+    "low": 45000,
+    "mid": 87500,
+    "high": 130000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 66
+  },
+  {
+    "country": "tw",
+    "role": "Web Designer",
+    "roleZh": "網站設計人員",
+    "function": "Information Technology",
+    "seniority": "2+",
+    "low": 40000,
+    "mid": 60000,
+    "high": 80000,
+    "period": "monthly",
+    "source": "adeccoTw",
+    "page": 66
+  },
+  {
+    "country": "tw",
     "role": "Back-End Team Leader",
+    "roleZh": "後端開發團隊主管",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 100000,
@@ -4670,6 +5449,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Back-End Developer",
+    "roleZh": "資深後端工程師",
     "function": "Information Technology",
     "seniority": "4-8",
     "low": 70000,
@@ -4682,6 +5462,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Back-End Developer",
+    "roleZh": "後端工程師",
     "function": "Information Technology",
     "seniority": "1-3",
     "low": 48000,
@@ -4694,6 +5475,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Front-End Team Leader",
+    "roleZh": "前端開發團隊主管",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 90000,
@@ -4706,6 +5488,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Senior Front-End Developer",
+    "roleZh": "資深前端開發工程師",
     "function": "Information Technology",
     "seniority": "4-8",
     "low": 70000,
@@ -4718,6 +5501,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Front-End Developer",
+    "roleZh": "前端開發工程師",
     "function": "Information Technology",
     "seniority": "1-3",
     "low": 50000,
@@ -4730,6 +5514,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Mobile Team Leader",
+    "roleZh": "行動開發團隊主管",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 100000,
@@ -4742,6 +5527,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "iOS Mobile Developer (iOS)",
+    "roleZh": "行動工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 60000,
@@ -4754,6 +5540,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Android Mobile Developer (Android)",
+    "roleZh": "行動工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 60000,
@@ -4766,6 +5553,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Data Scientist",
+    "roleZh": "資料科學家",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 70000,
@@ -4778,6 +5566,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Data Engineer",
+    "roleZh": "資料工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 70000,
@@ -4790,6 +5579,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Data Analyst",
+    "roleZh": "資料分析師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 55000,
@@ -4802,6 +5592,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Cloud Engineer",
+    "roleZh": "雲端",
     "function": "Information Technology",
     "seniority": "1-3",
     "low": 65000,
@@ -4814,6 +5605,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "Cloud Architect",
+    "roleZh": "雲端架構師",
     "function": "Information Technology",
     "seniority": "5+",
     "low": 80000,
@@ -4826,6 +5618,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "QA Manager",
+    "roleZh": "軟體測試經理 軟體測試",
     "function": "Information Technology",
     "seniority": "8+",
     "low": 110000,
@@ -4838,6 +5631,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "SQA Engineer (Automation)",
+    "roleZh": "軟體自動化測試工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 60000,
@@ -4850,6 +5644,7 @@ window.adeccoTaiwanRows = [
   {
     "country": "tw",
     "role": "QA Engineer (Manual)",
+    "roleZh": "軟體手動化測試工程師",
     "function": "Information Technology",
     "seniority": "3+",
     "low": 50000,

@@ -199,6 +199,141 @@ const state = {
 const countryById = Object.fromEntries(countries.map((country) => [country.id, country]));
 const money = (value, currency) => `${currency} ${new Intl.NumberFormat("en-US").format(value)}`;
 
+const roleZhGlossaries = {
+  hk: {
+    "account": "會計",
+    "accountant": "會計師",
+    "accounts assistant": "會計助理",
+    "accounting manager": "會計經理",
+    "accounting officer": "會計主任",
+    "audit": "審計",
+    "financial analyst": "財務分析師",
+    "finance manager": "財務經理",
+    "financial controller": "財務總監",
+    "chief financial officer": "財務總監",
+    "human resources": "人力資源",
+    "hr manager": "人力資源經理",
+    "hr business partner": "人力資源業務夥伴",
+    "legal counsel": "法律顧問",
+    "compliance": "合規",
+    "procurement": "採購",
+    "supply chain": "供應鏈",
+    "logistics": "物流",
+    "software engineer": "軟件工程師",
+    "software developer": "軟件開發員",
+    "data analyst": "數據分析師",
+    "data scientist": "數據科學家",
+    "doctor": "醫生",
+    "physician": "醫生",
+    "nurse": "護士",
+    "teacher": "教師",
+    "education": "教育",
+    "hotel": "酒店",
+    "restaurant": "餐廳",
+    "food service": "餐飲服務",
+    "hawker": "小販"
+  },
+  cn: {
+    "account": "会计",
+    "accountant": "会计",
+    "accounts assistant": "会计助理",
+    "accounting manager": "会计经理",
+    "audit": "审计",
+    "financial analyst": "财务分析师",
+    "finance manager": "财务经理",
+    "financial controller": "财务总监",
+    "chief financial officer": "首席财务官",
+    "human resources": "人力资源",
+    "hr manager": "人力资源经理",
+    "hr business partner": "人力资源业务伙伴",
+    "legal counsel": "法律顾问",
+    "compliance": "合规",
+    "procurement": "采购",
+    "supply chain": "供应链",
+    "logistics": "物流",
+    "software engineer": "软件工程师",
+    "software developer": "软件开发工程师",
+    "data analyst": "数据分析师",
+    "data scientist": "数据科学家",
+    "doctor": "医生",
+    "physician": "医师",
+    "nurse": "护士",
+    "teacher": "教师",
+    "education": "教育",
+    "hotel": "酒店",
+    "restaurant": "餐厅",
+    "food service": "餐饮服务",
+    "hawker": "小贩"
+  },
+  tw: {
+    "account": "帳務／會計",
+    "accountant": "會計人員",
+    "accounts assistant": "會計助理",
+    "accounting manager": "會計經理",
+    "audit": "稽核",
+    "financial analyst": "財務分析師",
+    "finance manager": "財務經理",
+    "financial controller": "財務長／財務主管",
+    "chief financial officer": "財務長",
+    "human resources": "人資",
+    "hr manager": "人資經理",
+    "hr business partner": "人資事業夥伴",
+    "legal counsel": "法務顧問",
+    "compliance": "法遵",
+    "procurement": "採購",
+    "supply chain": "供應鏈",
+    "logistics": "物流",
+    "software engineer": "軟體工程師",
+    "software developer": "軟體開發工程師",
+    "data analyst": "資料分析師",
+    "data scientist": "資料科學家",
+    "doctor": "醫師",
+    "physician": "醫師",
+    "nurse": "護理師",
+    "teacher": "教師",
+    "education": "教育",
+    "hotel": "飯店",
+    "restaurant": "餐廳／餐飲",
+    "food service": "餐飲服務",
+    "hawker": "小販／攤商"
+  }
+};
+
+roleZhGlossaries.kr = roleZhGlossaries.hk;
+roleZhGlossaries.th = roleZhGlossaries.hk;
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+function translatedRole(row) {
+  if (row.roleZh) return row.roleZh;
+  const glossary = roleZhGlossaries[row.country] || roleZhGlossaries.hk;
+  const normalized = row.role.toLowerCase().replace(/\s+/g, " ").trim();
+  if (glossary[normalized]) return glossary[normalized];
+
+  const matches = Object.entries(glossary)
+    .filter(([english]) => normalized.includes(english))
+    .sort((a, b) => b[0].length - a[0].length)
+    .map(([, chinese]) => chinese);
+
+  return [...new Set(matches)].slice(0, 2).join("／");
+}
+
+function roleCell(row) {
+  const roleZh = translatedRole(row);
+  return `
+    <strong>${escapeHtml(row.role)}</strong>
+    ${roleZh ? `<span class="role-zh">${escapeHtml(roleZh)}</span>` : ""}
+  `;
+}
+
 function sourceLink(key) {
   const source = sources[key];
   return `<a class="source-link" href="${source.url}" target="_blank" rel="noreferrer">${source.label}</a>`;
@@ -268,6 +403,7 @@ function filterRows() {
       country.english,
       country.currency,
       row.role,
+      translatedRole(row),
       row.function,
       row.seniority,
       sources[row.source].label,
@@ -301,7 +437,7 @@ function renderTable() {
     return `
       <tr>
         <td><span class="country-tag" style="background:${country.color}">${country.name}</span></td>
-        <td><strong>${row.role}</strong></td>
+        <td>${roleCell(row)}</td>
         <td>${row.function}</td>
         <td>${row.seniority}</td>
         <td class="range">${isPoint ? money(row.mid, country.currency) : `${money(row.low, country.currency)} - ${money(row.high, country.currency)}`}</td>

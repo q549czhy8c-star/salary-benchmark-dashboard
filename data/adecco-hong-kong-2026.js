@@ -2,6 +2,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Accounting Manager",
+    "roleZh": "會計經理",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 50000,
@@ -16,6 +17,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Accountant",
+    "roleZh": "資深會計師",
     "function": "Accounting & Finance",
     "seniority": "8-10",
     "low": 38000,
@@ -30,6 +32,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Accountant",
+    "roleZh": "會計師",
     "function": "Accounting & Finance",
     "seniority": "6-9",
     "low": 35000,
@@ -44,6 +47,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Accountant",
+    "roleZh": "助理會計師",
     "function": "Accounting & Finance",
     "seniority": "5-7",
     "low": 30000,
@@ -58,6 +62,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Accounting Officer",
+    "roleZh": "會計主任",
     "function": "Accounting & Finance",
     "seniority": "3-6",
     "low": 26000,
@@ -72,6 +77,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Clerk / Assistant",
+    "roleZh": "會計助理",
     "function": "Accounting & Finance",
     "seniority": "1-2",
     "low": 19000,
@@ -86,6 +92,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Audit",
+    "roleZh": "審計部總監",
     "function": "Accounting & Finance",
     "seniority": "10+",
     "low": 80000,
@@ -100,6 +107,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Audit Manager",
+    "roleZh": "審計經理",
     "function": "Accounting & Finance",
     "seniority": "8+",
     "low": 48000,
@@ -114,6 +122,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Audit Manager",
+    "roleZh": "助理審計經理",
     "function": "Accounting & Finance",
     "seniority": "5+",
     "low": 40000,
@@ -128,6 +137,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Auditor",
+    "roleZh": "資深審計師",
     "function": "Accounting & Finance",
     "seniority": "3-5",
     "low": 28000,
@@ -142,6 +152,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Auditor",
+    "roleZh": "審計師",
     "function": "Accounting & Finance",
     "seniority": "1-2",
     "low": 18000,
@@ -156,6 +167,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Finance Director",
+    "roleZh": "財務總監",
     "function": "Accounting & Finance",
     "seniority": "15+",
     "low": 120000,
@@ -170,6 +182,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Financial Controller",
+    "roleZh": "財務控制官",
     "function": "Accounting & Finance",
     "seniority": "8-10",
     "low": 70000,
@@ -184,6 +197,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Finance Manager",
+    "roleZh": "財務經理",
     "function": "Accounting & Finance",
     "seniority": "6-10",
     "low": 45000,
@@ -198,6 +212,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Financial Analyst",
+    "roleZh": "財務分析師",
     "function": "Accounting & Finance",
     "seniority": "4-6",
     "low": 35000,
@@ -212,6 +227,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Finance Assistant / Officer",
+    "roleZh": "財務助理 / 主任",
     "function": "Accounting & Finance",
     "seniority": "2-5",
     "low": 25000,
@@ -226,6 +242,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Finance & Administrative Clerk",
+    "roleZh": "財務暨行政辦事員",
     "function": "Accounting & Finance",
     "seniority": "1-3",
     "low": 22000,
@@ -240,6 +257,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Project Director (Client Side)",
+    "roleZh": "項目總監(發展開發商)",
     "function": "Construction & Engineering",
     "seniority": "15+",
     "low": 90000,
@@ -254,6 +272,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Project Manager (Developer)",
+    "roleZh": "項目經理",
     "function": "Construction & Engineering",
     "seniority": "10+",
     "low": 65000,
@@ -268,6 +287,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Registered Architect (Developer)",
+    "roleZh": "註冊建築師(發展開發商)",
     "function": "Construction & Engineering",
     "seniority": "6+",
     "low": 45000,
@@ -282,6 +302,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Manager",
+    "roleZh": "安全經理",
     "function": "Construction & Engineering",
     "seniority": "10+",
     "low": 65000,
@@ -296,6 +317,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Resgistered officer",
+    "roleZh": "註冊安全主任",
     "function": "Construction & Engineering",
     "seniority": "5+",
     "low": 40000,
@@ -310,6 +332,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Project Manager",
+    "roleZh": "項目經理",
     "function": "Construction & Engineering",
     "seniority": "8+",
     "low": 50000,
@@ -324,6 +347,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Registered Engineer",
+    "roleZh": "註冊工程師",
     "function": "Construction & Engineering",
     "seniority": "6+",
     "low": 45000,
@@ -338,6 +362,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Engineer / Technical Officer",
+    "roleZh": "工程師 / 技術專員",
     "function": "Construction & Engineering",
     "seniority": "Not specified",
     "low": 30000,
@@ -352,6 +377,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Engineer",
+    "roleZh": "助理工程師",
     "function": "Construction & Engineering",
     "seniority": "Not specified",
     "low": 28000,
@@ -366,6 +392,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Graduated Engineer",
+    "roleZh": "見習工程師",
     "function": "Construction & Engineering",
     "seniority": "Not specified",
     "low": 22000,
@@ -380,6 +407,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Project Manager",
+    "roleZh": "項目經理",
     "function": "Construction & Engineering",
     "seniority": "8+",
     "low": 58000,
@@ -394,6 +422,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Registered Building Surveyor",
+    "roleZh": "註冊測量師",
     "function": "Construction & Engineering",
     "seniority": "6+",
     "low": 40000,
@@ -408,6 +437,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Regional HR Director",
+    "roleZh": "區域人力資源總監",
     "function": "Corporate Support",
     "seniority": "15+",
     "low": 90000,
@@ -422,6 +452,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "HR Director",
+    "roleZh": "人力資源總監",
     "function": "Corporate Support",
     "seniority": "15+",
     "low": 70000,
@@ -436,6 +467,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "HR Manager",
+    "roleZh": "人力資源經理",
     "function": "Corporate Support",
     "seniority": "8-10",
     "low": 45000,
@@ -450,6 +482,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant HR Manager",
+    "roleZh": "助理人力資源經理",
     "function": "Corporate Support",
     "seniority": "6-8",
     "low": 35000,
@@ -464,6 +497,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Human Resources Business Partner",
+    "roleZh": "人力資源商務伙伴",
     "function": "Corporate Support",
     "seniority": "5-10",
     "low": 40000,
@@ -478,6 +512,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "HRIS Specialist",
+    "roleZh": "人力資源資訊系統專員",
     "function": "Corporate Support",
     "seniority": "5-10",
     "low": 30000,
@@ -492,6 +527,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior HR Officer / HR Specialist",
+    "roleZh": "高級人力資源主任 / 人力資源專員",
     "function": "Corporate Support",
     "seniority": "5-7",
     "low": 30000,
@@ -506,6 +542,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "HR Officer",
+    "roleZh": "人力資源主任",
     "function": "Corporate Support",
     "seniority": "3-5",
     "low": 23000,
@@ -520,6 +557,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Human Resources Assistant",
+    "roleZh": "人力資源助理",
     "function": "Corporate Support",
     "seniority": "0-2",
     "low": 18000,
@@ -534,6 +572,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Personal Assistant / Executive Assistant",
+    "roleZh": "資深私人/行政秘書",
     "function": "Corporate Support",
     "seniority": "10-20",
     "low": 60000,
@@ -548,6 +587,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Personal Assistant",
+    "roleZh": "私人秘書",
     "function": "Corporate Support",
     "seniority": "3-10",
     "low": 33000,
@@ -562,6 +602,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Executive Assistant",
+    "roleZh": "行政秘書",
     "function": "Corporate Support",
     "seniority": "3-10",
     "low": 30000,
@@ -576,6 +617,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Junior Secretary",
+    "roleZh": "初級秘書",
     "function": "Corporate Support",
     "seniority": "3-5",
     "low": 25000,
@@ -590,6 +632,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Team Secretary / Assistant",
+    "roleZh": "團隊秘書 / 助理",
     "function": "Corporate Support",
     "seniority": "1-3",
     "low": 22000,
@@ -604,6 +647,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Director of Administration",
+    "roleZh": "行政總監",
     "function": "Corporate Support",
     "seniority": "15-20",
     "low": 65000,
@@ -618,6 +662,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Administrative Manager / Office Manager",
+    "roleZh": "行政經理 / 辦公室經理",
     "function": "Corporate Support",
     "seniority": "6-15",
     "low": 40000,
@@ -632,6 +677,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Administrative Assistant / Officer",
+    "roleZh": "行政助理 / 主任",
     "function": "Corporate Support",
     "seniority": "0-5",
     "low": 18000,
@@ -646,6 +692,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Receptionist",
+    "roleZh": "接待員",
     "function": "Corporate Support",
     "seniority": "0-5",
     "low": 18000,
@@ -660,6 +707,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Office Assistant / Clerk",
+    "roleZh": "辦公室文員",
     "function": "Corporate Support",
     "seniority": "0-2",
     "low": 16000,
@@ -674,6 +722,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Service Manager",
+    "roleZh": "客服經理",
     "function": "Customer Service",
     "seniority": "8+",
     "low": 40000,
@@ -688,6 +737,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Service Supervisor",
+    "roleZh": "客服主任",
     "function": "Customer Service",
     "seniority": "5+",
     "low": 28000,
@@ -702,6 +752,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Customer Service Specialist",
+    "roleZh": "客服專員",
     "function": "Customer Service",
     "seniority": "5+",
     "low": 23000,
@@ -716,6 +767,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Service Executive",
+    "roleZh": "客服專員",
     "function": "Customer Service",
     "seniority": "2-3",
     "low": 18000,
@@ -730,6 +782,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Service Assistant",
+    "roleZh": "客服助理",
     "function": "Customer Service",
     "seniority": "0-1",
     "low": 15000,
@@ -744,6 +797,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Professor (Institution)",
+    "roleZh": "教授 (院校)",
     "function": "Education",
     "seniority": "12+",
     "low": 100000,
@@ -758,6 +812,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Principal (School / Institution)",
+    "roleZh": "校長 (學校 / 院校)",
     "function": "Education",
     "seniority": "12+",
     "low": 90000,
@@ -772,6 +827,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Teacher (School / Institution)",
+    "roleZh": "教師 (學校 / 院校)",
     "function": "Education",
     "seniority": "3-10",
     "low": 35000,
@@ -786,6 +842,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Admissions Manager (School / Institution)",
+    "roleZh": "招生經理 (學校 / 院校)",
     "function": "Education",
     "seniority": "5+",
     "low": 40000,
@@ -800,6 +857,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "International Student Recrutiment Officer / Admissions Officer (School / Institution)",
+    "roleZh": "國際學生招生人員 / 招生人員 (學校 / 院校)",
     "function": "Education",
     "seniority": "3-5",
     "low": 25000,
@@ -814,6 +872,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Education Consultant",
+    "roleZh": "資深升學顧問",
     "function": "Education",
     "seniority": "4-6",
     "low": 30000,
@@ -828,6 +887,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Education Consultant",
+    "roleZh": "升學顧問",
     "function": "Education",
     "seniority": "1-3",
     "low": 21000,
@@ -842,6 +902,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Curriculum Development",
+    "roleZh": "課程編制部主管",
     "function": "Education",
     "seniority": "5+",
     "low": 45000,
@@ -856,6 +917,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Editor",
+    "roleZh": "編輯人員",
     "function": "Education",
     "seniority": "2-5",
     "low": 20000,
@@ -870,6 +932,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Researcher",
+    "roleZh": "研究員",
     "function": "Education",
     "seniority": "3-5",
     "low": 30000,
@@ -884,6 +947,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Subjects Head (Education Academy)",
+    "roleZh": "學術主管 (教育中心)",
     "function": "Education",
     "seniority": "7-10",
     "low": 45000,
@@ -898,6 +962,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Subjects Teacher (Education Academy)",
+    "roleZh": "專科導師 (教育中心)",
     "function": "Education",
     "seniority": "3-5",
     "low": 30000,
@@ -912,6 +977,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Native English Teacher (Education Academy)",
+    "roleZh": "英語導師 (教育中心)",
     "function": "Education",
     "seniority": "1-5",
     "low": 25000,
@@ -926,6 +992,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Campus Manager (Education Academy)",
+    "roleZh": "教育中心經理 (教育中心)",
     "function": "Education",
     "seniority": "5+",
     "low": 30000,
@@ -940,6 +1007,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Administrative Assistant / Officer (Education Academy)",
+    "roleZh": "行政助理 / 人員 (教育中心)",
     "function": "Education",
     "seniority": "1-3",
     "low": 18000,
@@ -954,6 +1022,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT IT Director / VP",
+    "roleZh": "總監 / 副總裁",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 85000,
@@ -968,6 +1037,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Technology Transformation",
+    "roleZh": "變革主管",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -982,6 +1052,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of IT Governance",
+    "roleZh": "資訊科技治理主管",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -996,6 +1067,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Program Manager",
+    "roleZh": "項目經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1010,6 +1082,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Development Manager",
+    "roleZh": "發展經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 70000,
@@ -1024,6 +1097,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Chief Technology Officer (CTO)",
+    "roleZh": "首席技術官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 150000,
@@ -1038,6 +1112,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Chief Information Security Officer (CISO) / Head of Cybersecurity",
+    "roleZh": "首席信息安全官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -1052,6 +1127,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Chief Data Officer (CDO)",
+    "roleZh": "首席數據官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -1066,6 +1142,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Chief Digital Officer (CDO)",
+    "roleZh": "首席數字官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -1080,6 +1157,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Chief Information Officer (CIO)",
+    "roleZh": "首席資訊官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 160000,
@@ -1094,6 +1172,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Test Lead",
+    "roleZh": "測試經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 65000,
@@ -1108,6 +1187,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT IT Audit / Security",
+    "roleZh": "審計 / 安全",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 65000,
@@ -1122,6 +1202,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "PMO",
+    "roleZh": "項目管理辦公室",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 55000,
@@ -1136,6 +1217,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Infrastructure Manager",
+    "roleZh": "基礎設施經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 55000,
@@ -1150,6 +1232,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Analyst Manager",
+    "roleZh": "業務分析師經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1164,6 +1247,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Service Delivery Manager (SLA)",
+    "roleZh": "服務交付經理 （服務水平協議）",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1178,6 +1262,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Project Manager",
+    "roleZh": "項目經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1192,6 +1277,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Application Support Manager",
+    "roleZh": "應用支援經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1206,6 +1292,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Compliance Officer",
+    "roleZh": "合規官員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1220,6 +1307,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Manager",
+    "roleZh": "產品經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1234,6 +1322,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Success Manager",
+    "roleZh": "客戶成功經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1248,6 +1337,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IoT Architect",
+    "roleZh": "物聯網架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1262,6 +1352,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IoT Solutions Engineer",
+    "roleZh": "物聯網解決方案工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1276,6 +1367,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Success - IT",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1290,6 +1382,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Blockchain Developer",
+    "roleZh": "區塊鏈開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1304,6 +1397,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Success - IT",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1318,6 +1412,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "DevOps DevOps Engineer",
+    "roleZh": "工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1332,6 +1427,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Customer Success - IT",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1346,6 +1442,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Cloud Architect",
+    "roleZh": "雲端架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1360,6 +1457,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Cloud Engineer",
+    "roleZh": "雲端工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 55000,
@@ -1374,6 +1472,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Presales Total Solutions Architect",
+    "roleZh": "售前整合解決方案架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 80000,
@@ -1388,6 +1487,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Presales AI Architect",
+    "roleZh": "售前人工智能架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1402,6 +1502,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Presales Data Centre Architect",
+    "roleZh": "售前資料中心架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1416,6 +1517,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Presales Storage Architect",
+    "roleZh": "售前儲存架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 60000,
@@ -1430,6 +1532,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Presales Cloud Architect",
+    "roleZh": "售前雲端架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 60000,
@@ -1444,6 +1547,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "AI Architect",
+    "roleZh": "人工智能架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 75000,
@@ -1458,6 +1562,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Data Scientist",
+    "roleZh": "數據科學家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1472,6 +1577,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Computer Vision Engineer",
+    "roleZh": "電腦視覺工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 55000,
@@ -1486,6 +1592,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "AI Research Scientist",
+    "roleZh": "人工智能研究科學家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1500,6 +1607,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Robotics Engineer",
+    "roleZh": "機器人工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1514,6 +1622,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "AI Engineer",
+    "roleZh": "人工智能工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1528,6 +1637,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Machine Learning Engineer",
+    "roleZh": "機器學習工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1542,6 +1652,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Generative AI Engineer",
+    "roleZh": "生成式人工智能工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1556,6 +1667,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "BI Data Analyst",
+    "roleZh": "商業智慧資料分析師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1570,6 +1682,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Intelligence Developer",
+    "roleZh": "商業智慧開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1584,6 +1697,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Natural Language Processing (NLP) Engineer",
+    "roleZh": "自然語言處理工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1598,6 +1712,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Data Engineer",
+    "roleZh": "數據工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1612,6 +1727,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Deep Learning Specialist",
+    "roleZh": "深度學習專家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1626,6 +1742,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Data Analyst",
+    "roleZh": "數據分析師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1640,6 +1757,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Embedded Firmware Engineer",
+    "roleZh": "嵌入式韌體工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1654,6 +1772,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IC IC Design Engineer",
+    "roleZh": "設計工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1668,6 +1787,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Hardware Engineer",
+    "roleZh": "硬體工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1682,6 +1802,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Signal Processing Engineer",
+    "roleZh": "信號處理工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1696,6 +1817,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "FPGA FPGA Engineer",
+    "roleZh": "工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1710,6 +1832,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "ASIC ASIC Engineer",
+    "roleZh": "工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1724,6 +1847,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Cybersecurity Specialist",
+    "roleZh": "網絡安全專家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -1738,6 +1862,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Cybersecurity Analyst",
+    "roleZh": "網絡安全分析師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1752,6 +1877,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UI / UX UI / UX Manager",
+    "roleZh": "經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 70000,
@@ -1766,6 +1892,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UI / UX UI / UX Lead",
+    "roleZh": "領導",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1780,6 +1907,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UI Designer",
+    "roleZh": "用戶界面設計師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1794,6 +1922,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UX Designer",
+    "roleZh": "用戶體驗設計師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1808,6 +1937,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Network Architect",
+    "roleZh": "網絡架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 60000,
@@ -1822,6 +1952,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Voice / Communications Engineer",
+    "roleZh": "語音 / 通信工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 55000,
@@ -1836,6 +1967,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Network Engineer",
+    "roleZh": "網絡工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -1850,6 +1982,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Network Support Engineer",
+    "roleZh": "網絡支援工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1864,6 +1997,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "NOC Engineer",
+    "roleZh": "網路營運中心工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 25000,
@@ -1878,6 +2012,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Security Engineer",
+    "roleZh": "安全工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1892,6 +2027,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Systems Engineer",
+    "roleZh": "系統工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -1906,6 +2042,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Messaging Specialist",
+    "roleZh": "消息專家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1920,6 +2057,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Storage Engineer",
+    "roleZh": "存儲工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 38500,
@@ -1934,6 +2072,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Oracle Oracle DBA",
+    "roleZh": "數據庫管理員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1948,6 +2087,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Unix Unix Admin",
+    "roleZh": "管理員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -1962,6 +2102,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Helpdesk Support",
+    "roleZh": "技術支援",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 25000,
@@ -1976,6 +2117,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "QA QA Specialist",
+    "roleZh": "測試技術人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -1990,6 +2132,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UAT / QA UAT Tester / QA Tester / Tester (Manual)",
+    "roleZh": "測試員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 30000,
@@ -2004,6 +2147,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Software - Solutions / Technical Architect",
+    "roleZh": "系統架構師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 70000,
@@ -2018,6 +2162,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Full Stack Developer / Engineer",
+    "roleZh": "全端工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -2032,6 +2177,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Backend Developer",
+    "roleZh": "後端開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 27000,
@@ -2046,6 +2192,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Frontend Developer",
+    "roleZh": "前端開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 27000,
@@ -2060,6 +2207,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "C++ C++ Developer",
+    "roleZh": "開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 25000,
@@ -2074,6 +2222,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Java Java Developer",
+    "roleZh": "開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 27000,
@@ -2088,6 +2237,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": ".NET .NET Developer",
+    "roleZh": "開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 27000,
@@ -2102,6 +2252,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Mobile Apps Developer",
+    "roleZh": "手機應用程式開發人員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 25000,
@@ -2116,6 +2267,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Programmer",
+    "roleZh": "程序員",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 25000,
@@ -2130,6 +2282,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Director / Manager",
+    "roleZh": "銷售總監 / 經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 100000,
@@ -2144,6 +2297,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Manager",
+    "roleZh": "客戶經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2158,6 +2312,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Development Manager",
+    "roleZh": "業務拓展經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 60000,
@@ -2172,6 +2327,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Pre-Sales Consultant",
+    "roleZh": "預售顧問",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -2186,6 +2342,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Executive",
+    "roleZh": "銷售執行官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 20000,
@@ -2200,6 +2357,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Inside Sales Representative",
+    "roleZh": "內部銷售代表",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 20000,
@@ -2214,6 +2372,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Channel Sales Manager",
+    "roleZh": "渠道銷售經理",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -2228,6 +2387,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Engineer",
+    "roleZh": "銷售工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -2242,6 +2402,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Technical Sales Representative",
+    "roleZh": "技術銷售代表",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -2256,6 +2417,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Executive",
+    "roleZh": "客戶執行官",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2270,6 +2432,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Digital Marketing Specialist",
+    "roleZh": "數碼市場推廣專家",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 40000,
@@ -2284,6 +2447,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Robotics Engineer / RPA",
+    "roleZh": "機器人工程師",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -2298,6 +2462,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "虛擬現實 （VR） / 擴增現實 （AR） 開發人員 Virtual Reality (VR) / Augmented Reality (AR) Developer",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -2312,6 +2477,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Tech Sales",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 45000,
@@ -2326,6 +2492,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 治理經理 IT Governance Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 80000,
@@ -2340,6 +2507,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 風險經理 IT Risk Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2354,6 +2522,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 合規經理 IT Compliance Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2368,6 +2537,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 運營經理 IT Operations Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 60000,
@@ -2382,6 +2552,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 採購經理 IT Procurement Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2396,6 +2567,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 供應商經理 IT Vendor Manager",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2410,6 +2582,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 培訓師 IT Trainer",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 50000,
@@ -2424,6 +2597,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 業務分析師 IT Business Analyst",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -2438,6 +2612,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "IT 支援專家 IT Support Specialist",
+    "roleZh": "",
     "function": "Information Technology",
     "seniority": "Not specified",
     "low": 35000,
@@ -2452,6 +2627,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Legal / General Counsel",
+    "roleZh": "法律總監",
     "function": "Legal and Compliance",
     "seniority": "18+",
     "low": 150000,
@@ -2466,6 +2642,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Legal Counsel",
+    "roleZh": "高級法律顧問",
     "function": "Legal and Compliance",
     "seniority": "8-14",
     "low": 100000,
@@ -2480,6 +2657,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Counsel",
+    "roleZh": "法律顧問",
     "function": "Legal and Compliance",
     "seniority": "4-7",
     "low": 70000,
@@ -2494,6 +2672,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Associate Legal Counsel",
+    "roleZh": "助理法律顧問",
     "function": "Legal and Compliance",
     "seniority": "1-3",
     "low": 55000,
@@ -2508,6 +2687,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Manager / Contracts Manager",
+    "roleZh": "法律經理",
     "function": "Legal and Compliance",
     "seniority": "7+",
     "low": 50000,
@@ -2522,6 +2702,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Officer / Paralegal",
+    "roleZh": "法律行政人員",
     "function": "Legal and Compliance",
     "seniority": "3-6",
     "low": 28000,
@@ -2536,6 +2717,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Assistant",
+    "roleZh": "法律助理",
     "function": "Legal and Compliance",
     "seniority": "0-2",
     "low": 20000,
@@ -2550,6 +2732,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Compliance",
+    "roleZh": "法規主管",
     "function": "Legal and Compliance",
     "seniority": "12+",
     "low": 100000,
@@ -2564,6 +2747,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant / Compliance Manager",
+    "roleZh": "助理 / 法規經理",
     "function": "Legal and Compliance",
     "seniority": "6-10",
     "low": 50000,
@@ -2578,6 +2762,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior / Compliance Officer",
+    "roleZh": "高級 / 法規主任",
     "function": "Legal and Compliance",
     "seniority": "2-5",
     "low": 25000,
@@ -2592,6 +2777,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Named Company Secretary / Head of Company Secretary",
+    "roleZh": "公司秘書",
     "function": "Legal and Compliance",
     "seniority": "15+",
     "low": 85000,
@@ -2606,6 +2792,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Company Secretarial Manager / Deputy Company Secretary (Listed Company)",
+    "roleZh": "高級公司秘書經理 (上市公司)",
     "function": "Legal and Compliance",
     "seniority": "10+",
     "low": 60000,
@@ -2620,6 +2807,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Company Secretarial Manager (Listed Company)",
+    "roleZh": "公司秘書經理 (上市公司)",
     "function": "Legal and Compliance",
     "seniority": "7-9",
     "low": 50000,
@@ -2634,6 +2822,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Company Secretarial Officer / Assistant Company Secretarial Manager (Listed Company)",
+    "roleZh": "高級公司秘書主任 / 助理公司秘書經理 (上市公司)",
     "function": "Legal and Compliance",
     "seniority": "4-6",
     "low": 35000,
@@ -2648,6 +2837,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Company Secretarial Assistant / Officer",
+    "roleZh": "公司秘書助理",
     "function": "Legal and Compliance",
     "seniority": "2-4",
     "low": 25000,
@@ -2662,6 +2852,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Associate",
+    "roleZh": "資深律師",
     "function": "Legal and Compliance",
     "seniority": "8-12",
     "low": 85000,
@@ -2676,6 +2867,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Associate / Senior Associate",
+    "roleZh": "助理律師 / 資深律師",
     "function": "Legal and Compliance",
     "seniority": "3-8",
     "low": 60000,
@@ -2690,6 +2882,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Associate",
+    "roleZh": "助理律師",
     "function": "Legal and Compliance",
     "seniority": "2",
     "low": 50000,
@@ -2704,6 +2897,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Manager / Senior Paralegal",
+    "roleZh": "法律經理 / 高級法律行政人員",
     "function": "Legal and Compliance",
     "seniority": "4-10",
     "low": 35000,
@@ -2718,6 +2912,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Executive / Paralegal",
+    "roleZh": "法律助理 / 行政人員",
     "function": "Legal and Compliance",
     "seniority": "1-3",
     "low": 22000,
@@ -2732,6 +2927,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Legal Secretary",
+    "roleZh": "高級法律秘書",
     "function": "Legal and Compliance",
     "seniority": "8+",
     "low": 35000,
@@ -2746,6 +2942,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal Secretary",
+    "roleZh": "法律秘書",
     "function": "Legal and Compliance",
     "seniority": "5-10",
     "low": 28000,
@@ -2760,6 +2957,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Junior Legal Secretary",
+    "roleZh": "初級法律秘書",
     "function": "Legal and Compliance",
     "seniority": "1-5",
     "low": 20000,
@@ -2774,6 +2972,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Legal / Court Clerk",
+    "roleZh": "法律 / 法庭書記",
     "function": "Legal and Compliance",
     "seniority": "1-10",
     "low": 18000,
@@ -2788,6 +2987,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Compliance",
+    "roleZh": "法規主管",
     "function": "Legal and Compliance",
     "seniority": "12+",
     "low": 100000,
@@ -2802,6 +3002,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant / Compliance Manager",
+    "roleZh": "助理 / 法規經理",
     "function": "Legal and Compliance",
     "seniority": "5-10",
     "low": 50000,
@@ -2816,6 +3017,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior / Compliance Officer",
+    "roleZh": "高級 / 法規主任",
     "function": "Legal and Compliance",
     "seniority": "2-8",
     "low": 25000,
@@ -2830,6 +3032,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Company Secretarial Manager",
+    "roleZh": "公司秘書經理",
     "function": "Legal and Compliance",
     "seniority": "8-15",
     "low": 40000,
@@ -2844,6 +3047,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior / Company Secretarial Administrator",
+    "roleZh": "高級 / 公司秘書主任",
     "function": "Legal and Compliance",
     "seniority": "5-10",
     "low": 30000,
@@ -2858,6 +3062,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Company Officer / Administrator",
+    "roleZh": "公司秘書人員 / 主任",
     "function": "Legal and Compliance",
     "seniority": "0-5",
     "low": 18000,
@@ -2872,6 +3077,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Sales",
+    "roleZh": "銷售部總監 業務總監",
     "function": "Life Science & Pharmaceutical",
     "seniority": "10+",
     "low": 80000,
@@ -2886,6 +3092,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of BU",
+    "roleZh": "業務總監 市場營銷經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "10+",
     "low": 80000,
@@ -2900,6 +3107,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Marketing Manager",
+    "roleZh": "市場營銷經理 品牌經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "10+",
     "low": 60000,
@@ -2914,6 +3122,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Brand Manager",
+    "roleZh": "品牌經理 業務經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "10+",
     "low": 60000,
@@ -2928,6 +3137,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "BU Manager",
+    "roleZh": "業務經理 銷售部經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "5+",
     "low": 50000,
@@ -2942,6 +3152,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Manager",
+    "roleZh": "銷售部經理 產品部經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "5+",
     "low": 50000,
@@ -2956,6 +3167,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Manager",
+    "roleZh": "產品部經理 高級規管事務經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "5-10",
     "low": 40000,
@@ -2970,6 +3182,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Regulatory Affairs",
+    "roleZh": "高級規管事務經理 規管事務經理",
     "function": "Life Science & Pharmaceutical",
     "seniority": "5-8+",
     "low": 25000,
@@ -2984,6 +3197,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Regulatory Affairs",
+    "roleZh": "規管事務經理 醫藥學術專員",
     "function": "Life Science & Pharmaceutical",
     "seniority": "1-3",
     "low": 20000,
@@ -2998,6 +3212,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Medical Science Liaison",
+    "roleZh": "醫藥學術專員 產品部專員",
     "function": "Life Science & Pharmaceutical",
     "seniority": "3-5",
     "low": 25000,
@@ -3012,6 +3227,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Specialist",
+    "roleZh": "產品部專員 銷售部專員",
     "function": "Life Science & Pharmaceutical",
     "seniority": "2-4",
     "low": 25000,
@@ -3026,6 +3242,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Specialist",
+    "roleZh": "銷售部專員 銷售部代表",
     "function": "Life Science & Pharmaceutical",
     "seniority": "2-4",
     "low": 20000,
@@ -3040,6 +3257,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Executive / Representative",
+    "roleZh": "銷售部代表",
     "function": "Life Science & Pharmaceutical",
     "seniority": "1-3",
     "low": 18000,
@@ -3054,6 +3272,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Creative Director",
+    "roleZh": "創意總監",
     "function": "Marketing",
     "seniority": "8+",
     "low": 80000,
@@ -3068,6 +3287,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Director",
+    "roleZh": "業務總監 / 資深客戶經理",
     "function": "Marketing",
     "seniority": "10+",
     "low": 60000,
@@ -3082,6 +3302,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Manager",
+    "roleZh": "業務經理 / 客戶經理",
     "function": "Marketing",
     "seniority": "4+",
     "low": 40000,
@@ -3096,6 +3317,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Media Buyer",
+    "roleZh": "廣告投放專員",
     "function": "Marketing",
     "seniority": "4+",
     "low": 18000,
@@ -3110,6 +3332,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Account Manager",
+    "roleZh": "業務副理 / 客戶副理",
     "function": "Marketing",
     "seniority": "3+",
     "low": 35000,
@@ -3124,6 +3347,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Graphic Designer",
+    "roleZh": "平面設計師",
     "function": "Marketing",
     "seniority": "2-4",
     "low": 20000,
@@ -3138,6 +3362,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Account Executive",
+    "roleZh": "業務主任 / 客戶主任",
     "function": "Marketing",
     "seniority": "1-2",
     "low": 20000,
@@ -3152,6 +3377,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Production Executive",
+    "roleZh": "製作專員",
     "function": "Marketing",
     "seniority": "2-4",
     "low": 15000,
@@ -3166,6 +3392,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Junior Graphic Designer",
+    "roleZh": "初級平面設計師",
     "function": "Marketing",
     "seniority": "1-2",
     "low": 15000,
@@ -3180,6 +3407,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Production Assistant",
+    "roleZh": "製作助理",
     "function": "Marketing",
     "seniority": "1-2",
     "low": 15000,
@@ -3194,6 +3422,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Marketing Director / CMO",
+    "roleZh": "市場營銷總監",
     "function": "Marketing",
     "seniority": "10+",
     "low": 75000,
@@ -3208,6 +3437,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Marketing",
+    "roleZh": "市場營銷主管",
     "function": "Marketing",
     "seniority": "10+",
     "low": 65000,
@@ -3222,6 +3452,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Marketing Manager",
+    "roleZh": "資深市場營銷經理",
     "function": "Marketing",
     "seniority": "8+",
     "low": 55000,
@@ -3236,6 +3467,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Marketing Manager",
+    "roleZh": "市場營銷經理",
     "function": "Marketing",
     "seniority": "8+",
     "low": 45000,
@@ -3250,6 +3482,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Brand Marketing Manager",
+    "roleZh": "品牌市場營銷經理",
     "function": "Marketing",
     "seniority": "5+",
     "low": 40000,
@@ -3264,6 +3497,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Marketing Manager",
+    "roleZh": "產品市場營銷經理",
     "function": "Marketing",
     "seniority": "3-5",
     "low": 35000,
@@ -3278,6 +3512,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Digital and CRM Manager",
+    "roleZh": "數位/ 數據管理行銷經理",
     "function": "Marketing",
     "seniority": "5+",
     "low": 40000,
@@ -3292,6 +3527,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Marketing Manager",
+    "roleZh": "市場營銷副理",
     "function": "Marketing",
     "seniority": "6+",
     "low": 35000,
@@ -3306,6 +3542,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Community / Social Media Manager",
+    "roleZh": "社群行銷經理",
     "function": "Marketing",
     "seniority": "4+",
     "low": 25000,
@@ -3320,6 +3557,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Marketing Executive",
+    "roleZh": "資深市場營銷人員",
     "function": "Marketing",
     "seniority": "2-3",
     "low": 25000,
@@ -3334,6 +3572,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Database Marketing / CRM",
+    "roleZh": "資料庫市場營銷人員",
     "function": "Marketing",
     "seniority": "2-3",
     "low": 25000,
@@ -3348,6 +3587,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Community / Social Media Executive",
+    "roleZh": "社群行銷人員",
     "function": "Marketing",
     "seniority": "2+",
     "low": 20000,
@@ -3362,6 +3602,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Content Marketing Manager",
+    "roleZh": "內容市場營銷經理",
     "function": "Marketing",
     "seniority": "5+",
     "low": 40000,
@@ -3376,6 +3617,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Event Marketing Executive",
+    "roleZh": "活動市場營銷人員",
     "function": "Marketing",
     "seniority": "2-3",
     "low": 20000,
@@ -3390,6 +3632,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Marketing Executive",
+    "roleZh": "市場營銷人員",
     "function": "Marketing",
     "seniority": "1-2",
     "low": 20000,
@@ -3404,6 +3647,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Market Researcher",
+    "roleZh": "市場營銷研究員",
     "function": "Marketing",
     "seniority": "0-2",
     "low": 15000,
@@ -3418,6 +3662,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Marketing Assistant",
+    "roleZh": "市場營銷助理",
     "function": "Marketing",
     "seniority": "0-2",
     "low": 15000,
@@ -3432,6 +3677,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Telemarketer",
+    "roleZh": "電話行銷員",
     "function": "Marketing",
     "seniority": "<1",
     "low": 13000,
@@ -3446,6 +3692,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Corporate Communication Manager",
+    "roleZh": "企業行銷傳播經理",
     "function": "Marketing",
     "seniority": "5-10",
     "low": 45000,
@@ -3460,6 +3707,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "PR and Communication Manager",
+    "roleZh": "公關經理",
     "function": "Marketing",
     "seniority": "5+",
     "low": 40000,
@@ -3474,6 +3722,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior PR Executive",
+    "roleZh": "資深公關專員",
     "function": "Marketing",
     "seniority": "3-5",
     "low": 25000,
@@ -3488,6 +3737,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "PR Officer / Representative",
+    "roleZh": "公關專員 / 代表",
     "function": "Marketing",
     "seniority": "3-5",
     "low": 18000,
@@ -3502,6 +3752,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "PR Assistant",
+    "roleZh": "公關助理",
     "function": "Marketing",
     "seniority": "1-2",
     "low": 18000,
@@ -3516,6 +3767,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Public Relations",
+    "roleZh": "公關",
     "function": "Marketing",
     "seniority": "3-5",
     "low": 18000,
@@ -3530,6 +3782,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "E-commerce Director",
+    "roleZh": "數碼平台總監",
     "function": "Marketing",
     "seniority": "10+",
     "low": 80000,
@@ -3544,6 +3797,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "E-commerce & Digital Marketing Manager",
+    "roleZh": "電子商貿和數碼項目經理",
     "function": "Marketing",
     "seniority": "7+",
     "low": 50000,
@@ -3558,6 +3812,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "E-commerce Operation Manager",
+    "roleZh": "電子商貿運營經理",
     "function": "Marketing",
     "seniority": "7+",
     "low": 50000,
@@ -3572,6 +3827,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "E-commerce Sales & Partnership Manager",
+    "roleZh": "電子商貿銷售經理",
     "function": "Marketing",
     "seniority": "7+",
     "low": 50000,
@@ -3586,6 +3842,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "E-Commerce Operation Specialist",
+    "roleZh": "電子商貿運營專員",
     "function": "Marketing",
     "seniority": "2+",
     "low": 20000,
@@ -3600,6 +3857,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "UX / UI設計師 UX / UI Designer",
+    "roleZh": "",
     "function": "Marketing",
     "seniority": "1-4",
     "low": 28000,
@@ -3614,6 +3872,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Online Editorial & Copywriting Specialist",
+    "roleZh": "編輯/ 文案專員",
     "function": "Marketing",
     "seniority": "1-4",
     "low": 20000,
@@ -3628,6 +3887,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Data Analytics Specialist / Business Analyst",
+    "roleZh": "數據分析專員",
     "function": "Marketing",
     "seniority": "1-4",
     "low": 28000,
@@ -3642,6 +3902,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Public Relations",
+    "roleZh": "公關",
     "function": "Marketing",
     "seniority": "1-4",
     "low": 28000,
@@ -3656,6 +3917,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Retail Director",
+    "roleZh": "零售總監",
     "function": "Retail",
     "seniority": "10+",
     "low": 70000,
@@ -3670,6 +3932,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Retail Operations Manager",
+    "roleZh": "零售營運經理",
     "function": "Retail",
     "seniority": "10+",
     "low": 50000,
@@ -3684,6 +3947,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Area Manager / District Manager",
+    "roleZh": "區域經理",
     "function": "Retail",
     "seniority": "10+",
     "low": 40000,
@@ -3698,6 +3962,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Shop / Store Manager",
+    "roleZh": "店面經理",
     "function": "Retail",
     "seniority": "8+",
     "low": 40000,
@@ -3712,6 +3977,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Store Manager",
+    "roleZh": "副店經理",
     "function": "Retail",
     "seniority": "8+",
     "low": 30000,
@@ -3726,6 +3992,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Department Manager",
+    "roleZh": "部門經理",
     "function": "Retail",
     "seniority": "5+",
     "low": 28000,
@@ -3740,6 +4007,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Shop / Store Supervisor",
+    "roleZh": "店長",
     "function": "Retail",
     "seniority": "2-4",
     "low": 20000,
@@ -3754,6 +4022,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Sales",
+    "roleZh": "高級銷售員",
     "function": "Retail",
     "seniority": "1-2",
     "low": 17000,
@@ -3768,6 +4037,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Representative",
+    "roleZh": "門市銷售員",
     "function": "Retail",
     "seniority": "1-2",
     "low": 12000,
@@ -3782,6 +4052,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "General Manager / General Sales Manager",
+    "roleZh": "總經理 / 銷售總經理",
     "function": "Sales",
     "seniority": "10+",
     "low": 90000,
@@ -3796,6 +4067,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Commercial Director",
+    "roleZh": "商務總監",
     "function": "Sales",
     "seniority": "10+",
     "low": 80000,
@@ -3810,6 +4082,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Director",
+    "roleZh": "銷售總監",
     "function": "Sales",
     "seniority": "10+",
     "low": 75000,
@@ -3824,6 +4097,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Sales",
+    "roleZh": "業務總監",
     "function": "Sales",
     "seniority": "10+",
     "low": 80000,
@@ -3838,6 +4112,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Regional Sales Manager",
+    "roleZh": "地區業務經理",
     "function": "Sales",
     "seniority": "10+",
     "low": 50000,
@@ -3852,6 +4127,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales / Channel Sales Manager",
+    "roleZh": "業務 / 銷售通路經理",
     "function": "Sales",
     "seniority": "8+",
     "low": 40000,
@@ -3866,6 +4142,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Manager",
+    "roleZh": "業務經理",
     "function": "Sales",
     "seniority": "5-8",
     "low": 35000,
@@ -3880,6 +4157,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Development Manager",
+    "roleZh": "業務發展經理",
     "function": "Sales",
     "seniority": "5+",
     "low": 25000,
@@ -3894,6 +4172,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Strategic / Major Account Manager",
+    "roleZh": "策略 / 主要客戶業務經理",
     "function": "Sales",
     "seniority": "5+",
     "low": 45000,
@@ -3908,6 +4187,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant Sales Manager",
+    "roleZh": "業務副理",
     "function": "Sales",
     "seniority": "5+",
     "low": 25000,
@@ -3922,6 +4202,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Supervisor",
+    "roleZh": "銷售主管",
     "function": "Sales",
     "seniority": "3-5",
     "low": 25000,
@@ -3936,6 +4217,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Senior Sales Executive",
+    "roleZh": "資深業務專員",
     "function": "Sales",
     "seniority": "2-4",
     "low": 23000,
@@ -3950,6 +4232,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Executive / Representantive",
+    "roleZh": "業務專員",
     "function": "Sales",
     "seniority": "3+",
     "low": 20000,
@@ -3964,6 +4247,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Co-coordinator",
+    "roleZh": "業務聯絡專員",
     "function": "Sales",
     "seniority": "1-2",
     "low": 18000,
@@ -3978,6 +4262,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Assistant",
+    "roleZh": "業務助理",
     "function": "Sales",
     "seniority": "1-2",
     "low": 18000,
@@ -3992,6 +4277,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Procurement / Merchandising / Purchasing Manager",
+    "roleZh": "採購經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8-10+",
     "low": 40000,
@@ -4006,6 +4292,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Procurement / Merchandising / Purchasing Supervisor",
+    "roleZh": "資深採購主管",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "6-8",
     "low": 25000,
@@ -4020,6 +4307,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sourcing / Procurement / Merchandising / Purchasing Specialist",
+    "roleZh": "採購專員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-6",
     "low": 23000,
@@ -4034,6 +4322,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sourcing / Procurement / Merchandising / Purchasing Officer",
+    "roleZh": "採購文員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "1-3",
     "low": 18000,
@@ -4048,6 +4337,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Quality Control Manager",
+    "roleZh": "品管經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "10+",
     "low": 40000,
@@ -4062,6 +4352,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Assistant QC Manager",
+    "roleZh": "品管副理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5-8",
     "low": 30000,
@@ -4076,6 +4367,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Quality Control Specialist",
+    "roleZh": "品管專員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-5",
     "low": 22000,
@@ -4090,6 +4382,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Supply Chain Manager",
+    "roleZh": "供應鍊經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8-10+",
     "low": 40000,
@@ -4104,6 +4397,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Supply Chain Specialist",
+    "roleZh": "供應鍊專員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5-8+",
     "low": 30000,
@@ -4118,6 +4412,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Supply Chain Analyst",
+    "roleZh": "供應鏈分析員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 25000,
@@ -4132,6 +4427,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Supply Chain Planner / Demand Planner",
+    "roleZh": "供應鍊規劃 / 需求規劃人員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-6",
     "low": 27000,
@@ -4146,6 +4442,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Supply Chain Coordinator",
+    "roleZh": "供應鍊助理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "2-5",
     "low": 20000,
@@ -4160,6 +4457,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Freight Forwarding Sales Manager",
+    "roleZh": "貨運代理銷售經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 35000,
@@ -4174,6 +4472,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Freight Forwarding Account Executive",
+    "roleZh": "貨運代理客戶業務員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "4-7",
     "low": 20000,
@@ -4188,6 +4487,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Freight Forwarding Customer Service Officer",
+    "roleZh": "貨運客服專員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-5",
     "low": 18000,
@@ -4202,6 +4502,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Freight Forwarder Operation Coordinator",
+    "roleZh": "貨運營運助理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "1-3",
     "low": 16000,
@@ -4216,6 +4517,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Shipping / Logistics Manager",
+    "roleZh": "運送 / 物流經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 35000,
@@ -4230,6 +4532,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Logistics / Shipping Supervisor",
+    "roleZh": "船務主任",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5-8",
     "low": 28000,
@@ -4244,6 +4547,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Logistics Analyst",
+    "roleZh": "物流分析員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-6",
     "low": 25000,
@@ -4258,6 +4562,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Logistics Officer",
+    "roleZh": "物流人員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "2-4",
     "low": 20000,
@@ -4272,6 +4577,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Shipping Officer",
+    "roleZh": "船務人員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "2-4",
     "low": 18000,
@@ -4286,6 +4592,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Coordinator",
+    "roleZh": "銷售助理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "2-4",
     "low": 17000,
@@ -4300,6 +4607,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Distribution Center Manager",
+    "roleZh": "配送中心經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 35000,
@@ -4314,6 +4622,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Warehouse Manager",
+    "roleZh": "倉儲經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "6-8",
     "low": 32000,
@@ -4328,6 +4637,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Warehouse Supervisor",
+    "roleZh": "倉儲主管",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3-5",
     "low": 20000,
@@ -4342,6 +4652,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Warehouse Coordinator",
+    "roleZh": "倉儲專員",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "1-3",
     "low": 18000,
@@ -4356,6 +4667,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "LED Supplier Development Engineer",
+    "roleZh": "供應商開發工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 22000,
@@ -4370,6 +4682,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "LED Supplier Quality Engineer",
+    "roleZh": "供應商品質工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 16000,
@@ -4384,6 +4697,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "LED Field Application Engineer",
+    "roleZh": "技術支援工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 16000,
@@ -4398,6 +4712,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "LED Sales Engineer",
+    "roleZh": "業務工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 16000,
@@ -4412,6 +4727,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "LED Technical Sales Manager",
+    "roleZh": "技術銷售經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 32000,
@@ -4426,6 +4742,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "General Manager",
+    "roleZh": "廠長 / 總經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 50000,
@@ -4440,6 +4757,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Production Engineering Management Level",
+    "roleZh": "製造工程部門管理階層",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 32000,
@@ -4454,6 +4772,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Quality Control Management Level",
+    "roleZh": "品管部門管理階層",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 32000,
@@ -4468,6 +4787,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Manufacturing Management Level",
+    "roleZh": "製造部門管理階層",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 30000,
@@ -4482,6 +4802,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Industrial Manufacturing",
+    "roleZh": "製造業",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 30000,
@@ -4496,6 +4817,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Production",
+    "roleZh": "製造總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 50000,
@@ -4510,6 +4832,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Sales",
+    "roleZh": "業務開發部總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 52000,
@@ -4524,6 +4847,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of R&D",
+    "roleZh": "研發部總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 55000,
@@ -4538,6 +4862,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Procurement",
+    "roleZh": "採購部總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 55000,
@@ -4552,6 +4877,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Quality",
+    "roleZh": "品質部總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 55000,
@@ -4566,6 +4892,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Semiconductor Equipment Sales Head",
+    "roleZh": "銷售部總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "10+",
     "low": 42000,
@@ -4580,6 +4907,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Regional Sales Engineer / Manager",
+    "roleZh": "區域業務工程師/業務經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 35000,
@@ -4594,6 +4922,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Local Sales Engineer",
+    "roleZh": "業務工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 22000,
@@ -4608,6 +4937,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Application Engineer",
+    "roleZh": "應用工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 20000,
@@ -4622,6 +4952,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "MCS Manager / Project Manager",
+    "roleZh": "量測檢管 / 專案經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 30000,
@@ -4636,6 +4967,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Manager",
+    "roleZh": "產品經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 35000,
@@ -4650,6 +4982,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Vice President of Sales",
+    "roleZh": "業務副總經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "15+",
     "low": 60000,
@@ -4664,6 +4997,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Manager / Director",
+    "roleZh": "業務經理 / 總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 25000,
@@ -4678,6 +5012,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Product Marketing Manager / Director",
+    "roleZh": "產品行銷經理 / 總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 50000,
@@ -4692,6 +5027,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Manager / Director",
+    "roleZh": "業務經理 / 總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 45000,
@@ -4706,6 +5042,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Team Lead / Sr. Engineer",
+    "roleZh": "資深工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 50000,
@@ -4720,6 +5057,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Program / Project Manager",
+    "roleZh": "專案經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 35000,
@@ -4734,6 +5072,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Manager",
+    "roleZh": "業務經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 37000,
@@ -4748,6 +5087,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sales Engineer",
+    "roleZh": "業務工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 21000,
@@ -4762,6 +5102,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Head of Process Optimization",
+    "roleZh": "流程優化總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "8+",
     "low": 31500,
@@ -4776,6 +5117,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Application Engineer",
+    "roleZh": "應用工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 21000,
@@ -4790,6 +5132,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Energy",
+    "roleZh": "能源 / 節能",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 21000,
@@ -4804,6 +5147,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Country Sales Head / General Manager",
+    "roleZh": "業務主管 / 總經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "15+",
     "low": 70000,
@@ -4818,6 +5162,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Power Plant Project Manager",
+    "roleZh": "發電廠專案服務經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "10+",
     "low": 54500,
@@ -4832,6 +5177,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Energy",
+    "roleZh": "能源 / 節能",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "10+",
     "low": 54500,
@@ -4846,6 +5192,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Business Unit Head / General Manager",
+    "roleZh": "事業部負責人 / 總經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "12+",
     "low": 50000,
@@ -4860,6 +5207,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sr. Design Manager",
+    "roleZh": "資深設計經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "12+",
     "low": 50000,
@@ -4874,6 +5222,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Energy",
+    "roleZh": "能源 / 節能",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "12+",
     "low": 50000,
@@ -4888,6 +5237,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Components Operation VP or Director",
+    "roleZh": "營運總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "10+",
     "low": 44000,
@@ -4902,6 +5252,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Components Sales Manger / Director / VP",
+    "roleZh": "業務經理 / 總監",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 28000,
@@ -4916,6 +5267,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Components Sr. Procurement Manager",
+    "roleZh": "資深採購經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "7+",
     "low": 33000,
@@ -4930,6 +5282,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sr. Components Sourcing Engineering Manager",
+    "roleZh": "資深採購工程師/經理",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "5+",
     "low": 28000,
@@ -4944,6 +5297,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sr. Components FAE",
+    "roleZh": "資深應用工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "1+",
     "low": 17000,
@@ -4958,6 +5312,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Components Application Engineer",
+    "roleZh": "應用工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "1+",
     "low": 15000,
@@ -4972,6 +5327,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Sr. Designer",
+    "roleZh": "資深設計工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 40000,
@@ -4986,6 +5342,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Manufacturing Process Engineer",
+    "roleZh": "生產製造工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 18000,
@@ -5000,6 +5357,7 @@ window.adeccoHongKongRows = [
   {
     "country": "hk",
     "role": "Process Quality Engineer",
+    "roleZh": "製造 / 品質工程師",
     "function": "Supply Chain, Logistics & Engineering",
     "seniority": "3+",
     "low": 31500,
