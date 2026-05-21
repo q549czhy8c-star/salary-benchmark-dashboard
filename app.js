@@ -193,6 +193,9 @@ const state = {
 
 const countryById = Object.fromEntries(countries.map((country) => [country.id, country]));
 const money = (value, currency) => `${currency} ${new Intl.NumberFormat("en-US").format(value)}`;
+const roleTranslationCache = new WeakMap();
+const searchTextCache = new WeakMap();
+let searchRenderFrame = 0;
 
 const roleZhGlossaries = {
   hk: {
@@ -1014,14 +1017,25 @@ function composeRoleTranslation(role, country) {
 }
 
 function translatedRole(row) {
-  if (row.roleZh) return row.roleZh;
+  if (roleTranslationCache.has(row)) return roleTranslationCache.get(row);
+  let result = "";
+  if (row.roleZh) {
+    result = row.roleZh;
+    roleTranslationCache.set(row, result);
+    return result;
+  }
   const embeddedChinese = extractChineseRole(row.role);
-  if (embeddedChinese) return embeddedChinese;
+  if (embeddedChinese) {
+    result = embeddedChinese;
+    roleTranslationCache.set(row, result);
+    return result;
+  }
   const glossary = roleZhGlossaries[row.country] || roleZhGlossaries.hk;
   const normalized = normalizeRole(row.role);
   const exactGlossary = exactTranslation(glossary, normalized);
-  if (exactGlossary) return exactGlossary;
-  return composeRoleTranslation(row.role, row.country);
+  result = exactGlossary || composeRoleTranslation(row.role, row.country);
+  roleTranslationCache.set(row, result);
+  return result;
 }
 
 function roleCell(row) {
@@ -1092,25 +1106,30 @@ function renderMarkets() {
   `).join("");
 }
 
+function searchText(row) {
+  if (searchTextCache.has(row)) return searchTextCache.get(row);
+  const country = countryById[row.country];
+  const text = [
+    country.name,
+    country.english,
+    country.currency,
+    row.role,
+    translatedRole(row),
+    row.function,
+    row.seniority,
+    sources[row.source].label,
+    row.coverage || ""
+  ].join(" ").toLowerCase();
+  searchTextCache.set(row, text);
+  return text;
+}
+
 function filterRows() {
   const query = state.query.trim().toLowerCase();
   return salaries.filter((row) => {
-    const country = countryById[row.country];
-    const haystack = [
-      country.name,
-      country.english,
-      country.currency,
-      row.role,
-      translatedRole(row),
-      row.function,
-      row.seniority,
-      sources[row.source].label,
-      row.coverage || ""
-    ].join(" ").toLowerCase();
-
     const countryMatch = state.selectedCountry === "all" || row.country === state.selectedCountry;
     const functionMatch = state.selectedFunction === "all" || row.function === state.selectedFunction;
-    const queryMatch = !query || haystack.includes(query);
+    const queryMatch = !query || searchText(row).includes(query);
     return countryMatch && functionMatch && queryMatch;
   });
 }
@@ -1188,7 +1207,11 @@ function render() {
 document.getElementById("searchInput").addEventListener("input", (event) => {
   state.query = event.target.value;
   state.page = 1;
-  renderTable();
+  if (searchRenderFrame) cancelAnimationFrame(searchRenderFrame);
+  searchRenderFrame = requestAnimationFrame(() => {
+    searchRenderFrame = 0;
+    renderTable();
+  });
 });
 
 document.getElementById("countryFilters").addEventListener("click", (event) => {
@@ -1229,6 +1252,11 @@ document.getElementById("resetButton").addEventListener("click", () => {
   document.getElementById("searchInput").value = "";
   document.getElementById("pageSizeSelect").value = "10";
   render();
+});
+
+salaries.forEach((row) => {
+  translatedRole(row);
+  searchText(row);
 });
 
 render();
