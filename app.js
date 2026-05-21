@@ -106,8 +106,8 @@ const sources = {
     url: "https://worldsalaries.com/"
   },
   dgbasHawkerTw: {
-    label: "CENS report citing DGBAS hawker study",
-    url: "https://www.cens.com/cens/html/en/news/news_inner_27615.html"
+    label: "DGBAS 112 Hawker Operating Survey",
+    url: "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=233388"
   },
   adeccoTh: {
     label: "Adecco Thailand Salary Guide 2026",

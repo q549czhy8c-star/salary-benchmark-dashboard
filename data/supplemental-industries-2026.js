@@ -1345,24 +1345,24 @@ window.supplementalIndustryRows = [
     "seniority": "Self-employed vendor profit proxy",
     "low": 44417,
     "mid": 44417,
-    "high": 68583,
+    "high": 44417,
     "period": "monthly",
     "source": "dgbasHawkerTw",
-    "sourceUrl": "https://www.cens.com/cens/html/en/news/news_inner_27615.html",
-    "coverage": "DGBAS hawker study / profit proxy"
+    "sourceUrl": "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=233388",
+    "coverage": "DGBAS 112 hawker survey / average annual profit converted monthly"
   },
   {
     "country": "tw",
     "role": "Market Stall Vendor / 小販 / 攤商 - Average revenue",
     "function": "小販 / Hawker",
     "seniority": "Self-employed vendor revenue proxy",
-    "low": 137000,
+    "low": 141167,
     "mid": 141167,
-    "high": 315750,
+    "high": 141167,
     "period": "monthly",
     "source": "dgbasHawkerTw",
-    "sourceUrl": "https://www.cens.com/cens/html/en/news/news_inner_27615.html",
-    "coverage": "DGBAS hawker study / revenue proxy"
+    "sourceUrl": "https://www.dgbas.gov.tw/News_Content.aspx?n=3602&s=233388",
+    "coverage": "DGBAS 112 hawker survey / average annual revenue converted monthly"
   },
   {
     "country": "tw",
